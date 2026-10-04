@@ -1,0 +1,1519 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스레터 다이제스트 — 2026-10-05 (Mon)</title>
+    <style>
+        :root {
+            --bg: #fafaf9;
+            --card: #ffffff;
+            --text: #1c1917;
+            --muted: #78716c;
+            --accent: #0c4a6e;
+            --border: #e7e5e4;
+            --trend-bg: #fef3c7;
+            --trend-border: #f59e0b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        header .date {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        header .count {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+
+        .trend-box {
+            background: var(--trend-bg);
+            border-left: 4px solid var(--trend-border);
+            border-radius: 0 8px 8px 0;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .trend-box h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .trend-content {
+            font-size: 0.92rem;
+            line-height: 1.8;
+        }
+
+        .trend-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.88rem;
+        }
+
+        .trend-content th, .trend-content td {
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+
+        .trend-content th {
+            background: #f5f5f4;
+            font-weight: 600;
+        }
+
+        .newsletter-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .newsletter-card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .source-badge {
+            background: var(--accent);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .card-date {
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        .card-subject {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-subject a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .card-subject a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .card-summary {
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .toggle-original {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.82rem;
+            color: var(--accent);
+            background: none;
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .toggle-original:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .original-frame {
+            display: none;
+            margin-top: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .original-frame.open {
+            display: block;
+        }
+
+        .original-frame iframe {
+            width: 100%;
+            border: none;
+            min-height: 600px;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>바이오/헬스케어 뉴스레터 다이제스트</h1>
+        <div class="date">2026-10-05 (Mon)</div>
+        <div class="count">3개 뉴스레터 요약</div>
+    </header>
+
+    
+    <section class="trend-box">
+        <h2>오늘의 트렌드</h2>
+        <div class="trend-content"><h2>1. 오늘의 핵심 트렌드</h2>
+<p><strong>헬스케어 AI 규제화의 가속 — 검증 인프라 시장 부상</strong>
+Utah의 독립 제3자 AI 검증 기관 공식화와 일부 헬스시스템의 Epic AI 도구 선별 도입 보류가 동시에 등장했다. 이는 AI 도입이 "구매 후 검증"에서 "검증 후 구매"로 패러다임이 전환되고 있음을 시사하며, AI 감사·모니터링·인증 인프라 스타트업에 구조적 수요가 형성되는 시점이다.</p>
+<p><strong>Medicare Advantage 이탈 → 가치기반 계약 모델 재편</strong>
+34개 헬스시스템이 2026년 MA 플랜을 탈퇴하고 8개가 추가 이탈을 예고하면서 MA 시장의 수익성 위기가 구조적 문제로 확인되고 있다. 보험사-병원 간 'bot wars' 심화와 맞물려, 사전승인 자동화·RCM 분석·대안적 가치기반 계약 플랫폼 기업의 중요성이 높아지는 국면이다.</p>
+<p><strong>진단 속도 개선의 임상·경제적 ROI 입증</strong>
+FMOL Health의 신속 혈액검사 기반 패혈증 사망률 24% 감소 사례는 포인트오브케어(POC) 진단 및 조기경보 솔루션의 병원 내 구매 논거를 강화한다. 임상 결과와 비용 절감이 동시에 입증된 영역으로, 진단 속도 개선 기반 AI·디바이스 기업의 병원 세일즈 사이클 단축이 기대된다.</p>
+<hr />
+<h2>2. 주목할 딜/회사</h2>
+<table>
+<thead>
+<tr>
+<th>회사</th>
+<th>내용</th>
+<th>금액</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OpenEvidence</strong></td>
+<td>임상 AI 플랫폼 추가 조달</td>
+<td>$250M / 기업가치 $15B</td>
+</tr>
+<tr>
+<td><strong>EliseAI</strong></td>
+<td>a16z·Bessemer 주도 조달</td>
+<td>$350M / 기업가치 $4B</td>
+</tr>
+<tr>
+<td><strong>Ortet</strong></td>
+<td>헬스케어 AI 파운데이션 모델 랩, Thoreau 공약 확보</td>
+<td>$500M</td>
+</tr>
+<tr>
+<td><strong>Grindr → Freddie (PurposeMed)</strong></td>
+<td>HIV 예방 원격의료 플랫폼 인수, 슈퍼앱 전략</td>
+<td>최대 $320M</td>
+</tr>
+<tr>
+<td><strong>R1 → Humata Health</strong></td>
+<td>사전승인 플랫폼 인수, RCM 강화</td>
+<td>미공개</td>
+</tr>
+<tr>
+<td><strong>Oura</strong></td>
+<td>IPO 최대 $2.2B 규모 <strong>무기한 연기</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table></div>
+    </section>
+    
+
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Becker's Hospital Review</span>
+            <span class="card-date">16:24</span>
+        </div>
+        <div class="card-subject"><a href="https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bm6nTfNAP2cgcPRfV7fO%7COd" target="_blank">A new question for C-suites | How 9 CEOs deliver 'the brutal truth' | Systems hold off on some Epic AI tools | Revenue cycle's most dangerous trends | La. system cuts sepsis deaths 24%</a></div>
+        <div class="card-summary"><h2>Becker's Hospital Review 핵심 요약 (2026.10.04)</h2>
+<ul>
+<li>
+<p><strong>AI 도입 선별화 트렌드</strong>: 일부 헬스 시스템들이 Epic의 AI 도구 중 특정 기능 도입을 보류하고 있으며, 병원 내 AI 장애(AI goes dark) 시나리오에 대한 대비 필요성이 부각됨 — AI 솔루션 벤더의 신뢰성·안정성 검증이 구매 결정의 핵심 변수로 부상.</p>
+</li>
+<li>
+<p><strong>워크플로우 자동화 패러다임 전환</strong>: Optum 리더십이 태스크 단위 자동화에서 엔드투엔드 워크플로우 오케스트레이션으로의 전환을 강조(10월 15일 웨비나) — RCM(Revenue Cycle Management) 자동화 시장에서 포인트 솔루션보다 통합 플랫폼 기업이 경쟁 우위 확보 가능성.</p>
+</li>
+<li>
+<p><strong>임상 결과 — 패혈증</strong>: FMOL Health가 신속 혈액 검사 도입으로 패혈증 사망률 <strong>24% 감소</strong> 달성 — 진단 속도 개선 기반 패혈증 관리 솔루션의 임상·경제적 가치 입증, 관련 진단 기업 투자 논거 강화.</p>
+</li>
+<li>
+<p><strong>수익주기 리스크 &amp; 보험 환경 악화</strong>: Baystate Health, Inova 리더들이 ACA 오픈 에롤먼트 관련 "더욱 불안정한 보장 환경(more volatile coverage environment)"을 경고, RCM 리스크 상위 10개 항목 공개 — 페이어-프로바이더 간 협상 긴장 고조로 RCM 자동화·분석 솔루션 수요 가속 전망.</p>
+</li>
+<li>
+<p><strong>로봇·자동화 vs. 임상 인력</strong>: Advocate Health, Cleveland Clinic 리더들이 채혈사(phlebotomist) 로봇 대체 가능성을 논의 — 반복적 임상 업무의 자동화 범위 확대 시 노동력 비용 절감 효과와 규제·수용성 리스크 간 균형이 투자 시 주요 고려 요소.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;style type=&#34;text/css&#34;&gt;.rightsection a {text-decoration: none; font-weight: bold; font-size: 16px;}
+.promotionheader{text-align: center; color: #003974; font-size: 12px; font-family: Helvetica, Arial, Geneva, sans-serif;}
+.promotionheader a{text-decoration: underline; font-weight: bold; font-size: 16px; color: #a80000;}
+
+@media only screen and (max-width: 600px) {
+  table[width=&#34;1&#34;],
+  table[style*=&#34;width:600px&#34;] { width: 100% !important; max-width: 100% !important; }
+  img { max-width: 100% !important; height: auto !important; }
+  .rightsection, .rightsection table { width: 100% !important; }
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 16px !important; line-height: 1.45 !important; }
+  p span[style*=&#34;font-size:18px&#34;] { font-size: 15px !important; }
+  p span[style*=&#34;font-size:14px&#34;] { font-size: 13px !important; }
+  p[style*=&#34;margin: 0 18em&#34;] { margin: 0 1em !important; }
+  p { line-height: 1.5 !important; }
+  td[style*=&#34;padding:14px 14px 14px 14px&#34;] { padding: 8px !important; }
+  div[style*=&#34;text-align: right&#34;][style*=&#34;margin-right: 20px&#34;] { text-align: center !important; margin-right: 0 !important; }
+  td[style*=&#34;background-color: #003974&#34;] p { line-height: 1.6 !important; }
+}
+@media only screen and (max-width: 380px) {
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 15px !important; }
+}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&#34;#fafafa;&#34; style=&#34;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;background-color:#fafafa;&#34;&gt;&lt;span style=&#34;display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden&#34;&gt;Plus: Baystate, Inova on a &#39;more volatile coverage environment&#39;&lt;/span&gt;
+&lt;div align=&#34;center&#34;&gt;&lt;!--X-250ok-CID:bhrs46298--&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px&#34; width=&#34;100%&#34;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&#34;center&#34; style=&#34;padding:14px 14px 14px 14px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+			&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px;width:600px&#34; width=&#34;1&#34;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&#34;center&#34; style=&#34;border: 1px solid #e6e6e6;&#34; valign=&#34;top&#34;&gt;
+						&lt;table bgcolor=&#34;#ffffff&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;background-color: #ffffff&#34; width=&#34;100%&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding:0px 0px 0px 0px&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;display:table&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:0px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div align=&#34;right&#34; style=&#34;text-align: right;margin-right: 20px;&#34;&gt;&lt;span style=&#34;font-size:14px;font-weight:bold;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;line-height:28px;&#34;&gt;October 4, 2026&lt;/span&gt;&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:7px 8px 7px 8px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bk6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/hospital-review-e-newsletter-logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 700px;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BmqnTfNAP2cgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; lc=&#34;House Ad&#34; lcv=&#34;14th Annual  CEO + CFO Roundtable Leaderboard 2&#34; lkw=&#34;lb1&#34; --&gt;&lt;/div&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;1. A new question for health system C-suites &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bm6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;2.&amp;nbsp;10 hospital revenue cycle risks and what automation makes worse &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BmLnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;3. Webinar: Guidelight Health&amp;#39;s co-founder and compliance officer on multi-state expansion without compromising the clinical mission. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BnanTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Webinar: Guidelight Health&#39;s co-founder and compliance officer on multi-state expansion without compromising the clinical mission. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Charta_Health_Webinar_10.14.2026&#34; lkw=&#34;ta1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;4.&amp;nbsp;&lt;/span&gt;Meet the California hospital CEO leading an all-women executive team &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BnqnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;5.&amp;nbsp;&lt;/span&gt;Will robots replace phlebotomists? Advocate Health, Cleveland Clinic leaders weigh in &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bn6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BnLnTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/1A-coo-report-728x90_(1).png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/1A-coo-report-728x90_(1).png&#34; lc=&#34;House Ad&#34; lcv=&#34;COO E-Newsletter Leaderboard 1&#34; lkw=&#34;lb2&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;6. Piedmont Columbus Regional now treats stroke faster than national guidelines without an on-site neurologist. See the model in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5BoanTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34; target=&#34;_blank&#34;&gt;webinar&lt;/a&gt;&lt;!--DPM: ln=&#34;Piedmont Columbus Regional now treats stroke faster than national guidelines without an on-site neurologist. See the model in this &lt;link&gt;webinar&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Eagle_Telemedicine_Webinar_10.14.2026&#34; lkw=&#34;ta2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;7.&amp;nbsp;&lt;/span&gt;When AI goes dark: Are hospitals ready? &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BoqnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;8.&amp;nbsp;&lt;/span&gt;Layoffs, closures, payer negotiations: How 9 CEOs deliver &amp;#39;the brutal truth&amp;#39; &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bo6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;9.&amp;nbsp;Task-based automation is giving way to end-to-end workflow orchestration. Optum leaders explain what the shift requires Oct. 15. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BqqnTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34;&gt;one click&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;10.&amp;nbsp;&lt;/span&gt;Prisma is betting on urgent care growth. Here&amp;#39;s what it expects from 36 new sites &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bq6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BqLnTfNAP2cgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2314161_EnewsletterHouseDisplayAdsHealthITWhitepapers&amp;amp;Webinars_2_073024.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2314161_EnewsletterHouseDisplayAdsHealthITWhitepapers&amp;Webinars_2_073024.png&#34; lc=&#34;House Ad&#34; lcv=&#34;Health IT Webinars LB 2&#34; lkw=&#34;lb3&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;11. Specialty practices can let AI absorb high-volume access work so staff focus on complex patients. See how in this webinar&lt;!--DPM: ln=&#34;Specialty practices can let AI absorb high-volume access work so staff focus on complex patients. See how in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Assort_Health_Webinar_10.15.2026&#34; lkw=&#34;ta3&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BranTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Specialty practices can let AI absorb high-volume access work so staff focus on complex patients. See how in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Assort_Health_Webinar_10.15.2026&#34; lkw=&#34;ta3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;12.&amp;nbsp;&lt;/span&gt;How FMOL Health cut sepsis deaths 24% with a rapid blood test &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BrqnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;13.&amp;nbsp;&lt;/span&gt;The Epic AI tools health systems are holding off on &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Br6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;14.&amp;nbsp;&lt;/span&gt;What a retail HR veteran learned leading Piedmont&amp;#39;s 50,000-person workforce &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNAV%5EqnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;15.&amp;nbsp;&lt;/span&gt;The once-core beliefs 8 supply chain leaders ditched &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNAV%5E6nTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;16. &amp;#39;&lt;/span&gt;A more volatile coverage environment&amp;#39;: Baystate, Inova leaders on ACA open enrollment &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNAV%5ELnTfNAP2cgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:18px;font-family:Arial,Geneva,sans-serif;font-weight:bold;text-decoration: underline;&#34;&gt;Becker&amp;#39;s Learning Opportunities&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;17. Only 1 in 4 practices can pinpoint where revenue leaks &amp;mdash; find out why &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5BrLnTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;Only 1 in 4 practices can pinpoint where revenue leaks — find out why here.&#34; lc=&#34;House Ad&#34; lcv=&#34;Veradigm_On_Demand_Webinar_August_2026&#34; lkw=&#34;lo1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;18. 4 in 10 Massachusetts psychiatric patients wait 24+ hours for placement. See why &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BsanTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;4 in 10 Massachusetts psychiatric patients wait 24+ hours for placement. See why here.&#34; lc=&#34;House Ad&#34; lcv=&#34;Basalt_On_Demand_Webinar_August_2026&#34; lkw=&#34;lo2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;19. How Kettering Health beat the 30-day heart failure readmission benchmark and protected Medicare reimbursements: &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkD-bbBghaNA%5BsqnTfNAP2mpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;How Kettering Health beat the 30-day heart failure readmission benchmark and protected Medicare reimbursements: here.&#34; lc=&#34;House Ad&#34; lcv=&#34;ZOLL_On_Demand_Webinar_August_2026&#34; lkw=&#34;lo3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;20. Becker&amp;#39;s upcoming webinars: prostate cancer imaging, procurement in an AI era and hospital capacity. See the sessions &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bs6nTfNAP2cgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;Becker&#39;s upcoming webinars: prostate cancer imaging, procurement in an AI era and hospital capacity. See the sessions here.&#34; lc=&#34;House Ad&#34; lcv=&#34;&#34; lkw=&#34;lo4&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;table border=&#34;0&#34; bordercolor=&#34;#FFFFFF&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%;&#34; table=&#34;&#34; width=&#34;1&#34;&gt;
+													&lt;tbody&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; valign=&#34;top&#34; width=&#34;1%&#34;&gt;
+															&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;rightsection&#34; style=&#34;color:#292929;font-family:Helvetica,Arial,Geneva,sans-serif;font-size:12px;line-height:12px;width:300px;&#34; width=&#34;100%&#34;&gt;
+																&lt;tbody&gt;
+																&lt;/tbody&gt;
+																&lt;tbody&gt;
+																	&lt;tr&gt;
+																		&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0 0 0 0;&#34; valign=&#34;top&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5B%5EqnTfNAP2cgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/nov-2026-ceocfo-promobox.png&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+															&lt;/td&gt;
+														&lt;/tr&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0px 8px 0px 8px;&#34; valign=&#34;top&#34;&gt;&amp;nbsp;&lt;/td&gt;
+														&lt;/tr&gt;
+													&lt;/tbody&gt;
+												&lt;/table&gt;
+
+												&lt;p style=&#34;text-align:center; font-size:12px; font-family:Arial,Geneva,sans-serif; margin: 0 18em;&#34;&gt;Apply to attend complimentary as a guest reviewer &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5B%5E6nTfNAP2cgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;! Opportunity exclusive to those directly employed by a provider organization.&lt;/p&gt;
+												&amp;nbsp;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5B%5ELnTfNAP2cgcPRfV7fO%7COd&#34; rel=&#34;nofollow, noindex&#34; style=&#34;font-size: 12px;background-color: #003974;color: #ffffff;border: none;padding: 1em;border-radius: 1em;text-decoration: none;color: #ffffff;&#34; target=&#34;_blank&#34;&gt;Was this email forwarded to you? Click Here to Subscribe&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center&#34;&gt;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div style=&#34;text-align:center&#34;&gt;
+												&lt;p&gt;&lt;a alt=&#34;https://www.beckershospitalreview.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BvanTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Hospital_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BvqnTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Quality_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 150px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersasc.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5Bv6nTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/ASC_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersspine.com/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5BvLnTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Spine_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+
+						&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%&#34; width=&#34;1&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding: 0px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td align=&#34;center&#34; style=&#34;padding:7px 8px 7px 8px;font-size:16px; color: #ffffff; background-color: #003974; font-family: Helvetica, Arial, Geneva, sans-serif;line-height:20px;&#34; valign=&#34;top&#34;&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;Contact Us, Feedback, or Questions - Email &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5BwanTfNAPh&#34; style=&#34;color: #ffffff;&#34;&gt;ldyrda@beckershealthcare.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckers.dragonforms.com/loading.do?omedasite=BCKR_prefsmeter&amp;amp;r=1071J5069734C7F&amp;amp;link_id=2186848&#34; style=&#34;color: #ffffff;&#34;&gt;Manage Preferences&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/preferences/?loLYvC7ubue7aVjWuJ7xiDozxbM%2B7yx2A&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Unsubscribe&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/deployforward/Forward.jsp?loLYvC7ubue7aVjWuJ7xiDozxbM%2B7yx2A&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Forward to a friend&lt;/a&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5ByqnTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Contact Us&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+												&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkD-bbBghaNA%5By6nTfNAP2cgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Privacy Policy&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;
+
+												&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5ByLnTfNAPh&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;null&#34; alt=&#34;View our profile on LinkedIn&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/linkedin.png&#34; title=&#34;View our profile on LinkedIn&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://twitter.com/beckershr&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5BzanTfNAPh&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Twitter&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/twitter.png&#34; title=&#34;Follow us on Twitter&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://www.facebook.com/BeckersHospitalReview/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5BzqnTfNAPh&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Facebook&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/facebook.png&#34; title=&#34;Follow us on Facebook&#34; width=&#34;32&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.youtube.com/@hospitalreview1&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkD-bbBghaNA%5Bz6nTfNAPh&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Check out our YouTube Channel&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/youtube.png&#34; title=&#34;Check out our YouTube Channel&#34; width=&#34;32&#34; /&gt;&lt;/a&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:12px;&#34;&gt;17 N. State, Suite 1800 |&amp;nbsp;Chicago, IL 60602&lt;/span&gt;&lt;br /&gt;
+												&lt;em style=&#34;font-size: 12px;&#34;&gt;Becker&amp;#39;s Hospital Review&lt;/em&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;, A Becker&amp;#39;s Healthcare Publication&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;img height=&#34;1&#34; width=&#34;1&#34; border=&#34;0&#34; src=&#34;https://beckershealthcare-news.com/portal/wts/ue^cnkmfkD-baS6xkxrd.gif&#34;/&gt;&lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Christina Farr</span>
+            <span class="card-date">18:29</span>
+        </div>
+        <div class="card-subject"><a href="https://www.secondopinion.media/r/540d6722?m=6f4c2a10-d450-4a91-8f63-8170870c3964" target="_blank">Assurance labs are back</a></div>
+        <div class="card-summary"><h2>핵심 요약</h2>
+<ul>
+<li>
+<p><strong>[규제]</strong> Utah가 헬스케어 AI 감독을 위한 독립 제3자 검증 기관(사실상 'Assurance Labs') 프로그램을 공식화할 예정. AI 샌드박스 참가 기업은 CHAI 등 외부 기관을 통해 기술 검증·모니터링 데이터를 주 정부에 제출해야 하며, 이는 연방 및 타 주 AI 규제의 선례가 될 전망.</p>
+</li>
+<li>
+<p><strong>[규제]</strong> RFK Jr.가 면역·임상·청구 데이터를 통합해 AI로 검색 가능하게 하는 국민 건강데이터 집적 비전을 제시했으나, AMA 등 6개 의사단체가 공개 반박 성명 발표. 정책 불확실성 지속.</p>
+</li>
+<li>
+<p><strong>[펀딩/딜]</strong> OpenEvidence가 $250M 추가 조달(기업가치 $150억)로 저·중소득 100개국 임상 AI 무상 제공 확대. EliseAI는 a16z·Bessemer 주도로 $350M 조달(기업가치 $40억). 신규 헬스케어 AI 파운데이션 모델 랩 Ortet이 Thoreau로부터 $500M 공약 확보.</p>
+</li>
+<li>
+<p><strong>[딜]</strong> Grindr가 HIV 예방 원격의료 플랫폼 Freddie(PurposeMed)를 최대 $3.2억에 인수, 헬스케어 '슈퍼앱' 전략 본격화. R1이 사전승인 플랫폼 Humata Health 인수로 RCM 전략 강화.</p>
+</li>
+<li>
+<p><strong>[기술트렌드]</strong> Oura가 시장 불확실성을 이유로 최대 $22억 규모 IPO를 무기한 연기. AI 코딩으로 인한 의료비 상승 문제(BCBSA 보고서)를 둘러싸고 병원·보험사 간 'bot wars' 심화 조짐.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&#34;en-gb&#34; dir=&#34;ltr&#34;&gt;
+    &lt;head&gt;
+        &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width&#34;&gt;
+        &lt;meta http-equiv=&#34;Content-Type&#34; content=&#34;text/html; charset=UTF-8&#34;&gt;
+        &lt;!--[if mso]&gt;&lt;xml&gt;&lt;o:OfficeDocumentSettings&gt;&lt;o:PixelsPerInch&gt;96&lt;/o:PixelsPerInch&gt;&lt;o:AllowPNG/&gt;&lt;/o:OfficeDocumentSettings&gt;&lt;/xml&gt;&lt;![endif]--&gt;
+        &lt;title&gt;Assurance labs are back&lt;/title&gt;
+        &lt;style&gt;
+@media only screen and (max-width: 620px) {
+  table.body {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  table.body .content {
+    padding: 0 !important;
+  }
+
+  table.body .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table.body .main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.body .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+
+  #MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+}
+@media only screen and (max-width: 620px) {
+  table[class=body] h1 {
+    font-size: 28px !important;
+    margin-bottom: 10px !important;
+  }
+
+  table[class=body] p,
+table[class=body] ul,
+table[class=body] ol,
+table[class=body] td,
+table[class=body] span,
+table[class=body] a {
+    font-size: 16px !important;
+  }
+
+  table[class=body] .wrapper,
+table[class=body] .article {
+    padding: 10px !important;
+  }
+
+  table[class=body] .content {
+    padding: 0 !important;
+  }
+
+  table[class=body] .container {
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  table[class=body] .main {
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table[class=body] .btn table {
+    width: 100% !important;
+  }
+
+  table[class=body] .btn a {
+    width: 100% !important;
+  }
+
+  table[class=body] .img-responsive {
+    height: auto !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+
+  table[class=body] p[class=small],
+table[class=body] a[class=small] {
+    font-size: 11px !important;
+  }
+}
+@media only screen and (max-width: 620px) {
+  table.body .kg-bookmark-card {
+    width: 90vw;
+  }
+
+  table.body .kg-bookmark-thumbnail {
+    display: none !important;
+  }
+
+  table.body .kg-bookmark-metadata span {
+    font-size: 13px !important;
+  }
+
+  table.body .kg-embed-card {
+    max-width: 90vw !important;
+  }
+
+  table.body .kg-cta-card {
+    padding: 0 20px;
+  }
+
+  table.body .kg-cta-card.kg-cta-bg-none {
+    padding: 0;
+  }
+
+  table.body .kg-cta-sponsor-label {
+    padding: 10px 0;
+  }
+
+  table.body table.kg-cta-content-wrapper:not(.kg-cta-bg-none.kg-cta-no-dividers table.kg-cta-content-wrapper) {
+    padding: 20px 0;
+  }
+
+  table.body .kg-cta-immersive.kg-cta-has-img:not(.kg-cta-bg-none):not(.kg-cta-no-label) table.kg-cta-content-wrapper {
+    padding-top: 0;
+  }
+
+  table.body .kg-cta-minimal .kg-cta-image-container {
+    padding-right: 20px;
+  }
+
+  table.body .kg-cta-immersive .kg-cta-image-container {
+    padding-bottom: 20px;
+  }
+
+  table.body .kg-cta-immersive.kg-cta-no-text .kg-cta-image-container {
+    padding-bottom: 0;
+  }
+
+  table.body .kg-cta-button-container {
+    padding-top: 16px;
+  }
+
+  table.body .kg-cta-minimal .kg-cta-image-container {
+    display: inline-block !important;
+    width: 100% !important;
+    padding: 0 !important;
+    padding-bottom: 16px !important;
+    padding-right: 0 !important;
+  }
+
+  table.body .kg-cta-minimal .kg-cta-content-inner {
+    display: inline-block !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  table.body .kg-cta-minimal img.kg-cta-image {
+    width: 52px !important;
+    height: 52px !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .recipient-link a {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+
+  #MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .mobile-only {
+    display: initial !important;
+  }
+
+  .hide-desktop {
+    display: initial !important;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  table.body p,
+table.body ul,
+table.body ol,
+table.body td {
+    font-size: 16px;
+  }
+
+  table.header .post-excerpt {
+    font-size: 16px !important;
+  }
+
+  table.body .kg-callout-card {
+    padding: 16px 24px !important;
+  }
+
+  table.body .kg-callout-text {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+
+  table.body pre {
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+  }
+
+  table.body .main,
+table.header .header-main {
+    border-spacing: 10px 0 !important;
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  table.header .site-icon {
+    padding-top: 0 !important;
+  }
+
+  table.header .site-info {
+    padding-top: 24px !important;
+  }
+
+  table.header .post-title-link {
+    margin-top: 24px !important;
+  }
+
+  table.header .post-meta-wrapper {
+    padding-bottom: 24px !important;
+  }
+
+  table.header .site-icon img {
+    width: 36px !important;
+    height: 36px !important;
+  }
+
+  table.header .site-url a {
+    font-size: 13px !important;
+    padding-bottom: 16px !important;
+  }
+
+  table.header .post-meta,
+table.header .post-meta-date {
+    white-space: normal !important;
+    font-size: 13px !important;
+    line-height: 1.2;
+  }
+
+  table.header .post-meta,
+table.header .view-online {
+    width: 100% !important;
+  }
+
+  table.header .post-meta-left,
+table.header .post-meta-left.view-online {
+    width: 100% !important;
+    text-align: left !important;
+  }
+
+  table.header .post-meta.view-online-mobile {
+    display: table-row !important;
+  }
+
+  table.header .post-meta-left.view-online-mobile,
+table.header .post-meta-left.view-online-mobile .view-online {
+    text-align: left !important;
+  }
+
+  table.header .post-meta.view-online.desktop {
+    display: none !important;
+  }
+
+  table.header .view-online {
+    text-decoration: underline;
+  }
+
+  table.body .footer p,
+table.body .footer p span {
+    font-size: 13px !important;
+  }
+
+  table.header .view-online-link,
+table.body .footer,
+table.body .footer a {
+    font-size: 13px !important;
+  }
+
+  table.header .post-title a {
+    font-size: 26px !important;
+    line-height: 1.1 !important;
+  }
+
+  table.feedback-buttons {
+    display: table !important;
+    width: 100% !important;
+    max-width: 390px;
+  }
+
+  table.feedback-buttons img {
+    display: inherit !important;
+  }
+
+  table.body .feedback-button-text {
+    display: none!important;
+  }
+
+  table.body .latest-posts-header {
+    font-size: 12px !important;
+  }
+
+  table.body .latest-post-title {
+    padding-right: 8px !important;
+  }
+
+  table.body .latest-post h4,
+table.body .latest-post h4 span {
+    padding: 4px 0 6px !important;
+    font-size: 15px !important;
+  }
+
+  table.body .latest-post-excerpt,
+table.body .latest-post-excerpt a,
+table.body .latest-post-excerpt span {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+  }
+
+  table.body .subscription-box h3 {
+    font-size: 14px !important;
+  }
+
+  table.body .subscription-box p,
+table.body .subscription-box p span {
+    font-size: 13px !important;
+  }
+
+  table.body .subscription-details,
+table.body .manage-subscription {
+    display: inline-block;
+    width: 100%;
+    text-align: left !important;
+    font-size: 13px !important;
+  }
+
+  table.body .subscription-details {
+    padding-bottom: 12px;
+  }
+
+  table.body h1 {
+    font-size: 32px !important;
+    line-height: 1.3 !important;
+  }
+
+  table.body h2,
+table.body h2 span {
+    font-size: 26px !important;
+    line-height: 1.22 !important;
+  }
+
+  table.body h3 {
+    font-size: 21px !important;
+    line-height: 1.25 !important;
+  }
+
+  table.body h4 {
+    font-size: 19px !important;
+    line-height: 1.3 !important;
+  }
+
+  table.body h5 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+  }
+
+  table.body h6 {
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+  }
+
+  table.body blockquote {
+    font-size: 16px !important;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+
+  table.body blockquote p {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+  }
+
+  table.body blockquote.kg-blockquote-alt {
+    border-left: 0 none !important;
+    margin: 0 !important;
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+  }
+
+  table.body blockquote.kg-blockquote-alt p {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  }
+
+  table.body hr {
+    margin: 2em 0 !important;
+  }
+
+  .feature-image-caption {
+    font-size: 13px!important;
+  }
+
+  .kg-card-figcaption {
+    font-size: 13px!important;
+  }
+
+  .kg-card-figcaption p,
+.kg-card-figcaption p span {
+    font-size: 13px!important;
+  }
+}
+&lt;/style&gt;
+        &lt;!--[if mso]&gt;
+        &lt;style type=&#34;text/css&#34;&gt;
+            ul, ol { margin-left: 1.5em !important; } 
+        &lt;/style&gt;
+        &lt;![endif]--&gt;
+    &lt;/head&gt;
+    &lt;body data-testid=&#34;email-preview-body&#34; style=&#34;background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; font-size: 18px; line-height: 0; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #15212A; direction: ltr;&#34;&gt;&lt;img width=&#34;1&#34; height=&#34;1&#34; alt=&#34;&#34; src=&#34;https://email.ghost.secondopinion.media/o/eJxEzj1ygzAQQOHTRB3M_klIxR5mxQpbAaNMTHz-TNykfDNf8Vw3MS4cmuJSEDlnjqE9rB9Td022UqmYEwFEBABkLlJLuGuSjZmkyrJs0avkKpulvHhCARMJXQkoIYBgphLj3MxMGq2JKZvX9iFwu4_nNT_bOk4fX_3s45wfzbuFb_00_yO77Tbm1xoufevpPRcurT_H_h_HuE1IsRCn8FL6DQAA__9HiT-e&#34;&gt;
+        &lt;span class=&#34;preheader&#34; style=&#34;color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;&#34;&gt;Utah makes an update to its AI sandbox. Plus: Oura shelves its IPO, RFK Jr. wants Americans&amp;#39; health data, and Four Questions with Mary Varghese Presti.&lt;/span&gt;
+        &lt;!-- SPACING TO AVOID BODY TEXT BEING DUPLICATED IN PREVIEW TEXT --&gt;
+        &lt;div class=&#34;preheader-spacing&#34; style=&#34;display:none; max-height:0; overflow:hidden; mso-hide: all;&#34; aria-hidden=&#34;true&#34; role=&#34;presentation&#34;&gt;
+            &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#x2007;&amp;#x34f; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad; &amp;#xad;  &amp;#xa0;
+        &lt;/div&gt;
+
+        &lt;!-- HEADER WITH FULL-WIDTH BACKGROUND --&gt;
+            &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;header&#34; width=&#34;100%&#34; style=&#34;mso-table-lspace: 0pt; mso-table-rspace: 0pt; line-height: 1.4; background-color: #f7f9fc; width: 100%; border-spacing: 0; border-collapse: collapse;&#34; bgcolor=&#34;#f7f9fc&#34;&gt;
+                &lt;!-- Outlook doesn&#39;t respect max-width so we need an extra centered table --&gt;
+                &lt;!--[if mso]&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;
+                        &lt;center&gt;
+                            &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;600&#34;&gt;
+                &lt;![endif]--&gt;
+                &lt;tr&gt;
+                    &lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;
+                    &lt;td class=&#34;container&#34; align=&#34;center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;
+                        &lt;div class=&#34;content&#34; style=&#34;box-sizing: border-box; display: block; margin: 0 auto; max-width: 600px;&#34;&gt;
+                        &lt;!-- Header content constrained to 600px --&gt;
+                        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;header-main&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 20px 0; width: 100%; max-width: 600px; background: #ffffff; background-color: #f7f9fc;&#34; width=&#34;100%&#34; bgcolor=&#34;#f7f9fc&#34;&gt;
+                            &lt;tr&gt;
+                                &lt;td class=&#34;header-content&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 0; margin: 0 auto;&#34; valign=&#34;top&#34;&gt;
+                                    &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34;&gt;
+                                            &lt;tr class=&#34;header-image-row&#34;&gt;
+                                                &lt;td class=&#34;header-image&#34; width=&#34;100%&#34; align=&#34;center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding-top: 24px; padding-bottom: 16px;&#34; valign=&#34;top&#34;&gt;
+                                                    &lt;a href=&#34;https://www.secondopinion.media/r/c1d607d6?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;color: #F2513B; text-decoration: none; overflow-wrap: anywhere;&#34; target=&#34;_blank&#34;&gt;
+                                                        &lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w1200/2026/05/logo-orange-1.png&#34; width=&#34;600&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px;&#34;&gt;
+                                                    &lt;/a&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+
+
+                                            &lt;tr&gt;
+                                                &lt;td class=&#34;post-title post-title-with-excerpt&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; text-align: center; background-color: #f7f9fc; color: #1E1B24; padding-bottom: 8px;&#34; valign=&#34;top&#34; align=&#34;center&#34; bgcolor=&#34;#f7f9fc&#34;&gt;
+                                                    &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                        &lt;tr&gt;
+                                                            &lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; font-size: 36px; line-height: 1.1; font-weight: 700; text-align: center; background-color: #f7f9fc; color: #1E1B24;&#34; valign=&#34;top&#34; align=&#34;center&#34; bgcolor=&#34;#f7f9fc&#34;&gt;
+                                                                &lt;h1 class=&#34;post-title-heading&#34; style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; text-rendering: optimizeLegibility; margin: 0; font-size: 36px; line-height: 1.1; font-weight: 700;&#34;&gt;
+                                                                    &lt;a href=&#34;https://www.secondopinion.media/r/540d6722?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; class=&#34;post-title-link&#34; style=&#34;text-decoration: none; display: block; margin-top: 32px; text-align: center; line-height: 1.1; overflow-wrap: anywhere; color: #1E1B24;&#34; target=&#34;_blank&#34;&gt;Assurance labs are back&lt;/a&gt;
+                                                                &lt;/h1&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td width=&#34;100%&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; width: 100%;&#34; align=&#34;center&#34; valign=&#34;top&#34;&gt;
+                                                    &lt;table class=&#34;post-meta-wrapper&#34; role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; padding-bottom: 32px;&#34;&gt;
+                                                        &lt;tr&gt;
+                                                            &lt;td height=&#34;20&#34; class=&#34;post-meta post-meta-center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212a; color: rgba(0, 0, 0, 0.6); font-size: 13px; font-weight: 400; text-align: center; padding: 0;&#34; valign=&#34;top&#34; align=&#34;center&#34;&gt;
+                                                                By Christina Farr &amp;amp; Ruth Reader &amp;#x2022; &lt;span class=&#34;post-meta-date&#34; style=&#34;white-space: nowrap;&#34;&gt;4 Oct 2026 &lt;/span&gt;
+                                                            &lt;/td&gt;
+                                                            &lt;td class=&#34;post-meta post-meta-center view-online desktop&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: rgba(0, 0, 0, 0.6); font-size: 13px; font-weight: 400; text-align: center; display: none;&#34; valign=&#34;top&#34; align=&#34;center&#34;&gt;
+                                                                &lt;a href=&#34;https://www.secondopinion.media/r/c5f0fe86?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; class=&#34;view-online-link&#34; style=&#34;word-wrap: none; white-space: nowrap; color: #15212a; color: rgba(0, 0, 0, 0.6); overflow-wrap: anywhere; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;View in browser&lt;/a&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                        &lt;tr class=&#34;post-meta post-meta-center view-online-mobile&#34; style=&#34;color: #15212a; color: rgba(0, 0, 0, 0.6); font-size: 13px; font-weight: 400; text-align: center;&#34; align=&#34;center&#34;&gt;
+                                                            &lt;td height=&#34;20&#34; class=&#34;view-online&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212a; color: rgba(0, 0, 0, 0.6); font-size: 13px; font-weight: 400; text-align: center; text-decoration: underline;&#34; valign=&#34;top&#34; align=&#34;center&#34;&gt;
+                                                                &lt;a href=&#34;https://www.secondopinion.media/r/1bafef0a?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; class=&#34;view-online-link&#34; style=&#34;word-wrap: none; white-space: nowrap; color: #15212a; color: rgba(0, 0, 0, 0.6); overflow-wrap: anywhere; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;View in browser&lt;/a&gt;
+                                                            &lt;/td&gt;
+                                                        &lt;/tr&gt;
+                                                    &lt;/table&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+
+                                            &lt;tr class=&#34;feature-image-row&#34;&gt;
+                                                &lt;td class=&#34;feature-image
+                                                &#34; align=&#34;center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding-bottom: 30px; width: 100%; text-align: center;&#34; width=&#34;100%&#34; valign=&#34;top&#34;&gt;&lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w1200/2026/10/images--6-.jpeg&#34; width=&#34;554&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px;&#34;&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/table&gt;
+                        &lt;/div&gt;
+                    &lt;/td&gt;
+                    &lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;!--[if mso]&gt;
+                            &lt;/table&gt;
+                        &lt;/center&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;![endif]--&gt;
+            &lt;/table&gt;
+
+        &lt;!-- MAIN CONTENT AREA --&gt;
+        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;body&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; line-height: 1.4; background-color: #f7f9fc;&#34; bgcolor=&#34;#f7f9fc&#34;&gt;
+            &lt;!-- Outlook doesn&#39;t respect max-width so we need an extra centered table --&gt;
+            &lt;!--[if mso]&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;center&gt;
+                        &lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;600&#34;&gt;
+            &lt;![endif]--&gt;
+            &lt;tr&gt;
+                &lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;
+                &lt;td class=&#34;container&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; display: block; max-width: 600px; margin: 0 auto;&#34; valign=&#34;top&#34;&gt;
+                    &lt;div class=&#34;content&#34; style=&#34;box-sizing: border-box; display: block; margin: 0 auto; max-width: 600px;&#34;&gt;
+                        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;main&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-spacing: 20px 0; width: 100%; max-width: 600px; background: #ffffff; background-color: #f7f9fc;&#34; bgcolor=&#34;#f7f9fc&#34;&gt;                            &lt;tr&gt;
+                                &lt;td class=&#34;wrapper&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; box-sizing: border-box;&#34; valign=&#34;top&#34;&gt;
+                                    &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34; data-testid=&#34;email-preview-content&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34;&gt;
+                                        &lt;tr class=&#34;post-content-row&#34;&gt;
+                                            &lt;td class=&#34;post-content-sans-serif&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; font-size: 17px; line-height: 1.5; color: #15212A; padding-bottom: 20px; border-bottom: 1px solid #DDE1EA; padding-top: 32px; max-width: 600px;&#34; valign=&#34;top&#34;&gt;
+                                                &lt;!-- POST CONTENT START --&gt;
+                                                &lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;On Monday, the Utah Department of Commerce will announce a roster of AI validation and oversight companies that can vet and oversee participants in its AI sandbox, according to two people with knowledge of the announcement.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;Back in July, I reported that Utah was &lt;a href=&#34;https://www.secondopinion.media/r/9981d4c7?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;looking into the role independent third parties could play&lt;/u&gt;&lt;/a&gt; in verifying AI health products and providing oversight for its AI sandbox. In August, the state put out a paper &lt;a href=&#34;https://www.secondopinion.media/r/00051aa0?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; rel=&#34;noreferrer&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;that laid out its perspective&lt;/a&gt; on what kind of evidence companies in its AI sandbox need to generate to demonstrate both public health utility and safety. The paper also said AI sandbox applicants should include plans for third party validation of their internal findings. Now, the Utah Department of Commerce is hosting an event wherein it will announce several companies that sandbox applicants can engage to vet and monitor their technology&amp;#x2014;and provide data back to Utah&amp;#x2014; for the duration of their sandbox pilot.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;The independent third parties will in some cases partner with health systems to validate AI technology that&amp;#39;s used at the point of care. In the case where a sandbox product is part of a platform like Doctronic, let&amp;#39;s say, the third party will monitor, validate, or offer other governance services directly within the platform. &lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;strong style=&#34;font-weight: 700;&#34;&gt;Why it matters:&lt;/strong&gt; Utah has emerged as one of the country&amp;#39;s most important testing grounds for how AI in health care should be regulated. Anyone building technology in this space should be paying attention. The way that it develops its sandbox program has wide repercussions as both other states and federal regulators try to figure out how to oversee health AI products.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;strong style=&#34;font-weight: 700;&#34;&gt;Are these assurance labs?&lt;/strong&gt; Some of you may remember the stir around AI assurance labs that happened around 2024. The Coalition for Health AI, an organization originally comprising representatives from big-name health providers and tech companies including Mayo Clinic, Duke Health, Microsoft, Amazon, and Google, &lt;a href=&#34;https://www.secondopinion.media/r/2ad2e42f?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;sought to create a framework&lt;/u&gt;&lt;/a&gt; for validating health AI products. The idea was that assurance labs, independent third-party evaluators, would vet health AI algorithms. It even had support from the Department of Health and Human Services under President Joe Biden.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;However, the assurance lab concept fizzled before it even really got started as industry consensus started to coalesce around the idea that AI needed to be vetted locally, inside of the health systems where it was being deployed. Then, under President Donald Trump, HHS &lt;a href=&#34;https://www.secondopinion.media/r/2d909fbe?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;publicly rejected CHAI&lt;/u&gt;&lt;/a&gt;, suggesting that it was a cover for regulatory capture under big tech.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;Well, Utah is bringing assurance labs back effectively. I would expect CHAI to make an appearance next week as Utah embraces its new independent third-party AI evaluator program. &lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;em&gt;&amp;#x2014; Ruth&lt;/em&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;And now onto the news&amp;#x2026;&lt;/p&gt;&lt;table class=&#34;kg-card kg-hr-card&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; margin: 0; padding-top: 1.5em; padding-bottom: 3em; font-size: 17px;&#34; valign=&#34;top&#34;&gt;&lt;!--[if !mso]&gt;&lt;!-- --&gt;&lt;hr style=&#34;position: relative; width: 100%; margin: 3em 0; padding: 0; height: 1px; background-color: transparent; border: 0; border-top: 1px solid #DDE1EA; display: none;&#34;&gt;&lt;!--&lt;![endif]--&gt;&lt;table class=&#34;kg-hr&#34; role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; padding-top: 1.5em; padding-bottom: 3em; margin: 0; padding: 0; border-top: 1px solid #DDE1EA; font-size: 0; line-height: 0;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;!--kg-card-begin: html--&gt;
+&lt;table role=&#34;presentation&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; border=&#34;0&#34; width=&#34;100%&#34; style=&#34;mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 600px; margin: 24px auto; background-color: #FDF5F2; border-radius: 5px; border-collapse: separate; overflow: hidden;&#34; bgcolor=&#34;#FDF5F2&#34;&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 18px 18px 4px;&#34; valign=&#34;top&#34;&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; margin: 0; line-height: 1.45; color: #15212A;&#34;&gt;UPCOMING SESSIONS&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 14px 18px 16px; overflow-wrap: anywhere;&#34; valign=&#34;top&#34;&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 6px; line-height: 1.45; color: #15212A;&#34;&gt;OCTOBER 8 &amp;#xb7; 12:30 PM ET&lt;/p&gt;&lt;h4 style=&#34;margin-top: 0; text-rendering: optimizeLegibility; font-family: &amp;#39; undefined: Lora&amp;#39; undefined: ,Georgia,serif; font-size: 17px; font-weight: 700; color: #1A1A2E; margin: 0 0 7px; line-height: 1.3;&#34;&gt;Why Are Hospitals Hiring Chief AI Officers?&lt;/h4&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 14px; margin: 0 0 8px; line-height: 1.45; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/2cf76335?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Christina Farr&lt;/a&gt; joins &lt;a href=&#34;https://www.secondopinion.media/r/2532ca8d?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Ashley Beecy&lt;/a&gt; of Sutter Health, &lt;a href=&#34;https://www.secondopinion.media/r/6d080729?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Aaron Miri&lt;/a&gt; of Baptist Health and &lt;a href=&#34;https://www.secondopinion.media/r/c33259b2?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Matt Sakumoto&lt;/a&gt; of Nabla to discuss AI leadership, governance and vendor evaluation.&lt;/p&gt;&lt;a href=&#34;https://www.secondopinion.media/r/87580105?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 12px; font-weight: 700; color: #F2513B; letter-spacing: 1px; text-transform: uppercase; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;REGISTER &amp;#x2192;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 0 18px;&#34; valign=&#34;top&#34;&gt;&lt;div style=&#34;border-top:1px solid #E8DAD5;font-size:0;line-height:0;&#34;&gt;&amp;#xa0;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 14px 18px 16px; overflow-wrap: anywhere;&#34; valign=&#34;top&#34;&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 6px; line-height: 1.45; color: #15212A;&#34;&gt;OCTOBER 13 &amp;#xb7; 12:30 PM ET&lt;/p&gt;&lt;h4 style=&#34;margin-top: 0; text-rendering: optimizeLegibility; font-family: &amp;#39; undefined: Lora&amp;#39; undefined: ,Georgia,serif; font-size: 17px; font-weight: 700; color: #1A1A2E; margin: 0 0 7px; line-height: 1.3;&#34;&gt;Verifying AI in Medicine: Is Healthcare AI Actually Ready for Deployment?&lt;/h4&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 14px; margin: 0 0 8px; line-height: 1.45; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/5dfe1736?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Zak Kohane&lt;/a&gt; joins Prot&amp;#xe9;g&amp;#xe9; Health&amp;#x2019;s &lt;a href=&#34;https://www.secondopinion.media/r/65a3c37c?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Engy Ziedan&lt;/a&gt; to debate what evidence healthcare AI needs before it can be trusted in diagnosis and treatment.&lt;/p&gt;&lt;a href=&#34;https://www.secondopinion.media/r/da62688f?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 12px; font-weight: 700; color: #F2513B; letter-spacing: 1px; text-transform: uppercase; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;REGISTER &amp;#x2192;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 0 18px;&#34; valign=&#34;top&#34;&gt;&lt;div style=&#34;border-top:1px solid #E8DAD5;font-size:0;line-height:0;&#34;&gt;&amp;#xa0;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 14px 18px 16px; overflow-wrap: anywhere;&#34; valign=&#34;top&#34;&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 6px; line-height: 1.45; color: #15212A;&#34;&gt;OCTOBER 28 &amp;#xb7; 12:00 PM ET&lt;/p&gt;&lt;h4 style=&#34;margin-top: 0; text-rendering: optimizeLegibility; font-family: &amp;#39; undefined: Lora&amp;#39; undefined: ,Georgia,serif; font-size: 17px; font-weight: 700; color: #1A1A2E; margin: 0 0 7px; line-height: 1.3;&#34;&gt;Type 2 Diabetes &amp;amp; Cardiometabolic Care: Wearables, AI &amp;amp; GLP-1s&lt;/h4&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 14px; margin: 0 0 8px; line-height: 1.45; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/b1bd7ee1?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Christina Farr&lt;/a&gt; joins Twin Health&amp;#x2019;s &lt;a href=&#34;https://www.secondopinion.media/r/6978bb45?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Lisa Shah&lt;/a&gt;, &lt;a href=&#34;https://www.secondopinion.media/r/9ce904f4?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Nicole Martel&lt;/a&gt; of Bon Secours Mercy Health and &lt;a href=&#34;https://www.secondopinion.media/r/738f7010?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Kristine Lee&lt;/a&gt; of The Permanente Medical Group on how AI, GLP-1s, wearables and new care models are reshaping cardiometabolic care.&lt;/p&gt;&lt;a href=&#34;https://www.secondopinion.media/r/9d348a88?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 12px; font-weight: 700; color: #F2513B; letter-spacing: 1px; text-transform: uppercase; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;REGISTER &amp;#x2192;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 0 18px;&#34; valign=&#34;top&#34;&gt;&lt;div style=&#34;border-top:1px solid #E8DAD5;font-size:0;line-height:0;&#34;&gt;&amp;#xa0;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 16px 18px 18px; overflow-wrap: anywhere;&#34; valign=&#34;top&#34;&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; margin: 0 0 6px; line-height: 1.45; color: #15212A;&#34;&gt;NOVEMBER 3 &amp;#xb7; 1:30 PM ET&lt;/p&gt;&lt;h4 style=&#34;margin-top: 0; text-rendering: optimizeLegibility; font-family: &amp;#39; undefined: Lora&amp;#39; undefined: ,Georgia,serif; font-size: 17px; font-weight: 700; color: #1A1A2E; margin: 0 0 7px; line-height: 1.3;&#34;&gt;Is It Finally the Moment for Alternative Plan Design?&lt;/h4&gt;&lt;p style=&#34;font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 14px; margin: 0 0 8px; line-height: 1.45; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/f55c6a75?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #5A5F6E; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;Christina Farr&lt;/a&gt; joins Included Health&amp;#x2019;s Owen Tripp and Firefly Health&amp;#x2019;s Fay Rotenberg on whether employers are finally ready to move beyond traditional plan design.&lt;/p&gt;&lt;a href=&#34;https://www.secondopinion.media/r/de41d1c5?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 12px; font-weight: 700; color: #F2513B; letter-spacing: 1px; text-transform: uppercase; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;REGISTER &amp;#x2192;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 0 18px;&#34; valign=&#34;top&#34;&gt;&lt;div style=&#34;border-top:1px solid #E8DAD5;font-size:0;line-height:0;&#34;&gt;&amp;#xa0;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 14px 18px 18px; text-align: center;&#34; align=&#34;center&#34; valign=&#34;top&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/294f9856?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; font-family: &amp;#39; undefined: Karla&amp;#39; undefined: ,Arial,sans-serif; font-size: 13px; font-weight: 700; color: #1D3A5C; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;View all Sessions &amp;#x2192;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;!--kg-card-end: html--&gt;
+&lt;!--members-only--&gt;&lt;div class=&#34;kg-card kg-callout-card kg-callout-card-red&#34; style=&#34;display: flex; margin: 0 0 1.5em 0; padding: 24px; border-radius: 8px; background: #FBE9E9;&#34;&gt;&lt;div class=&#34;kg-callout-emoji&#34; style=&#34;padding-right: 12px; font-size: 20px;&#34;&gt;&amp;#x1f4f0;&lt;/div&gt;&lt;div class=&#34;kg-callout-text&#34; style=&#34;color: inherit;&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;NEWS&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://www.secondopinion.media/r/ecfc9eca?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Oura hits pause on its IPO&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Oura postponed its up to &amp;#x24;2.2 billion IPO indefinitely, citing &amp;#x201c;uncertainty in the IPO market.&amp;#x201d; The smart ring maker had filed to offer 55 million shares at &amp;#x24;40 to &amp;#x24;44 each, which would have valued the company at up to &amp;#x24;15 billion at the midpoint; early investor Forerunner Ventures had been slated to sell its entire 9.3% stake.&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://www.secondopinion.media/r/8785a93c?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;MAHA wants Americans&amp;#39; health data&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;At a summit hosted by the MAHA Institute, HHS Secretary Robert F. Kennedy Jr. laid out an expansive vision for aggregating Americans&amp;#39; health data (immunization records, clinical data, lab results, pharmacy, and claims) and making it searchable by AI for federal and independent researchers. Kennedy and VP JD Vance argued AI can deliver second opinions &amp;#x201c;better informed than any doctor,&amp;#x201d; and urged patients to &amp;#x201c;become the CEOs of their own health.&amp;#x201d; Six leading physician groups including the AMA and American Academy of Pediatrics issued a statement rejecting the claims, stating that such claims about AI diminish physician expertise and risk undermining patient trust.&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://www.secondopinion.media/r/43cc00dd?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;OpenEvidence and Anthropic are expanding clinical AI outside rich countries&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;OpenEvidence, fresh off an additional &amp;#x24;250 million in funding, is partnering with Anthropic to expand its AI-powered clinical decision support to physicians in 100 low- and middle-income countries across Africa and Asia, including Uganda, Angola, Sudan, Haiti, and Mongolia. The product will be free in lower-resourced regions. In a separate initiative, it is working with Penn Medicine to tailor its platform for the Botswana-UPenn Partnership; OpenEvidence now counts 1.12 million verified U.S. clinicians, who consulted it 42 million times in August.&lt;br&gt;&lt;br&gt;&lt;a href=&#34;https://www.secondopinion.media/r/62115b41?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Congresswoman wants to regulate AI companies like banks&lt;/strong&gt;&lt;/b&gt;&lt;/a&gt;&lt;br&gt;Rep. Pramila Jayapal (D-Wash.) introduced a new policy framework for AI regulation that would require all AI companies to register for a national charter. &amp;#x201c;The charter&amp;#39;s terms and conditions would be mandatory and ban AI companies from building monopolistic empires, releasing risky models, stealing through surveillance, exploiting workers, or causing serious harm. AI companies that don&amp;#39;t agree, don&amp;#39;t comply, or put the public in danger would get shut down.&amp;#x201d; &lt;a href=&#34;https://www.secondopinion.media/r/ccbc9231?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;Read it here&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&#34;intelligence&#34; style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; line-height: 1.11; font-weight: 700; text-rendering: optimizeLegibility; margin: 1.5em 0 0.5em 0; font-size: 32px; color: #1E1B24;&#34;&gt;&lt;strong style=&#34;font-weight: 800;&#34;&gt;Intelligence&lt;/strong&gt;&lt;/h2&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;Many of you have read the BlueCross BlueShield Association&amp;#39;s report on how AI coding is leading to an increase in medical costs. In &lt;a href=&#34;https://www.secondopinion.media/r/64abc51d?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;this week&amp;#39;s analysis&lt;/u&gt;&lt;/a&gt;, both Chrissy and Ruth dive into the limits of that report, how payers are already countering the rise in prices, and what it means for health systems and RCM operators.&lt;/p&gt;&lt;div class=&#34;kg-card kg-callout-card kg-callout-card-purple&#34; style=&#34;display: flex; margin: 0 0 1.5em 0; padding: 24px; border-radius: 8px; background: #F2EDFC;&#34;&gt;&lt;div class=&#34;kg-callout-emoji&#34; style=&#34;padding-right: 12px; font-size: 20px;&#34;&gt;&amp;#x1f91d;&lt;/div&gt;&lt;div class=&#34;kg-callout-text&#34; style=&#34;color: inherit;&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;FUNDING &amp;amp; DEALS&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;OpenEvidence&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; &lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;&amp;#x24;250M&lt;/strong&gt;&lt;/b&gt;. &lt;a href=&#34;https://www.secondopinion.media/r/88ed1de3?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;Confirmed&lt;/a&gt; raising an additional &amp;#x24;250 million at a &amp;#x24;15 billion valuation.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Grindr / Freddie&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; &lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;&amp;#x24;250M&lt;/strong&gt;&lt;/b&gt; (acquisition). Grindr agreed to acquire HIV-prevention telehealth provider Freddie (via its parent PurposeMed) for &amp;#x24;250 million in cash and stock, its first major acquisition as it expands into healthcare, following CEO George Arison&amp;#39;s vision of &lt;a href=&#34;https://www.secondopinion.media/r/06ee7752?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;a gay &amp;#x201c;superapp&amp;#x201d;&lt;/a&gt;. The deal, with up to &amp;#x24;70 million more tied to 2027 performance targets, is expected to close in Q4.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;EliseAI&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; &lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;&amp;#x24;350M&lt;/strong&gt;&lt;/b&gt;, led by Andreessen Horowitz and Bessemer Venture Partners. The company, which automates healthcare and housing operations, was valued at &amp;#x24;4 billion and surpassed &lt;a href=&#34;https://www.secondopinion.media/r/3f5343ee?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;&amp;#x24;200 million in annual revenue in June&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Ortet&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; &lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;&amp;#x24;500M&lt;/strong&gt;&lt;/b&gt; commitment from Thoreau. A new frontier AI lab for healthcare founded by AI leaders from Genentech, Meta, AWS, and Spotify. The startup plans a &lt;a href=&#34;https://www.secondopinion.media/r/08c35921?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;full-stack health platform&lt;/a&gt; built around a patient-centered foundation model connecting biological, clinical, operational, and financial data.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Enable Ventures&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; &lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;&amp;#x24;50M&lt;/strong&gt;&lt;/b&gt; fund. Completed funding of a fund dedicated to &lt;a href=&#34;https://www.secondopinion.media/r/1fc3c1ba?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;accessibility-focused AI startups&lt;/a&gt;, signaling its belief that products built around disability needs can deliver growth at scale.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Iqvia / Reverba&lt;/strong&gt;&lt;/b&gt; &amp;#x2014; acquisition. The clinical research giant acquired patient engagement company Reverba through a &lt;a href=&#34;https://www.secondopinion.media/r/845e1eb0?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: underline; color: #F2513B;&#34; target=&#34;_blank&#34;&gt;competitive auction process&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;kg-card kg-callout-card kg-callout-card-grey&#34; style=&#34;display: flex; margin: 0 0 1.5em 0; padding: 24px; border-radius: 8px; background: #f1f2f4;&#34;&gt;&lt;div class=&#34;kg-callout-text&#34; style=&#34;color: inherit;&#34;&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;COMINGS &amp;amp; GOINGS&lt;/strong&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Definitive Healthcare&lt;/strong&gt;&lt;/b&gt;, a data and analytics company focused on the healthcare business, appointed Clay Ritchey as CEO.&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;strong style=&#34;font-weight: 700; white-space: pre-wrap;&#34;&gt;Scoop: Mark Atalla&lt;/strong&gt;&lt;/b&gt;, deputy National Coordinator for Health IT, has departed the Department of Health and Human Services.&lt;/div&gt;&lt;/div&gt;&lt;h2 id=&#34;send-us-your-burning-questions&#34; style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; line-height: 1.11; font-weight: 700; text-rendering: optimizeLegibility; margin: 1.5em 0 0.5em 0; font-size: 32px; color: #1E1B24;&#34;&gt;&lt;strong style=&#34;font-weight: 800;&#34;&gt;Send us your burning questions!&lt;/strong&gt;&lt;/h2&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;We want to launch a new advice column for Second Opinion readers. What questions are you dying to ask the Second Opinion community, high-level executives, or another founder?&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/2da83370?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;u&gt;You can send your questions here&lt;/u&gt;&lt;/a&gt;.&lt;/p&gt;&lt;table class=&#34;kg-card kg-hr-card&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; margin: 0; padding-top: 1.5em; padding-bottom: 3em; font-size: 17px;&#34; valign=&#34;top&#34;&gt;&lt;!--[if !mso]&gt;&lt;!-- --&gt;&lt;hr style=&#34;position: relative; width: 100%; margin: 3em 0; padding: 0; height: 1px; background-color: transparent; border: 0; border-top: 1px solid #DDE1EA; display: none;&#34;&gt;&lt;!--&lt;![endif]--&gt;&lt;table class=&#34;kg-hr&#34; role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; padding-top: 1.5em; padding-bottom: 3em; margin: 0; padding: 0; border-top: 1px solid #DDE1EA; font-size: 0; line-height: 0;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h2 id=&#34;this-week-on-rounds&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; line-height: 1.11; font-weight: 700; text-rendering: optimizeLegibility; margin: 1.5em 0 0.5em 0; font-size: 32px; margin-top: 0; color: #1E1B24;&#34;&gt;&lt;em&gt;This Week on Rounds&lt;/em&gt;&lt;/h2&gt;&lt;h2 id style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; line-height: 1.11; font-weight: 700; text-rendering: optimizeLegibility; margin: 1.5em 0 0.5em 0; font-size: 32px; color: #1E1B24;&#34;&gt;&lt;/h2&gt;&lt;div class=&#34;kg-card kg-embed-card&#34; style=&#34;margin: 0 0 1.5em; padding: 0;&#34;&gt;&lt;!--[if !mso !vml]--&gt;
+            &lt;a class=&#34;kg-video-preview&#34; href=&#34;https://www.secondopinion.media/r/871df8a1?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; aria-label=&#34;Play video&#34; style=&#34;background-color: #1d1f21; background-image: radial-gradient(circle at center, #5b5f66, #1d1f21); display: block; border-radius: 6px; overflow-wrap: anywhere; color: #F2513B; mso-hide: all; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;
+                &lt;table cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; border=&#34;0&#34; width=&#34;100%&#34; background=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/thumbnail/maxresdefault-b23f177a-0df0-47fd-9197-7ab74a0362c3.jpg&#34; role=&#34;presentation&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-size: cover; min-height: 200px; border-radius: 6px; overflow: hidden; background: url(&amp;#39;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/thumbnail/maxresdefault-b23f177a-0df0-47fd-9197-7ab74a0362c3.jpg&amp;#39;) left top / cover; mso-hide: all;&#34;&gt;
+                    &lt;tbody&gt;&lt;tr style=&#34;mso-hide: all&#34;&gt;
+                        &lt;td width=&#34;25%&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; visibility: hidden; mso-hide: all;&#34; valign=&#34;top&#34;&gt;
+                            &lt;img src=&#34;https://img.spacergif.org/v1/150x338/0a/spacer.png&#34; alt width=&#34;100%&#34; border=&#34;0&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px; display: block; height: auto; opacity: 0; visibility: hidden; mso-hide: all;&#34; height=&#34;auto&#34;&gt;
+                        &lt;/td&gt;
+                        &lt;td width=&#34;50%&#34; align=&#34;center&#34; valign=&#34;middle&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; color: #15212A; vertical-align: middle; mso-hide: all;&#34;&gt;
+                            &lt;div class=&#34;kg-video-play-button&#34; style=&#34;height: 2em; width: 3em; margin: 0 auto; border-radius: 10px; padding: 1em 0.8em 0.6em 1em; font-size: 1em; background-color: rgba(0,0,0,0.85); mso-hide: all;&#34;&gt;&lt;div style=&#34;display: block; width: 0; height: 0; margin: 0 auto; line-height: 0px; border-color: transparent transparent transparent white; border-style: solid; border-width: 0.8em 0 0.8em 1.5em; mso-hide: all;&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+                        &lt;/td&gt;
+                        &lt;td width=&#34;25%&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; mso-hide: all;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/tbody&gt;&lt;/table&gt;
+            &lt;/a&gt;
+            &lt;!--[endif]--&gt;
+
+            &lt;!--[if vml]&gt;
+            &lt;v:group xmlns:v=&#34;urn:schemas-microsoft-com:vml&#34; xmlns:w=&#34;urn:schemas-microsoft-com:office:word&#34; coordsize=&#34;600,338&#34; coordorigin=&#34;0,0&#34; href=&#34;https://youtu.be/THdoTZFnOKs?si=lnw4KuSHQuyWj3Ua&#34; style=&#34;width:600px;height:338px;&#34;&gt;
+                &lt;v:rect fill=&#34;t&#34; stroked=&#34;f&#34; style=&#34;position:absolute;width:600;height:338;&#34;&gt;&lt;v:fill src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/thumbnail/maxresdefault-b23f177a-0df0-47fd-9197-7ab74a0362c3.jpg&#34; type=&#34;frame&#34;/&gt;&lt;/v:rect&gt;
+                &lt;v:oval fill=&#34;t&#34; strokecolor=&#34;white&#34; strokeweight=&#34;4px&#34; style=&#34;position:absolute;left:261;top:130;width:78;height:78&#34;&gt;&lt;v:fill color=&#34;black&#34; opacity=&#34;30%&#34; /&gt;&lt;/v:oval&gt;
+                &lt;v:shape coordsize=&#34;24,32&#34; path=&#34;m,l,32,24,16,xe&#34; fillcolor=&#34;white&#34; stroked=&#34;f&#34; style=&#34;position:absolute;left:289;top:152;width:30;height:34;&#34; /&gt;
+            &lt;/v:group&gt;
+            &lt;![endif]--&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;In Episode 5 of Rounds, Stephanie Davis and Christina Farr break down the latest healthcare headlines &amp;#x2014; including Oura&amp;#39;s step toward an IPO with its S-1 filing revealing &amp;#x24;1.4 billion in revenue, and a former Anthropic researcher&amp;#39;s warning to the BBC that AI staff are &amp;quot;genuinely frightened&amp;quot; for humanity&amp;#39;s future &amp;#x2014; before sitting down with Megan Scheffel, Head of Life Science and Healthcare at SVB, Dan Bise, EVP of Strategy &amp;amp; Corporate Development at R1, and Jeremy Friese, CEO and Founder of Humata Health.&lt;br&gt;&lt;br&gt;We&amp;#39;ll cover:&lt;/p&gt;&lt;ul style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; padding-left: 1.3em; padding-right: 1.5em; list-style: disc; max-width: 100%;&#34;&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;Oura&amp;#39;s S-1 filing and what it signals about the company&amp;#39;s path to IPO&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;Key takeaways from SVB&amp;#39;s Healthcare Investments and Exits report &amp;#x2014; including why fewer specialized funds (not less capital) are driving the fundraising slowdown, why deal volume hit a multi-year low even as total dollars held steady, and why investors are increasingly rewarding proven commercial viability over pure technology hype&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;The diverging exit landscape between biopharma (a record M&amp;amp;A year driven by looming patent cliffs) and healthtech (strong IPO performance, but few companies actually going public)&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;How blurring lines between Dx/Tools, device, and biopharma are reshaping where capital flows&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;R1&amp;#39;s first two acquisitions, Phare Health and Humata Health, and how Humata&amp;#39;s prior authorization platform fills a key gap in R1&amp;#39;s strategy to reduce downstream payer denials&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;Dan Bise&amp;#39;s investment approach &amp;#x2014; from setting strategy to evaluating the competitive landscape to aligning investors and the Board &amp;#x2014; and how it mirrors a thesis-driven, PE-style playbook&lt;br&gt;&lt;/li&gt;&lt;li style=&#34;margin: 0.5em 0; padding-left: 0.3em; line-height: 1.6; color: #15212A;&#34;&gt;Jeremy Friese&amp;#39;s perspective as Humata&amp;#39;s founder on what set R1 apart from other potential acquirers, and what convinced him to sell&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;Hosts and Guests:&lt;br&gt;Christina Farr, CEO, Second Opinion; GP, Scrub Capital&lt;br&gt;Stephanie Davis, Healthcare Industry Analyst&lt;br&gt;Megan Scheffel, Head of Life Science and Healthcare at SVB&lt;br&gt;Dan Bise, EVP, Strategy and Corporate Development at R1&lt;br&gt;Jeremy Friese, Founder and CEO of Humata Health&lt;/p&gt;&lt;table class=&#34;kg-card kg-hr-card&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; margin: 0; padding-top: 1.5em; padding-bottom: 3em; font-size: 17px;&#34; valign=&#34;top&#34;&gt;&lt;!--[if !mso]&gt;&lt;!-- --&gt;&lt;hr style=&#34;position: relative; width: 100%; margin: 3em 0; padding: 0; height: 1px; background-color: transparent; border: 0; border-top: 1px solid #DDE1EA; display: none;&#34;&gt;&lt;!--&lt;![endif]--&gt;&lt;table class=&#34;kg-hr&#34; role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212A; padding-top: 1.5em; padding-bottom: 3em; margin: 0; padding: 0; border-top: 1px solid #DDE1EA; font-size: 0; line-height: 0;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h1 id=&#34;four-questions-with-mary-varghese-presti&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; line-height: 1.11; font-weight: 700; text-rendering: optimizeLegibility; margin: 1.5em 0 0.5em 0; font-size: 42px; margin-top: 0; color: #1E1B24;&#34;&gt;&lt;strong style=&#34;font-weight: 800;&#34;&gt;Four Questions with Mary Varghese Presti&lt;/strong&gt;&lt;/h1&gt;&lt;div class=&#34;kg-card kg-image-card&#34; style=&#34;margin: 0 0 1.5em; padding: 0;&#34;&gt;&lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w1600/2026/10/Mary-Varghese-Presti-Pod.png&#34; class=&#34;kg-image&#34; alt loading=&#34;lazy&#34; width=&#34;600&#34; height=&#34;600&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; display: block; margin: 0 auto; height: auto; width: auto; max-width: 100%; border-radius: 6px;&#34;&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;strong style=&#34;font-weight: 700;&#34;&gt;Mary Varghese Presti,&lt;/strong&gt; Corporate Vice President and COO, Microsoft Health &amp;amp; Life Sciences, talked with Chrissy about why bedside nurses still lose up to 30% of a shift to documentation, what agentic workflows could actually take off their plate, and why she thinks the fix is keeping the nurses already in the profession rather than attracting different ones.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;em&gt;&amp;#x201c;Nursing, at the end of the day, is a relationship profession. You have a relationship with your patients, and you&amp;#39;re not able to be with those patients &amp;#39;cause you&amp;#39;re busy.&amp;#x201d;&lt;/em&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;a href=&#34;https://www.secondopinion.media/r/e8223449?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; text-decoration: underline;&#34; target=&#34;_blank&#34;&gt;&lt;strong style=&#34;font-weight: 700;&#34;&gt;&lt;u&gt;Read the full Q&amp;amp;A &amp;#x2192;&lt;/u&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;!--kg-card-begin: html--&gt;
+&lt;!--
+================================================================
+SECOND OPINION — PARTNERSHIP CALLOUT (image-based)
+================================================================
+A clickable image block promoting partnership inquiries.
+The visual design is baked into a JPG/PNG for guaranteed rendering
+across all email clients (Gmail, Outlook, Apple Mail, Ghost preview).
+
+Always mark this card &#34;Email only&#34; in Ghost so it doesn&#39;t appear
+on the website version of the post.
+
+⚠️ BEFORE FIRST USE: replace PARTNERSHIP_IMAGE_URL with the actual
+hosted URL for the partnership callout image (uploaded to Ghost
+media library).
+
+The entire image is clickable and opens a new email to
+partnerships@secondopinion.media when tapped.
+
+To update the design later (different copy, different colors, etc.),
+re-export a new image and upload it as a replacement at the same URL.
+================================================================
+--&gt;
+
+&lt;table role=&#34;presentation&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; border=&#34;0&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 600px; margin: 40px auto 24px;&#34;&gt;
+  &lt;tr&gt;
+    &lt;td align=&#34;center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;
+      &lt;a href=&#34;https://www.secondopinion.media/r/b45102b0?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; color: #F2513B; display: block; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;
+        &lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/2026/05/partnership_callout-2.png&#34; alt=&#34;Want to reach the Second Opinion audience? Partner with us to reach the founders, operators, investors, and policymakers shaping the future of healthcare. Get in touch.&#34; width=&#34;600&#34; style=&#34;-ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 600px; height: auto; border: 0; border-radius: 12px;&#34; height=&#34;auto&#34;&gt;
+      &lt;/a&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+&lt;!--kg-card-end: html--&gt;
+&lt;p style=&#34;margin: 0 0 1.5em 0; line-height: 1.6; color: #15212A;&#34;&gt;&lt;/p&gt;
+                                                &lt;!-- POST CONTENT END --&gt;
+
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+
+                            &lt;!-- END MAIN CONTENT AREA --&gt;
+
+
+                                &lt;tr&gt;
+                                    &lt;td class=&#34;latest-posts-container&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 24px 0; border-bottom: 1px solid #DDE1EA;&#34; valign=&#34;top&#34;&gt;
+                                        &lt;h3 class=&#34;latest-posts-header&#34; style=&#34;margin-top: 0; line-height: 1.11; text-rendering: optimizeLegibility; margin: 0; padding: 8px 0 8px; color: #15212A; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; text-transform: uppercase;&#34;&gt;Keep reading&lt;/h3&gt;
+                                            &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class=&#34;latest-post&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 16px 0; max-width: 600px;&#34; valign=&#34;top&#34;&gt;
+                                                        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;td valign=&#34;top&#34; align=&#34;left&#34; class=&#34;latest-post-title&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding-right: 12px;&#34;&gt;
+                                                                    &lt;h4 class style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; text-rendering: optimizeLegibility; line-height: 1.2; margin: 0; padding: 2px 0 4px; font-size: 18px; font-weight: 700; color: #1E1B24;&#34;&gt;
+                                                                        &lt;a href=&#34;https://www.secondopinion.media/r/8381fdf2?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #1E1B24;&#34; target=&#34;_blank&#34;&gt;Four Questions with Mary Varghese Presti&lt;/a&gt;
+                                                                    &lt;/h4&gt;
+                                                                        &lt;p class=&#34;latest-post-excerpt&#34; style=&#34;line-height: 1.6; margin: 0; padding: 0; font-size: 15px; font-weight: 400; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/d0619b0d?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34; target=&#34;_blank&#34;&gt;On the 30% of a nursing shift that still goes to documentation, what agentic workflows co&lt;span class=&#34;desktop-only&#34;&gt;uld take off the floor, and wh&lt;/span&gt;&amp;#x2026;&lt;/a&gt;
+                                                                        &lt;/p&gt;
+                                                                &lt;/td&gt;
+                                                                        &lt;td width=&#34;100&#34; class=&#34;latest-post-img&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/ca82a4b2?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; display: block; height: 100px; overflow: hidden; color: inherit; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;
+                                                                                &lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w200h200/2026/10/Mary-Varghese-Presti-YT.png&#34; width=&#34;100&#34; height=&#34;100&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px; object-fit: cover;&#34;&gt;
+                                                                            &lt;/a&gt;
+                                                                        &lt;/td&gt;
+                                                            &lt;/tr&gt;
+                                                        &lt;/table&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                            &lt;/table&gt;
+                                            &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class=&#34;latest-post&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 16px 0; max-width: 600px;&#34; valign=&#34;top&#34;&gt;
+                                                        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;td valign=&#34;top&#34; align=&#34;left&#34; class=&#34;latest-post-title&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding-right: 12px;&#34;&gt;
+                                                                    &lt;h4 class style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; text-rendering: optimizeLegibility; line-height: 1.2; margin: 0; padding: 2px 0 4px; font-size: 18px; font-weight: 700; color: #1E1B24;&#34;&gt;
+                                                                        &lt;a href=&#34;https://www.secondopinion.media/r/a5532ba1?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #1E1B24;&#34; target=&#34;_blank&#34;&gt;Hospitals found more revenue with AI. Insurers are com&lt;span class=&#34;desktop-only&#34;&gt;ing for it.&lt;/span&gt;&lt;span class=&#34;hide-desktop&#34; style=&#34;display: none;&#34;&gt;&amp;#x2026;&lt;/span&gt;&lt;/a&gt;
+                                                                    &lt;/h4&gt;
+                                                                        &lt;p class=&#34;latest-post-excerpt&#34; style=&#34;line-height: 1.6; margin: 0; padding: 0; font-size: 15px; font-weight: 400; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/c54965e2?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34; target=&#34;_blank&#34;&gt;We spoke with payers, providers and employers about the impending &amp;#x2018;botwars&amp;#x2019;&lt;/a&gt;
+                                                                        &lt;/p&gt;
+                                                                &lt;/td&gt;
+                                                                        &lt;td width=&#34;100&#34; class=&#34;latest-post-img&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/ce963ba4?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; display: block; height: 100px; overflow: hidden; color: inherit; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;
+                                                                                &lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w200h200/2026/10/alexas_fotos-businessman-1106922.jpg&#34; width=&#34;100&#34; height=&#34;100&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px; object-fit: cover;&#34;&gt;
+                                                                            &lt;/a&gt;
+                                                                        &lt;/td&gt;
+                                                            &lt;/tr&gt;
+                                                        &lt;/table&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                            &lt;/table&gt;
+                                            &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td class=&#34;latest-post&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding: 16px 0; max-width: 600px;&#34; valign=&#34;top&#34;&gt;
+                                                        &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;&#34; width=&#34;100%&#34;&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;td valign=&#34;top&#34; align=&#34;left&#34; class=&#34;latest-post-title&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; padding-right: 12px;&#34;&gt;
+                                                                    &lt;h4 class style=&#34;margin-top: 0; font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; text-rendering: optimizeLegibility; line-height: 1.2; margin: 0; padding: 2px 0 4px; font-size: 18px; font-weight: 700; color: #1E1B24;&#34;&gt;
+                                                                        &lt;a href=&#34;https://www.secondopinion.media/r/e4cea7e0?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #1E1B24;&#34; target=&#34;_blank&#34;&gt;BCBSA says AI-coding is leading to increased costs&lt;/a&gt;
+                                                                    &lt;/h4&gt;
+                                                                        &lt;p class=&#34;latest-post-excerpt&#34; style=&#34;line-height: 1.6; margin: 0; padding: 0; font-size: 15px; font-weight: 400; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/f58ad266?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; text-decoration: none; color: #15212a; color: rgba(0, 0, 0, 0.6);&#34; target=&#34;_blank&#34;&gt;A new report says hospitals are using secondary diagnoses to bill higher &lt;/a&gt;
+                                                                        &lt;/p&gt;
+                                                                &lt;/td&gt;
+                                                                        &lt;td width=&#34;100&#34; class=&#34;latest-post-img&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;
+                                                                            &lt;a href=&#34;https://www.secondopinion.media/r/d1a450c1?m=6f4c2a10-d450-4a91-8f63-8170870c3964&#34; style=&#34;overflow-wrap: anywhere; display: block; height: 100px; overflow: hidden; color: inherit; text-decoration: none;&#34; target=&#34;_blank&#34;&gt;
+                                                                                &lt;img src=&#34;https://storage.ghost.io/c/32/92/329223b2-d42a-458e-900a-bdc42bd462a7/content/images/size/w200h200/2026/09/Screenshot-2026-09-25-at-14.55.29.png&#34; width=&#34;100&#34; height=&#34;100&#34; style=&#34;border: none; -ms-interpolation-mode: bicubic; max-width: 100%; border-radius: 6px; object-fit: cover;&#34;&gt;
+                                                                            &lt;/a&gt;
+                                                                        &lt;/td&gt;
+                                                            &lt;/tr&gt;
+                                                        &lt;/table&gt;
+                                                    &lt;/td&gt;
+                                                &lt;/tr&gt;
+                                            &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+
+
+                            &lt;tr&gt;
+                                &lt;td class=&#34;wrapper&#34; align=&#34;center&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A; box-sizing: border-box;&#34; valign=&#34;top&#34;&gt;
+                                    &lt;table role=&#34;presentation&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34; style=&#34;border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; padding-top: 40px; padding-bottom: 30px;&#34;&gt;
+                                        &lt;tr&gt;
+                                            &lt;td class=&#34;footer&#34; style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; vertical-align: top; color: #15212a; color: rgba(0, 0, 0, 0.6); margin-top: 20px; text-align: center; padding-bottom: 10px; padding-top: 10px; padding-left: 30px; padding-right: 30px; line-height: 1.5; font-size: 13px;&#34; valign=&#34;top&#34; align=&#34;center&#34;&gt;Second Opinion Media &amp;#xa9; 2026 &amp;#x2013; &lt;a href=&#34;https://www.secondopinion.media/unsubscribe/?uuid=6f4c2a10-d450-4a91-8f63-8170870c3964&amp;key=49560f1efdb621723ff7721ff5c941f05eb899405506f85fdb1acc0dde1072d8&amp;newsletter=af671b60-01e8-4a33-9c05-e4c712442ec8&#34; style=&#34;overflow-wrap: anywhere; color: #15212a; color: rgba(0, 0, 0, 0.6); text-decoration: underline; font-size: 13px;&#34; target=&#34;_blank&#34;&gt;Unsubscribe&lt;/a&gt;&lt;/td&gt;
+                                        &lt;/tr&gt;
+
+                                    &lt;/table&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+&lt;/table&gt;
+                        &lt;!-- END CENTERED WHITE CONTAINER --&gt;
+                    &lt;/div&gt;
+                &lt;/td&gt;
+                &lt;td style=&#34;font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-size: 18px; vertical-align: top; color: #15212A;&#34; valign=&#34;top&#34;&gt;&amp;#xa0;&lt;/td&gt;
+            &lt;/tr&gt;
+
+            &lt;!--[if mso]&gt;
+                            &lt;/table&gt;
+                        &lt;/center&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;![endif]--&gt;
+        &lt;/table&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+
+" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Becker's Hospital Review</span>
+            <span class="card-date">07:19</span>
+        </div>
+        <div class="card-subject"><a href="https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B0qnSFz6-%5EcgcPRfV7fO%7COd" target="_blank">188 rising healthcare stars under 40 | Leading causes of death by age: CDC | Physician starting pay hits $419K | 9 hospital M&As in Q4 | Cost of giving birth by state</a></div>
+        <div class="card-summary"><h2>Becker's Hospital Review 핵심 요약 (2026.10.04)</h2>
+<ul>
+<li>
+<p><strong>[규제] Medicaid 근로 요건 시행 압박 지속</strong>: 5개 주지사가 HHS에 Medicaid 근로 요건 시행 연기를 촉구. 저소득층 의료 접근성에 직접 영향을 미치는 정책으로, Medicaid 관련 헬스테크 및 RCM(의료비 청구 관리) 솔루션 기업의 시장 변동성 확대 예상.</p>
+</li>
+<li>
+<p><strong>[시장 이탈] Medicare Advantage 시장 급격한 재편</strong>: 34개 헬스시스템이 2026년 Medicare Advantage 플랜을 탈퇴하고, 8개 헬스시스템 소유 보험사가 2027년 추가 이탈 예정. MA 시장 수익성 악화가 구조적 문제임을 시사하며, 대안적 가치기반 계약 모델 및 보험 관련 스타트업에 재평가 필요.</p>
+</li>
+<li>
+<p><strong>[딜] Q4 병원 M&amp;A 9건 발생</strong>: 분기 초부터 9건의 병원 인수합병이 확인되며 헬스시스템 통합 흐름 지속. 규모의 경제 확보를 위한 대형화 트렌드는 병원 대상 B2B SaaS 및 공급망 스타트업의 고객 풀 변화에 영향.</p>
+</li>
+<li>
+<p><strong>[보안 리스크] Oracle Health 데이터 침해로 29개 헬스시스템 피해</strong>: Oracle Health 플랫폼 데이터 유출이 대규모 헬스시스템에 확산. 의료 데이터 보안 및 사이버보안 분야 투자 수요 증가의 직접적 촉매제로 작용 가능.</p>
+</li>
+<li>
+<p><strong>[기술 트렌드] AI 기반 병원 운영 최적화 솔루션 수요 부각</strong>: ED 대기 문제, OR 가동률, 의약품 접근 지연 등 운영 병목 해소를 위한 AI 솔루션 도입 사례(Mount Sinai, U of Miami Health) 부각. 병원 내 AI 인프라 준비도 평가 및 ROI 측정 프레임워크에 대한 관심 고조.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;style type=&#34;text/css&#34;&gt;.rightsection a {text-decoration: none; font-weight: bold; font-size: 16px;}
+.promotionheader{text-align: center; color: #003974; font-size: 12px; font-family: Helvetica, Arial, Geneva, sans-serif;}
+.promotionheader a{text-decoration: underline; font-weight: bold; font-size: 16px; color: #a80000;}
+
+@media only screen and (max-width: 600px) {
+  table[width=&#34;1&#34;],
+  table[style*=&#34;width:600px&#34;] { width: 100% !important; max-width: 100% !important; }
+  img { max-width: 100% !important; height: auto !important; }
+  .rightsection, .rightsection table { width: 100% !important; }
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 16px !important; line-height: 1.45 !important; }
+  p span[style*=&#34;font-size:18px&#34;] { font-size: 15px !important; }
+  p span[style*=&#34;font-size:14px&#34;] { font-size: 13px !important; }
+  p[style*=&#34;margin: 0 18em&#34;] { margin: 0 1em !important; }
+  p { line-height: 1.5 !important; }
+  td[style*=&#34;padding:14px 14px 14px 14px&#34;] { padding: 8px !important; }
+  div[style*=&#34;text-align: right&#34;][style*=&#34;margin-right: 20px&#34;] { text-align: center !important; margin-right: 0 !important; }
+  td[style*=&#34;background-color: #003974&#34;] p { line-height: 1.6 !important; }
+}
+@media only screen and (max-width: 380px) {
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 15px !important; }
+}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&#34;#fafafa;&#34; style=&#34;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;background-color:#fafafa;&#34;&gt;
+&lt;p&gt;&lt;span style=&#34;display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden&#34;&gt;Plus: 586 top hospitals for nurse communication&lt;/span&gt;&lt;!--X-250ok-CID:bhrn46298--&gt;&lt;/p&gt;
+
+&lt;div align=&#34;center&#34;&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px&#34; width=&#34;100%&#34;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&#34;center&#34; style=&#34;padding:14px 14px 14px 14px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+			&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px;width:600px&#34; width=&#34;1&#34;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&#34;center&#34; style=&#34;border: 1px solid #e6e6e6;&#34; valign=&#34;top&#34;&gt;
+						&lt;table bgcolor=&#34;#ffffff&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;background-color: #ffffff&#34; width=&#34;100%&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding:0px 0px 0px 0px&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;display:table&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:0px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div align=&#34;right&#34; style=&#34;text-align: right;margin-right: 20px;&#34;&gt;&lt;span style=&#34;font-size:14px;font-weight:bold;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;line-height:28px;&#34;&gt;October 4, 2026&lt;/span&gt;&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:7px 8px 7px 8px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BzLnSFz6-%5EcgcPRfV7fO%7COd&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/hospital-review-e-newsletter-logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 700px;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5B0anSFz6-f&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Aetna_Cl_02_09.30.2026.jpg
+&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Aetna_Cl_02_09.30.2026.jpg
+&#34; lc=&#34;Advertising&#34; lcv=&#34;Aetna&#34; lkw=&#34;lb1&#34; --&gt;&lt;/div&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;1. Rising stars: 188 healthcare leaders under 40 | 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B0qnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;2. Physicians&amp;#39;&amp;nbsp;starting salaries&amp;nbsp;reach&amp;nbsp;$419K: A breakdown of 14 specialties &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B06nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;3. From ED boarding to OR fill rates: Case studies and podcasts on &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5B2qnSFz6-f&#34; target=&#34;_blank&#34;&gt;AI-powered&lt;/a&gt;&lt;!--DPM: ln=&#34;From ED boarding to OR fill rates: Case studies and podcasts on &lt;link&gt;AI-powered&lt;/link&gt; capacity management.
+&#34; lc=&#34;Advertising&#34; lcv=&#34;LeanTaaS&#34; lkw=&#34;ta1&#34; --&gt; capacity management. &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;4. 5 governors push HHS to delay Medicaid work requirements &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B26nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;5. 9 hospital M&amp;amp;A moves to start Q4 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B2LnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B3anSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; lc=&#34;House Ad&#34; lcv=&#34;14th Annual  CEO + CFO Roundtable Leaderboard 2&#34; lkw=&#34;lb2&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;6. Find out how health systems can get faster, more useful context to responders when an emergency call comes in during this webinar&lt;!--DPM: ln=&#34;Find out how health systems can get faster, more useful context to responders when an emergency call comes in during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Redsky_Technologies_Webinar_10.22.2026&#34; lkw=&#34;ta2&#34; --&gt;&lt;!--DPM: ln=&#34;Find out how health systems can get faster, more useful context to responders when an emergency call comes in during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Redsky_Technologies_Webinar_10.22.2026&#34; lkw=&#34;ta2&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B3qnSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Find out how health systems can get faster, more useful context to responders when an emergency call comes in during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Redsky_Technologies_Webinar_10.22.2026&#34; lkw=&#34;ta2&#34; --&gt;&lt;!--DPM: ln=&#34;Find out how health systems can get faster, more useful context to responders when an emergency call comes in during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Redsky_Technologies_Webinar_10.22.2026&#34; lkw=&#34;ta2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;7. 34 health systems dropping Medicare Advantage plans | 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B36nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;8. 8 health system-owned insurers exiting Medicare Advantage in 2027 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B3LnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;9. Medication access delays drain clinic + pharmacy capacity. Mount Sinai and U of Miami Health on what AI hands back in this webinar. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B4anSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34;&gt;one click&lt;/a&gt;.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;10. Leading causes of death by age group: CDC &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B4qnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B46nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/728x90_oncology.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/728x90_oncology.png&#34; lc=&#34;House Ad&#34; lcv=&#34;Fall Oncology Executive Summit Leaderboard 1&#34; lkw=&#34;lb3&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;11. Plenty of tools read a scanned denial or payment. Few route it to the right patient account &amp;mdash; this webinar&lt;!--DPM: ln=&#34;Plenty of tools read a scanned denial or payment. Few route it to the right patient account — this &lt;link&gt;webinar&lt;/link&gt; shows how. Sign up with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Naviant_Webinar_10.22.2026&#34; lkw=&#34;ta3&#34; --&gt; shows how. Sign up with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B6qnSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Plenty of tools read a scanned denial or payment. Few route it to the right patient account — this &lt;link&gt;webinar&lt;/link&gt; shows how. Sign up with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Naviant_Webinar_10.22.2026&#34; lkw=&#34;ta3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;12. 24 health systems opening new hospitals in 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B6LnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;13. 29 health systems affected by Oracle Health data breach &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B7anSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;14. 44% of Texas nonprofit hospitals bill patients before screening for financial aid: Tradeoffs &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B7qnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;15. 586 top hospitals for nurse communication &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B76nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;16.&amp;nbsp;The cost of giving birth in every state &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B7LnSFz6-%5EcgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:18px;font-family:Arial,Geneva,sans-serif;font-weight:bold;text-decoration: underline;&#34;&gt;Becker&amp;#39;s Learning Opportunities&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;17. Your board wants to know if infrastructure is ready for AI and interoperability. Find an effective readiness assessment in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B8anSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;webinar&lt;/a&gt;&lt;!--DPM: ln=&#34;Your board wants to know if infrastructure is ready for AI and interoperability. Find an effective readiness assessment in this &lt;link&gt;webinar&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Cerecore_Webinar_10.23.2026&#34; lkw=&#34;lo1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;18. Leaders from Sanford Health, Ballad Health and Roswell Park discuss closing rural specialty care gaps caused by specialist shortages during this webinar&lt;!--DPM: ln=&#34;Leaders from Sanford Health, Ballad Health and Roswell Park discuss closing rural specialty care gaps caused by specialist shortages during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Sevaro_Webinar_10.23.2026&#34; lkw=&#34;lo2&#34; --&gt;&lt;!--DPM: ln=&#34;Leaders from Sanford Health, Ballad Health and Roswell Park discuss closing rural specialty care gaps caused by specialist shortages during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Sevaro_Webinar_10.23.2026&#34; lkw=&#34;lo2&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B8qnSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Leaders from Sanford Health, Ballad Health and Roswell Park discuss closing rural specialty care gaps caused by specialist shortages during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Sevaro_Webinar_10.23.2026&#34; lkw=&#34;lo2&#34; --&gt;&lt;!--DPM: ln=&#34;Leaders from Sanford Health, Ballad Health and Roswell Park discuss closing rural specialty care gaps caused by specialist shortages during this &lt;link&gt;&lt;link&gt;webinar&lt;/link&gt;&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Sevaro_Webinar_10.23.2026&#34; lkw=&#34;lo2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;19. Webinar: Go-live is where value realization starts, not where it ends. What to measure next. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfkDDbbBg%7CaNA%5B-qnSFz6-%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Webinar: Go-live is where value realization starts, not where it ends. What to measure next. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Claritev_Webinar_10.23.2026&#34; lkw=&#34;lo3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;20. Becker&amp;#39;s upcoming webinars: prostate cancer imaging, procurement in an AI era and hospital capacity. See the sessions &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B-6nSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;Becker&#39;s upcoming webinars: prostate cancer imaging, procurement in an AI era and hospital capacity. See the sessions here.&#34; lc=&#34;House Ad&#34; lcv=&#34;&#34; lkw=&#34;lo4&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;table border=&#34;0&#34; bordercolor=&#34;#FFFFFF&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%;&#34; table=&#34;&#34; width=&#34;1&#34;&gt;
+													&lt;tbody&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; valign=&#34;top&#34; width=&#34;1%&#34;&gt;
+															&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;rightsection&#34; style=&#34;color:#292929;font-family:Helvetica,Arial,Geneva,sans-serif;font-size:12px;line-height:12px;width:300px;&#34; width=&#34;100%&#34;&gt;
+																&lt;tbody&gt;
+																&lt;/tbody&gt;
+																&lt;tbody&gt;
+																	&lt;tr&gt;
+																		&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0 0 0 0;&#34; valign=&#34;top&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5B-LnSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/nov-2026-ceocfo-promobox.png&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+															&lt;/td&gt;
+														&lt;/tr&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0px 8px 0px 8px;&#34; valign=&#34;top&#34;&gt;&amp;nbsp;&lt;/td&gt;
+														&lt;/tr&gt;
+													&lt;/tbody&gt;
+												&lt;/table&gt;
+
+												&lt;p style=&#34;text-align:center; font-size:12px; font-family:Arial,Geneva,sans-serif; margin: 0 18em;&#34;&gt;Apply to attend complimentary as a guest reviewer &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BAanSFz6-%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;! Opportunity exclusive to those directly employed by a provider organization.&lt;/p&gt;
+												&amp;nbsp;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BAqnSFz6-%5EcgcPRfV7fO%7COd&#34; rel=&#34;nofollow, noindex&#34; style=&#34;font-size: 12px;background-color: #003974;color: #ffffff;border: none;padding: 1em;border-radius: 1em;text-decoration: none;color: #ffffff;&#34; target=&#34;_blank&#34;&gt;Was this email forwarded to you? Click Here to Subscribe&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center&#34;&gt;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div style=&#34;text-align:center&#34;&gt;
+												&lt;p&gt;&lt;a alt=&#34;https://www.beckershospitalreview.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BA6nSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Hospital_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BALnSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Quality_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 150px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersasc.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BBanSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/ASC_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersspine.com/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BBqnSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Spine_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+
+						&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%&#34; width=&#34;1&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding: 0px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td align=&#34;center&#34; style=&#34;padding:7px 8px 7px 8px;font-size:16px; color: #ffffff; background-color: #003974; font-family: Helvetica, Arial, Geneva, sans-serif;line-height:20px;&#34; valign=&#34;top&#34;&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;Contact Us, Feedback, or Questions - Email &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5BB6nSFz6-f&#34; style=&#34;color: #ffffff;&#34;&gt;ldyrda@beckershealthcare.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckers.dragonforms.com/loading.do?omedasite=BCKR_prefsmeter&amp;amp;r=1071J5069734C7F&amp;amp;link_id=2186890&#34; style=&#34;color: #ffffff;&#34;&gt;Manage Preferences&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/preferences/?loLYvC7ubucW6ty2%2BxfFIqzFDgkjXl6vA&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Unsubscribe&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/deployforward/Forward.jsp?loLYvC7ubucW6ty2%2BxfFIqzFDgkjXl6vA&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Forward to a friend&lt;/a&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BDLnSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Contact Us&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+												&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfkDDbbBg%7CaNA%5BEanSFz6-%5EcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Privacy Policy&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;
+
+												&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5BEqnSFz6-f&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;null&#34; alt=&#34;View our profile on LinkedIn&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/linkedin.png&#34; title=&#34;View our profile on LinkedIn&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://twitter.com/beckershr&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5BE6nSFz6-f&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Twitter&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/twitter.png&#34; title=&#34;Follow us on Twitter&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://www.facebook.com/BeckersHospitalReview/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5BELnSFz6-f&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Facebook&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/facebook.png&#34; title=&#34;Follow us on Facebook&#34; width=&#34;32&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.youtube.com/@hospitalreview1&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfkDDbbBg%7CaNA%5BFanSFz6-f&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Check out our YouTube Channel&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/youtube.png&#34; title=&#34;Check out our YouTube Channel&#34; width=&#34;32&#34; /&gt;&lt;/a&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:12px;&#34;&gt;17 N. State, Suite 1800 |&amp;nbsp;Chicago, IL 60602&lt;/span&gt;&lt;br /&gt;
+												&lt;em style=&#34;font-size: 12px;&#34;&gt;Becker&amp;#39;s Hospital Review&lt;/em&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;, A Becker&amp;#39;s Healthcare Publication&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;img height=&#34;1&#34; width=&#34;1&#34; border=&#34;0&#34; src=&#34;https://beckershealthcare-news.com/portal/wts/ue^cnkmfkDDbaS4EBcrb.gif&#34;/&gt;&lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+
+    <footer>
+        Generated by Newsletter Digest · Claude API (claude-sonnet-4-6)
+    </footer>
+
+    <script>
+        function toggleOriginal(btn) {
+            const frame = btn.nextElementSibling;
+            const isOpen = frame.classList.toggle('open');
+            btn.textContent = isOpen ? '원문 접기' : '원문 보기';
+        }
+    </script>
+</body>
+</html>
