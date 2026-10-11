@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스레터 다이제스트 — 2026-10-12 (Mon)</title>
+    <style>
+        :root {
+            --bg: #fafaf9;
+            --card: #ffffff;
+            --text: #1c1917;
+            --muted: #78716c;
+            --accent: #0c4a6e;
+            --border: #e7e5e4;
+            --trend-bg: #fef3c7;
+            --trend-border: #f59e0b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        header .date {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        header .count {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+
+        .trend-box {
+            background: var(--trend-bg);
+            border-left: 4px solid var(--trend-border);
+            border-radius: 0 8px 8px 0;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .trend-box h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .trend-content {
+            font-size: 0.92rem;
+            line-height: 1.8;
+        }
+
+        .trend-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.88rem;
+        }
+
+        .trend-content th, .trend-content td {
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+
+        .trend-content th {
+            background: #f5f5f4;
+            font-weight: 600;
+        }
+
+        .newsletter-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .newsletter-card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .source-badge {
+            background: var(--accent);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .card-date {
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        .card-subject {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-subject a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .card-subject a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .card-summary {
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .toggle-original {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.82rem;
+            color: var(--accent);
+            background: none;
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .toggle-original:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .original-frame {
+            display: none;
+            margin-top: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .original-frame.open {
+            display: block;
+        }
+
+        .original-frame iframe {
+            width: 100%;
+            border: none;
+            min-height: 600px;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>바이오/헬스케어 뉴스레터 다이제스트</h1>
+        <div class="date">2026-10-12 (Mon)</div>
+        <div class="count">2개 뉴스레터 요약</div>
+    </header>
+
+    
+    <section class="trend-box">
+        <h2>오늘의 트렌드</h2>
+        <div class="trend-content"><h2>1. 오늘의 핵심 트렌드</h2>
+<p><strong>면역 노화(Immune Aging) 진단 시장의 상업화 임계점 도달</strong>
+단일세포 시퀀싱에서 출발한 TemB+/TemK+ 비율 연구가 Olink 기반 저비용 단백질체 분석으로 검증되면서, 면역 노화 바이오마커의 실제 제품화 경로가 열렸다. 흉선 CT AI·단백질체 면역 시계·T세포 비율 검사 등 세 가지 솔루션이 동시에 상업화 단계에 진입하며 'immunome diagnostics' 카테고리가 본격 형성되는 시점으로, 관련 플랫폼 기업에 대한 선제적 포지셔닝이 유효하다.</p>
+<p><strong>헬스케어 전달 체계의 탈병원화(De-hospitalization) 가속</strong>
+20개 헬스시스템의 ASC 투자 확대와 66개 병원의 서비스 축소가 동시에 진행되며 케어 사이트 분산화 트렌드가 구조적으로 고착되고 있다. ASC 워크플로우 최적화, 원격 모니터링, 외래 특화 의료기기 등 탈병원 환경에 맞춘 솔루션을 보유한 스타트업의 수요처가 빠르게 확대되는 국면이다.</p>
+<p><strong>병원 시장 과점화에 따른 B2B 헬스IT 협상력 구조 변화</strong>
+상위 10개 헬스시스템이 전체 병원의 16%를 장악함에 따라, 소수 대형 고객사에 대한 의존도가 높아지는 반면 계약 단가 및 파일럿 도입 결정 속도는 느려지는 구조적 리스크가 커지고 있다. 초기 스타트업에게는 특정 대형 IDN과의 전략적 파트너십이 레퍼런스이자 진입 장벽이 될 수 있어, 포트폴리오 기업의 고객 집중도 관리가 중요해진다.</p>
+<hr />
+<h2>2. 주목할 딜/회사</h2>
+<p>오늘 뉴스레터에서 구체적인 펀딩·M&amp;A·IPO 딜은 보고되지 않음. 다만 간접적으로 주목할 동향:
+- <strong>Olink (Thermo Fisher 자회사)</strong>: TemB+% 단백질체 측정 플랫폼으로 직접 언급되며 면역 노화 진단 인프라의 핵심 수혜 포지션 확인.
+- <strong>Children's Hospital Los Angeles</strong>: AI 실시간 의료문서 번역 도입 사례 — 병원 AI 솔루션 벤더(비공개) 레퍼런스 사이트로 확보된 것으로, 해당 벤더의 시리즈 라운드 가능성 모니터링 필요.</p></div>
+    </section>
+    
+
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Substack</span>
+            <span class="card-date">18:50</span>
+        </div>
+        <div class="card-subject"><a href="https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj0xeG5uejAmbmV4dD1odHRwcyUzQSUyRiUyRmVyaWN0b3BvbC5zdWJzdGFjay5jb20lMkZwJTJGYS10YWxlLW9mLXR3by10LWNlbGxzIiwicCI6MjE5Nzc4Nzk2LCJzIjo1ODc4MzUsImYiOnRydWUsInUiOjExNjk5NzY2MCwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjIxMDczMjExMDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.aOqw_2HQoneuq8Lv7Mc4sQXf9myWYOcM6n2HbpnBeW8?" target="_blank">A Tale of Two T Cells</a></div>
+        <div class="card-summary"><h2>핵심 요약</h2>
+<ul>
+<li>
+<p><strong>면역 노화의 새로운 바이오마커 발견</strong>: Nature 자매지 <em>Immunity</em> (2026.10.9)에 발표된 랜드마크 연구로, 8개 국제 코호트·2,609명·1,239만 개 백혈구의 단일세포 RNA 시퀀싱을 통해 두 종류의 효과기 기억 T세포(GZMK+ vs. GZMB+)의 비율이 면역 노화의 핵심 지표임을 규명.</p>
+</li>
+<li>
+<p><strong>혈액 검사 기반 면역 상태 진단 제품화 기회</strong>: 고비용 단일세포 시퀀싱 대신 Olink 플랫폼 기반 단백질체 분석으로 TemB+% 측정이 가능함을 검증. UK Biobank 48,620명·17년 추적에서 고 TemB+% 그룹의 전사망률, 심혈관·대사·감염 질환 위험 유의미하게 상승 → 저비용 면역 혈액검사 상용화 pipeline으로 직결.</p>
+</li>
+<li>
+<p><strong>면역 측정 시장의 트리플 컨버전스</strong>: ①흉부 CT AI 기반 흉선 분석, ②단백질체 면역 시계, ③본 연구의 TemB+/TemK+ 비율 검사 등 3가지 면역 평가 솔루션이 동시에 상업화 단계 진입 중 → 면역 진단(immunome) 분야의 투자 모멘텀 형성.</p>
+</li>
+<li>
+<p><strong>타깃 적응증 및 한계</strong>: CVD, 대사질환(T2DM), 감염 관련 위험 예측에는 강한 상관관계 확인. 단, 알츠하이머·파킨슨·황반변성 등 신경퇴행성 질환과는 무상관으로 적응증 범위 명확히 구분됨. 인과관계 미확립, 아프리카계 코호트 부재 등 한계 존재.</p>
+</li>
+<li>
+<p><strong>CMV 및 만성 질환의 면역 노화 촉진</strong>: CMV 혈청 양성 및 높은 CRP 수치가 "나쁜" TemB+ 세포로의 분화를 촉진 → 항바이러스·항염증 중재 전략과 연계한 면역 최적화 치료제 개발 기회 시사.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;html lang=&#34;en&#34; dir=&#34;ltr&#34; style=&#34;scrollbar-width: thin;scrollbar-color: rgb(219,219,219)rgb(255,255,255);&#34;&gt;&lt;head&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&lt;title&gt;A Tale of Two T Cells &lt;/title&gt;&lt;style&gt;
+@media (max-width: 1024px) {
+  .typography .pullquote-align-left,
+  .typography.editor .pullquote-align-left,
+  .typography .pullquote-align-right,
+  .typography.editor .pullquote-align-right,
+  .typography .pullquote-align-wide,
+  .typography.editor .pullquote-align-wide,
+  .typography .pullquote-align-center,
+  .typography.editor .pullquote-align-center {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .typography .markup table.image-wrapper img,
+  .typography.editor .markup table.image-wrapper img,
+  .typography .markup table.kindle-wrapper img,
+  .typography.editor .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+@media (min-width: 1024px) {
+  .typography:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left),
+  .typography.editor:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left) {
+    margin-left: var(--image-offset-margin);
+  }
+  .typography:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right),
+  .typography.editor:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin-right: var(--image-offset-margin);
+  }
+}
+@media (min-width: 1300px) {
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left) {
+    margin-left: var(--image-offset-margin);
+  }
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin-right: var(--image-offset-margin);
+  }
+}
+@media (max-width: 1024px) {
+  .typography,
+  .typography.editor {
+    /* Disable offset on mobile/tablet */
+  }
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left),
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right) {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
+  }
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left.thefp),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left.thefp),
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right.thefp),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right.thefp) {
+    margin: 1em auto;
+  }
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left),
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right),
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin: 1em auto;
+  }
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left) .image2-inset,
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left) .image2-inset,
+  .typography .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right) .image2-inset,
+  .typography.editor .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right) .image2-inset {
+    display: block;
+    justify-content: initial;
+  }
+}
+@media (max-width: 768px) {
+  .typography .markup div.sponsorship-campaign-embed,
+  .typography.editor .markup div.sponsorship-campaign-embed {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .typography .markup div.sponsorship-campaign-embed:first-child,
+  .typography.editor .markup div.sponsorship-campaign-embed:first-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.youtube-overlay,
+  .typography.editor .markup div.youtube-overlay,
+  .typography .markup div.vimeo-overlay,
+  .typography.editor .markup div.vimeo-overlay {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  .typography .markup div.tiktok-wrap,
+  .typography.editor .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.embedded-publication-wrap .embedded-publication.show-subscribe,
+  .typography.editor .markup div.embedded-publication-wrap .embedded-publication.show-subscribe {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe {
+    padding: 0px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  .typography.editor .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .twitter-embed,
+  .typography.editor .markup .twitter-embed,
+  .typography .markup .tweet,
+  .typography.editor .markup .tweet {
+    padding: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .twitter-embed .tweet-text,
+  .typography.editor .markup .twitter-embed .tweet-text,
+  .typography .markup .tweet .tweet-text,
+  .typography.editor .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .twitter-embed .tweet-photos-container.two,
+  .typography.editor .markup .twitter-embed .tweet-photos-container.two,
+  .typography .markup .tweet .tweet-photos-container.two,
+  .typography.editor .markup .tweet .tweet-photos-container.two,
+  .typography .markup .twitter-embed .tweet-photos-container.three,
+  .typography.editor .markup .twitter-embed .tweet-photos-container.three,
+  .typography .markup .tweet .tweet-photos-container.three,
+  .typography.editor .markup .tweet .tweet-photos-container.three,
+  .typography .markup .twitter-embed .tweet-photos-container.four,
+  .typography.editor .markup .twitter-embed .tweet-photos-container.four,
+  .typography .markup .tweet .tweet-photos-container.four,
+  .typography.editor .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .twitter-embed a.expanded-link .expanded-link-img,
+  .typography.editor .markup .twitter-embed a.expanded-link .expanded-link-img,
+  .typography .markup .tweet a.expanded-link .expanded-link-img,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+@media (max-width: 650px) {
+  .typography .markup .twitter-embed a.expanded-link .expanded-link-description,
+  .typography.editor .markup .twitter-embed a.expanded-link .expanded-link-description,
+  .typography .markup .tweet a.expanded-link .expanded-link-description,
+  .typography.editor .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  .typography .markup .apple-podcast-container,
+  .typography.editor .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed img.install-substack-app-embed-img,
+  .typography.editor .markup .install-substack-app-embed img.install-substack-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-embed-text,
+  .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .typography .markup .install-substack-app-embed .install-substack-app-embed-link,
+  .typography.editor .markup .install-substack-app-embed .install-substack-app-embed-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container {
+    height: 38px;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container a.comment {
+    height: 38px;
+    line-height: 38px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .share-button-container .separator {
+    display: block;
+    margin: 0;
+    height: 8px;
+    border-left: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .share-button-container a.share.first img {
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 481px) {
+  .share-button-container a.mobile {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container {
+    padding: 36px;
+    height: 680px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .settings-add-pub-modal-wrapper .container .add-recommending-pub-modal-container .footer {
+    position: absolute;
+    bottom: 36px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header-anchor-parent {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .post {
+    padding: 16px 0 0 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-header .post-label {
+    margin-top: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-header .meta-author-wrap.alternative-meta .meta-right-column .post-meta {
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .footer-facepile-container {
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-footer.use-separators {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .post-footer.next-prev {
+    height: 64px;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-contributor-footer .post-contributor-bio-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-table-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .post-contributor-footer .post-contributor-bio-userhead-cell,
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-cell {
+    flex-grow: 1;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-body-table-row {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell,
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    display: block;
+  }
+  .post-contributor-footer .post-contributor-bio-copy-cell {
+    margin: 0 0 16px 0;
+  }
+  .post-contributor-footer .post-contributor-bio-controls-cell {
+    width: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls {
+    margin: auto;
+  }
+  .post-contributor-footer .post-contributor-bio-controls .button.primary {
+    width: 100%;
+  }
+  .post-contributor-footer .post-contributor-bio-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .post-silhouette {
+    padding: 32px 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-title {
+    margin-top: 10.44225025px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-silhouette .post-silhouette-meta.with-byline-image {
+    margin: 20px 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    padding-right: 16px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item,
+  .post-meta.alternative-meta .post-meta-item {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .use-theme-bg .post-meta.alternative-meta .post-meta-item.guest-author-publication,
+  .post-meta.alternative-meta .post-meta-item.guest-author-publication {
+    display: none;
+  }
+}
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item .post-meta-button {
+    height: 36px !important;
+    /* important to override in-line height style on emails */
+  }
+  .post-meta .post-meta-item .post-meta-button .meta-button-label {
+    display: none;
+  }
+  .post-meta .post-meta-item .post-meta-button &gt; svg {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 370px) {
+  .post-meta .post-meta-item {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post .floating-subscribe-button {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  body .pullquote-align-left,
+  body .pullquote-align-right,
+  body .pullquote-align-wide,
+  body .pullquote-align-center {
+    float: none;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  body .markup table.image-wrapper img,
+  body .markup table.kindle-wrapper img {
+    max-width: 550px;
+  }
+}
+@media (min-width: 1024px) {
+  body:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left) {
+    margin-left: var(--image-offset-margin);
+  }
+  body:not(:has(#toc)) .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin-right: var(--image-offset-margin);
+  }
+}
+@media (min-width: 1300px) {
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left) {
+    margin-left: var(--image-offset-margin);
+  }
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin-right: var(--image-offset-margin);
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    /* Disable offset on mobile/tablet */
+  }
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left),
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right) {
+    float: none;
+    margin: 1em auto;
+    max-width: 100%;
+    width: auto;
+    padding: 0;
+  }
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left.thefp),
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right.thefp) {
+    margin: 1em auto;
+  }
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-left),
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-offset-right) {
+    margin: 1em auto;
+  }
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-left) .image2-inset,
+  body .captioned-image-container figure:has( &gt; :is(a, div).image2-align-right) .image2-inset {
+    display: block;
+    justify-content: initial;
+  }
+}
+@media (max-width: 768px) {
+  body .markup div.sponsorship-campaign-embed {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  body .markup div.sponsorship-campaign-embed:first-child {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.youtube-overlay,
+  body .markup div.vimeo-overlay {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 370px) {
+  body .markup div.tiktok-wrap {
+    width: calc(95vw - 32px);
+    height: calc((95vw - 32px - 2px) / 0.485714);
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.embedded-publication-wrap .embedded-publication.show-subscribe {
+    padding: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe,
+  body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscribe {
+    padding: 0px 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup div.subscription-widget-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  body .markup div.subscription-widget-wrap-editor .subscription-widget.show-subscribe .subscription-widget-subscribe .button,
+  body .markup div.captioned-button-wrap .subscription-widget.show-subscribe .subscription-widget-subscribe .button {
+    padding: 10px 12px;
+    min-width: 110px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .twitter-embed,
+  body .markup .tweet {
+    padding: 12px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .twitter-embed .tweet-text,
+  body .markup .tweet .tweet-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .twitter-embed .tweet-photos-container.two,
+  body .markup .tweet .tweet-photos-container.two,
+  body .markup .twitter-embed .tweet-photos-container.three,
+  body .markup .tweet .tweet-photos-container.three,
+  body .markup .twitter-embed .tweet-photos-container.four,
+  body .markup .tweet .tweet-photos-container.four {
+    height: 200px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .twitter-embed a.expanded-link .expanded-link-img,
+  body .markup .tweet a.expanded-link .expanded-link-img {
+    max-height: 180px;
+  }
+}
+@media (max-width: 650px) {
+  body .markup .twitter-embed a.expanded-link .expanded-link-description,
+  body .markup .tweet a.expanded-link .expanded-link-description {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  body .markup .apple-podcast-container {
+    width: unset;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed img.install-substack-app-embed-img {
+    margin: 0 auto 16px auto;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-text {
+    margin: 0 0 12px 0;
+    max-width: 100%;
+    width: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  body .markup .install-substack-app-embed .install-substack-app-embed-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 500px) {
+  body .header a.logo {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body .subscription-receipt table:first-of-type .subscription-amount .subscription-discount {
+    width: 72px !important;
+  }
+}
+@media screen and (min-width: 481px) {
+  body .share-button-container {
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  body .share-button-container .separator {
+    display: block !important;
+    margin: 0 !important;
+    height: 8px !important;
+    border-left: none !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .digest .item .post-meta-item.audience {
+    display: none;
+  }
+}
+@media screen and (min-width: 500px) {
+  .digest-publication .logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .comments-page .container .comment-list .collapsed-reply {
+    margin-left: calc(10 + 32px - 24px);
+  }
+}
+@media screen and (max-width: 650px) {
+  .comment &gt; .comment-list {
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .finish-magic-login-modal .modal-content .container {
+    padding: 24px 0;
+  }
+}
+@media (max-width: 650px) {
+  .reader2-text-b3 {
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .reader2-text-h4 {
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .user-profile-modal {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .subscribe-widget form.form .sideBySideWrap button.rightButton {
+    padding: 10px 12px;
+  }
+}
+@media screen and (min-width: 541px) {
+  .pub-icon:hover .logo-hover,
+  .feed-item-icon:hover .logo-hover {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper {
+    width: 100%;
+    padding: 16px;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button-wrapper:empty {
+    display: none;
+  }
+  .post-ufi.single-full-width-button .post-ufi-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .file-embed-wrapper-editor:active {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .file-embed-button.wide,
+  .file-embed-error-button.wide {
+    display: none;
+  }
+}
+@media only screen and (min-width: 630px) {
+  .file-embed-button.narrow,
+  .file-embed-error-button.narrow {
+    display: none;
+  }
+}
+@media screen and (min-width: 541px) {
+  .audio-player-wrapper .audio-player {
+    min-width: 500px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress {
+    border-left-width: 16px;
+    border-right-width: 16px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-progress .audio-player-progress-bar .audio-player-progress-bar-popup {
+    top: -54px;
+  }
+}
+@media (min-width: 250px) {
+  .audio-player-wrapper-fancy .audio-player {
+    padding: 32px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:last-of-type {
+    display: block;
+  }
+}
+@media (min-width: 300px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+}
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-title {
+    margin-top: 16px;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 15%;
+    width: 15%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .audio-player-substack-logo {
+    display: block;
+  }
+}
+@media (min-width: 350px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 25%;
+    width: 25%;
+    display: block;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    display: flex;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button:first-of-type {
+    display: block;
+  }
+}
+@media (min-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 40%;
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .audio-player-wrapper-fancy .audio-player .btn-group {
+    margin-top: 12px;
+  }
+  .audio-player-wrapper-fancy .audio-player .btn-group .button {
+    font-size: 13px;
+    padding: 6px 12px;
+    height: auto;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 600px) {
+  .audio-player-wrapper-fancy .audio-player .audio-player-hero-image-container {
+    padding-top: 55%;
+    width: 55%;
+  }
+}
+@media (max-width: 650px) {
+  .poll-editor-modal {
+    min-width: calc(100% - 20px);
+  }
+}
+@media (max-width: 750px) {
+  .poll-embed .poll-anchor-target .poll-anchor-copy-button {
+    left: 8px;
+    top: 45px;
+  }
+}&lt;/style&gt;&lt;/head&gt;&lt;body class=&#34;email-body&#34; style=&#34;font-kerning: auto;--image-offset-margin: -120px;&#34;&gt;&lt;img src=&#34;https://eotrx.substackcdn.com/o/e7559f0df1a89b8e/p.gif?token=eyJtIjoiPDIwMjYxMDExMTg1MDM5LjMuMDE0OGUzZWVkOWEwMTQwNkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTE2OTk3NjYwLCJyIjoiamFkZUBrYWthby52YyIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTk3Nzg3OTYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6NTg3ODM1LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6InRvcCIsImlhdCI6MTc5MTc0NTExMCwiZXhwIjoxNzk0MzM3MTEwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.IZqnaJp2PtSpaOGWkrDmJGucst0XWeEKA_2Aj61DLqw&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; style=&#34;height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;&#34;/&gt;&lt;div class=&#34;preview&#34; style=&#34;display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;&#34;&gt;A Landmark Study of Our Immune System Aging With A Promising Blood Test&lt;/div&gt;&lt;div class=&#34;preview&#34; style=&#34;display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;&#34;&gt;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&amp;#847; &amp;nbsp; &amp;#8199; &amp;#173;&lt;/div&gt;&lt;table class=&#34;email-body-container&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; width=&#34;550&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; width=&#34;550&#34; align=&#34;left&#34;&gt;&lt;div style=&#34;font-size: 16px;line-height: 26px;max-width: 550px;width: 100%;margin: 0 auto;overflow-wrap: break-word;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;right&#34; style=&#34;height:20px;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;span class=&#34;pencraft pc-reset reset-PDs18X pencraft color-secondary-B3TpYa font-text-a4IB2X size-13-yQMlsX&#34; style=&#34;list-style: none;text-decoration: unset;color: rgb(119,119,119);margin: 0;font-size: 13px;line-height: 20px;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;&#34;&gt;&lt;div class=&#34;pencraft pc-reset align-right-t4bsLb size-12-qKBnAQ reset-PDs18X&#34; style=&#34;list-style: none;color: unset;text-align: right;font-size: 12px;line-height: 16px;text-decoration: unset;margin: 0;&#34;&gt;&lt;span class=&#34;pencraft pc-reset reset-PDs18X&#34; translated=&#34;&#34; style=&#34;list-style: none;color: unset;text-decoration: unset;margin: 0;&#34;&gt;Forwarded this email? &lt;a class=&#34;pencraft pc-reset decoration-underline-JhbQFe reset-PDs18X&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPWVtYWlsJnV0bV9jYW1wYWlnbj1lbWFpbC1zdWJzY3JpYmUmcj0xeG5uejAmbmV4dD1odHRwcyUzQSUyRiUyRmVyaWN0b3BvbC5zdWJzdGFjay5jb20lMkZwJTJGYS10YWxlLW9mLXR3by10LWNlbGxzIiwicCI6MjE5Nzc4Nzk2LCJzIjo1ODc4MzUsImYiOnRydWUsInUiOjExNjk5NzY2MCwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjIxMDczMjExMDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.aOqw_2HQoneuq8Lv7Mc4sQXf9myWYOcM6n2HbpnBeW8?&#34; style=&#34;list-style: none;color: unset;text-decoration: unset;margin: 0;-webkit-text-decoration-line: underline;text-decoration-line: underline;&#34;&gt;Subscribe here&lt;/a&gt; for more&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class=&#34;header graphic-header&#34; role=&#34;presentation&#34; style=&#34;border-spacing: 0;padding: 16px 0 32px;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34; style=&#34;text-align: center;padding: 0;&#34;&gt;&lt;a href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL3AvYS10YWxlLW9mLXR3by10LWNlbGxzP3V0bV9jYW1wYWlnbj1lbWFpbC1oYWxmLXBvc3Qmcj0xeG5uejAmdG9rZW49ZXlKMWMyVnlYMmxrSWpveE1UWTVPVGMyTmpBc0luQnZjM1JmYVdRaU9qSXhPVGMzT0RjNU5pd2lhV0YwSWpveE56a3hOelExTVRBNUxDSmxlSEFpT2pFM09UUXpNemN4TURrc0ltbHpjeUk2SW5CMVlpMDFPRGM0TXpVaUxDSnpkV0lpT2lKd2IzTjBMWEpsWVdOMGFXOXVJbjAuMHVSSzgwSExZOS1YeldYWmhsVnlndjViRVpZVnoxQmJ4bTdJYWRYblp2WSIsInAiOjIxOTc3ODc5NiwicyI6NTg3ODM1LCJmIjp0cnVlLCJ1IjoxMTY5OTc2NjAsImlhdCI6MTc5MTc0NTEwOSwiZXhwIjoyMTA3MzIxMTA5LCJpc3MiOiJwdWItMCIsInN1YiI6ImxpbmstcmVkaXJlY3QifQ.7KLpw_5Gn9dzM5k6VxuP4TQ6Mt4ChGvNFtCMCt2pR4w?&#34;&gt;&lt;img class=&#34;header-image&#34; role=&#34;presentation&#34; width=&#34;550&#34; height=&#34;110&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!PnHr!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2b8d580-99fa-4ef8-9651-b6325ff0df46_2200x440.png&#34; style=&#34;border: none !important;vertical-align: middle;max-width: 550px;display: block;margin: 0 auto;height: auto;width: 100%;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&#34;typography&#34; style=&#34;--image-offset-margin: -120px;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;preamble&#34; style=&#34;font-size: 16px;line-height: 26px;margin-top: 16px;&#34;&gt;&lt;div class=&#34;body markup&#34; dir=&#34;auto&#34; style=&#34;text-align: initial;font-size: 16px;line-height: 26px;width: 100%;margin-bottom: 16px;hanging-punctuation: allow-end;overflow-wrap: anywhere;word-break: break-word;&#34;&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;margin-top: 0;margin-bottom: 0;&#34;&gt;Facts, data, and analytics about biomedical matters.&lt;/p&gt;&lt;/div&gt;&lt;hr style=&#34;padding: 0;height: 1px;background: rgb(0,0,0,.1);border: none;margin: 16px 0 0;&#34;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;post typography&#34; dir=&#34;auto&#34; style=&#34;--image-offset-margin: -120px;padding: 32px 0 0 0;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;post-header&#34; role=&#34;region&#34; aria-label=&#34;Post header&#34; style=&#34;font-size: 16px;line-height: 26px;&#34;&gt;&lt;h1 class=&#34;post-title published title-X77sOw&#34; dir=&#34;auto&#34; style=&#34;direction: auto;text-align: start;unicode-bidi: isolate;color: rgb(54,55,55);overflow-wrap: anywhere;word-break: normal;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 0;line-height: 36px;font-size: 32px;&#34;&gt;&lt;a href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=post-email-title&amp;utm_campaign=email-post-title&amp;isFreemail=true&amp;r=1xnnz0&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&#34; style=&#34;color: rgb(54,55,55);text-decoration: none;&#34;&gt;A Tale of Two T Cells &lt;/a&gt;&lt;/h1&gt;&lt;h3 class=&#34;subtitle subtitle-HEEcLo&#34; dir=&#34;auto&#34; style=&#34;direction: auto;text-align: start;unicode-bidi: isolate;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 4px 0 0;color: #777777;overflow-wrap: anywhere;word-break: normal;line-height: 24px;font-size: 18px;margin-top: 12px;&#34;&gt;A Landmark Study of Our Immune System Aging With A Promising Blood Test&lt;/h3&gt;&lt;table class=&#34;post-meta&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; style=&#34;margin: 1em 0;height: 20px;align-items: center;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;div class=&#34;pencraft pc-reset color-primary-ECDxTd line-height-20-_MEacI font-meta-Wq5ZQP size-11-gJkq5q weight-medium-Hv9lSX transform-uppercase-LYgH6s reset-PDs18X meta-SjvJkP custom-css-email-post-author&#34; style=&#34;list-style: none;font-size: 11px;line-height: 20px;text-decoration: unset;color: rgb(54,55,55);margin: 0;font-family: &#39;SF Compact&#39;,-apple-system,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: 500;text-transform: uppercase;letter-spacing: .2px;&#34;&gt;&lt;a class=&#34;pencraft pc-reset color-primary-ECDxTd line-height-20-_MEacI font-meta-Wq5ZQP size-11-gJkq5q weight-medium-Hv9lSX transform-uppercase-LYgH6s reset-PDs18X meta-SjvJkP&#34; style=&#34;list-style: none;color: rgb(54,55,55);margin: 0;font-size: 11px;line-height: 20px;font-family: &#39;SF Compact&#39;,-apple-system,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: 500;text-transform: uppercase;letter-spacing: .2px;text-decoration: none&#34; href=&#34;https://substack.com/@erictopol&#34;&gt;Eric Topol&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;div class=&#34;pencraft pc-reset color-secondary-B3TpYa line-height-20-_MEacI font-meta-Wq5ZQP size-11-gJkq5q weight-medium-Hv9lSX transform-uppercase-LYgH6s reset-PDs18X meta-SjvJkP&#34; style=&#34;list-style: none;font-size: 11px;line-height: 20px;text-decoration: unset;color: rgb(119,119,119);margin: 0;font-family: &#39;SF Compact&#39;,-apple-system,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: 500;text-transform: uppercase;letter-spacing: .2px;&#34;&gt;&lt;time datetime=&#34;2026-10-11T18:50:39.906Z&#34;&gt;Oct 11&lt;/time&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;table class=&#34;email-ufi-2-top&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; style=&#34;border-top: 1px solid rgb(0,0,0,.1);border-bottom: 1px solid rgb(0,0,0,.1);min-width: 100%;&#34;&gt;&lt;tbody&gt;&lt;tr height=&#34;16&#34;&gt;&lt;td height=&#34;16&#34; style=&#34;font-size:0px;line-height:0;&#34;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;38&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-icon-button&#34; href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=substack&amp;isFreemail=true&amp;submitLike=true&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MTc5NDMzNzEwOSwiaXNzIjoicHViLTU4NzgzNSIsInN1YiI6InJlYWN0aW9uIn0.VWMHd7R5BkN3vUHxlubl-HQtu0Em6nGN3jwjewWIIAI&amp;utm_medium=email&amp;utm_campaign=email-reaction&amp;r=1xnnz0&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!PeVs!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;border: none;vertical-align: middle;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td width=&#34;8&#34; style=&#34;min-width:8px;&#34;&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;38&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-icon-button&#34; href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=substack&amp;utm_medium=email&amp;isFreemail=true&amp;comments=true&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&amp;r=1xnnz0&amp;utm_campaign=email-half-magic-comments&amp;action=post-comment&amp;utm_source=substack&amp;utm_medium=email&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!x1tS!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;border: none;vertical-align: middle;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td width=&#34;8&#34; style=&#34;min-width:8px;&#34;&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;38&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-icon-button&#34; href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=substack&amp;utm_medium=email&amp;utm_content=share&amp;utm_campaign=email-share&amp;action=share&amp;triggerShare=true&amp;isFreemail=true&amp;r=1xnnz0&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!_L14!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideShare2%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;border: none;vertical-align: middle;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td width=&#34;8&#34; style=&#34;min-width:8px;&#34;&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;38&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-icon-button&#34; href=&#34;https://open.substack.com/pub/erictopol/p/a-tale-of-two-t-cells?utm_source=substack&amp;utm_medium=email&amp;utm_campaign=email-restack-comment&amp;action=restack-comment&amp;r=1xnnz0&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&amp;utm_source=substack&amp;utm_medium=email&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 1;padding: 9px 0;text-decoration: none;color: rgb(119,119,119);min-width: 38px;box-sizing: border-box;width: 38px&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!ubXF!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2Fnotes__NoteRestackIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2%26strokeLinecap%3Dround%26strokeLinejoin%3Dround&#34; width=&#34;18&#34; height=&#34;18&#34; alt=&#34;&#34; style=&#34;max-width: 550px;border: none !important;vertical-align: middle;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td align=&#34;right&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-button-outline&#34; href=&#34;https://open.substack.com/pub/erictopol/p/a-tale-of-two-t-cells?utm_source=email&amp;redirect=app-store-no-desktop&amp;inbox=true&amp;utm_campaign=email-read-in-app&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);&#34;&gt;&lt;div class=&#34;email-button-spacer&#34; style=&#34;font-size: 16px;line-height: 26px;display: inline-block;vertical-align: middle;max-width: 0;min-height: 18px;&#34;&gt;&lt;/div&gt;&lt;span class=&#34;email-button-text&#34; style=&#34;vertical-align: middle;margin-right: 4px&#34;&gt;READ IN APP&lt;/span&gt;&lt;img class=&#34;icon text-icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!ET-_!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideArrowUpRight%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;margin-right: 0;margin-left: 0;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&#34;16&#34;&gt;&lt;td height=&#34;16&#34; style=&#34;font-size:0px;line-height:0;&#34;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;post typography&#34; dir=&#34;auto&#34; style=&#34;--image-offset-margin: -120px;padding: 32px 0 0 0;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;body markup&#34; dir=&#34;auto&#34; style=&#34;text-align: initial;font-size: 16px;line-height: 26px;width: 100%;margin-bottom: 16px;hanging-punctuation: allow-end;overflow-wrap: anywhere;word-break: break-word;font-family: &#39;SF Pro Display&#39;, -apple-system, system-ui, BlinkMacSystemFont, &#39;Inter&#39;, &#39;Segoe UI&#39;, Roboto, Helvetica, Arial, sans-serif, &#39;Apple Color Emoji&#39;, &#39;Segoe UI Emoji&#39;, &#39;Segoe UI Symbol&#39;;font-weight: 400;&#34;&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;margin-top: 0;&#34;&gt;&lt;span&gt;In the journal&lt;/span&gt;&lt;em&gt; Immunity&lt;/em&gt;&lt;span&gt; a paper with an obscure title was published on October 9th, 2026. It was entitled &lt;/span&gt;&lt;em&gt;&amp;#8220;Single-cell analyses of global cohorts outline determinants of immune aging and link the ratio of GZMK+ to GZMB+ Tem cells to health trajectories&lt;/em&gt;&lt;span&gt;,&amp;#8221; which I think is one of the worst titles I have ever seen for, ironically, one of the most important papers in the science of aging. I still don&amp;#8217;t understand why authors and journal editors use or allow such arcane titles!  &lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;In this edition of Ground Truths I&amp;#8217;m going to unpack the extraordinary work done by the team led by Maxim Artyomov. It takes our understanding of how our immune system ages&amp;#8212;both healthily and unhealthily&amp;#8212;to a new level with practical implications for determining its status, and promoting our healthspan. &lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;This turns out to be a tale of two cells&amp;#8212;different subtypes of memory T cells&amp;#8212;that contain distinct types of granules resulting in divergent functions. And, importantly, major health outcomes.&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1456&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/deaf9b13-622e-41c4-8e4a-635a3e926ebc?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/323fd803-7c12-4ef3-b978-f416a241d1f9_3188x2202.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:1006,&amp;quot;width&amp;quot;:1456,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:2154722,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:false,&amp;quot;topImage&amp;quot;:true,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F323fd803-7c12-4ef3-b978-f416a241d1f9_3188x2202.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;380.0137362637363&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!QqmN!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F323fd803-7c12-4ef3-b978-f416a241d1f9_3188x2202.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;figcaption class=&#34;image-caption&#34; style=&#34;box-sizing: content-box;color: rgb(119,119,119);font-size: 14px;line-height: 20px;font-weight: 400;letter-spacing: -.15px;margin-top: 8px;width: 70%;padding-left: 15%;padding-right: 15%;text-align: center;&#34;&gt;Schematic Figure made with the help of ChatGPT&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p class=&#34;button-wrapper&#34; data-attrs=&#34;{&amp;quot;url&amp;quot;:&amp;quot;https://erictopol.substack.com/?utm_source=substack&amp;amp;utm_medium=email&amp;amp;utm_content=share&amp;amp;action=share&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Share Ground Truths&amp;quot;,&amp;quot;action&amp;quot;:null,&amp;quot;class&amp;quot;:null}&#34; data-component-name=&#34;ButtonCreateButton&#34; style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;text-align: center;cursor: pointer;border-radius: 4px;&#34;&gt;&lt;a class=&#34;button primary&#34; href=&#34;https://substack.com/redirect/580244aa-e4ee-426a-ac59-96b2aebab72f?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;box-sizing: border-box;cursor: pointer;border: none;border-radius: 8px;font-size: 14px;line-height: 20px;font-weight: 600;text-align: center;margin: 0;opacity: 1;outline: none;white-space: nowrap;color: #ffffff !important;text-decoration: none !important;background-color: #EF5A28;padding: 12px 20px;height: auto;&#34;&gt;&lt;span style=&#34;color: #ffffff;text-decoration: none;&#34;&gt;Share Ground Truths&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;h2 class=&#34;header-anchor-post&#34; style=&#34;position: relative;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: calc(1.625em * 1);overflow-wrap: anywhere;word-break: normal;unicode-bidi: plaintext;&#34;&gt;Phase 1: Massive Single-Cell RNA Sequencing&lt;/h2&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Some very impressive stats for who was studied and what was done:&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&amp;#8212;8 international cohorts, 2,609 individuals, 12,394,834 white blood cells &lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&amp;#8212;age 18 to 98 years&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&amp;#8212;59 immune cell types from sc-RNA seq harmonization&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;span&gt;The story starts with the thymus gland, which starts to involute in early life and accelerates after puberty&lt;/span&gt;&lt;strong&gt;, &lt;/strong&gt;&lt;span&gt;after which there is progressive loss of naive T cells and recent thymic emigrants (RTEs) with ageThis decline was the strongest predictor of chronological age in the study. The problem is not so much that the naive T cells, the &amp;#8220;rookies,&amp;#8221;  are declining but what is coming in, as the immune system adapts, to replace them&amp;#8212;the &amp;#8220;veterans.&amp;#8221;&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Until this study, prior cell sorting (flow cytometry) or pooled sequencing methods could not differentiate CD8+ effector memory T cells. That was only enabled by obtaining single-cell transcriptomes at scale.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;The 2 types of veterans are effector memory T cells (Tem) that are either mainly granzyme K or B. You can think of the B is &amp;#8220;bad,&amp;#8221; since these cells are leaky, exhausted, and  spilling of their granules leads to dissolution of matrix, disruption of tissue, activation of macrophages, and inflammation. That profile of the terminally differentiated GZMB+ cells was characterized from experiments in mice. The bifurcation (Figure below)  is influenced towards GZMB+  by cytomegalovirus (CMV) exposure and chronic diseases, such as cardiovascular (CVD) or metabolic (such as Type 2 diabetes). &lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1456&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/6f06fe19-ebdf-40b0-8930-9111ba15034d?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/d5120af7-87b9-4292-aba5-ade2034cd264_1850x850.svg&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:669,&amp;quot;width&amp;quot;:1456,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:1973,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/svg+xml&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5120af7-87b9-4292-aba5-ade2034cd264_1850x850.svg&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;252.7129120879121&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!3jf-!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5120af7-87b9-4292-aba5-ade2034cd264_1850x850.svg&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;figcaption class=&#34;image-caption&#34; style=&#34;box-sizing: content-box;color: rgb(119,119,119);font-size: 14px;line-height: 20px;font-weight: 400;letter-spacing: -.15px;margin-top: 8px;width: 70%;padding-left: 15%;padding-right: 15%;text-align: center;&#34;&gt;The 2 paths that the naive T cells can differentiate to as the rookies become veterans. The path to GZMB+ is influenced by CMV and chronic diseases. Figure made with combination of Google Gemini and ChatGPT &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;div class=&#34;subscribe-widget is-signed-up&#34; data-component-name=&#34;SubscribeWidget&#34; style=&#34;margin: 0 0 1em;direction: ltr;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;pencraft pc-reset button-wrapper&#34; style=&#34;text-decoration: unset;list-style: none;font-size: 16px;line-height: 26px;text-align: center;cursor: pointer;border-radius: 4px;&#34;&gt;&lt;a class=&#34;button subscribe-btn primary&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZlcmljdG9wb2wuc3Vic3RhY2suY29tJTJGcCUyRmEtdGFsZS1vZi10d28tdC1jZWxscyZyPTF4bm56MCZ0b2tlbj1leUoxYzJWeVgybGtJam94TVRZNU9UYzJOakFzSW1saGRDSTZNVGM1TVRjME5URXdPU3dpWlhod0lqb3hOemswTXpNM01UQTVMQ0pwYzNNaU9pSndkV0l0TlRnM09ETTFJaXdpYzNWaUlqb2lZMmhsWTJ0dmRYUWlmUS5nU3NCTmU5MVc3Z0VRaUNLUHlZZWtVcDZ2d0tfQ05Ld0RURkloYTlQemtzIiwicCI6MjE5Nzc4Nzk2LCJzIjo1ODc4MzUsImYiOnRydWUsInUiOjExNjk5NzY2MCwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjIxMDczMjExMDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.iBW2I35csDpjxTcwajUeUAxaupuxlfUFPzlAspxG3Ds?&amp;utm_medium=email&amp;utm_source=subscribe-widget&amp;utm_content=219778796&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;box-sizing: border-box;cursor: pointer;border: none;border-radius: 8px;font-size: 14px;line-height: 20px;font-weight: 600;text-align: center;opacity: 1;outline: none;white-space: nowrap;text-decoration: none !important;margin: 0 auto;background-color: #EF5A28;color: #ffffff !important;padding: 12px 20px;height: auto;&#34;&gt;&lt;span style=&#34;color: #ffffff;text-decoration: none;&#34;&gt;Upgrade to paid&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;h2 class=&#34;header-anchor-post&#34; style=&#34;position: relative;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: calc(1.625em * 1);overflow-wrap: anywhere;word-break: normal;unicode-bidi: plaintext;&#34;&gt;Phase 2:  High-Throughput Proteomics &lt;/h2&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;span&gt;Doing single-cell RNA seq at scale to correlate with clinical outcomes or for development of a clinically useful blood test is not practical, not to mention expense. Instead, using the Olink assay of thousands of plasma proteins in 4 independent cohorts (of the 8 used in Phase 1)  &lt;/span&gt;&lt;strong&gt;per cent TemB+&lt;/strong&gt;&lt;span&gt;  (Tem stands for T effector memory cell) correlated the best with the single cell GZMB+ data (using a LASSO computational model). That protein signature was tightly correlated with the single-cell RNA-seq work, as seen below in each of the 4 cohorts.&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Note: Throughout this post please recognize the interchangeability of terms established between GZMB+ and TemB+, or GZMK&amp;#8221; and TemK+.&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1456&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/f0d6b96b-6698-4132-9baa-4da9ea967f1d?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/21ccd66d-58da-46fd-a841-8dfe1acfbf5e_2640x800.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:441,&amp;quot;width&amp;quot;:1456,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:1495284,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21ccd66d-58da-46fd-a841-8dfe1acfbf5e_2640x800.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;166.58653846153845&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!6tBM!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F21ccd66d-58da-46fd-a841-8dfe1acfbf5e_2640x800.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Then TemB+ was validated for clinical outcomes in the UK Biobank in 48,620 participants with 17-year follow-up, using both the cell protein data. As you can see below,  individuals with a high per cent TemB+ had a much higher all-cause mortality than those with low % Tem B+ or the average group, as categorized in tertiles. The x-axis is years of follow-up.&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1260&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/dfe00baa-5654-4b89-8196-e6a78ba8ea2b?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/160b8574-f21d-4e7d-bbe2-1cb4d90896f7_1260x907.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:907,&amp;quot;width&amp;quot;:1260,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:984715,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd148b317-e96d-424b-b6e0-a675df6c3d22_1260x964.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;395.91269841269843&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!TCVp!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F160b8574-f21d-4e7d-bbe2-1cb4d90896f7_1260x907.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;figcaption class=&#34;image-caption&#34; style=&#34;box-sizing: content-box;color: rgb(119,119,119);font-size: 14px;line-height: 20px;font-weight: 400;letter-spacing: -.15px;margin-top: 8px;width: 70%;padding-left: 15%;padding-right: 15%;text-align: center;&#34;&gt;Figure made with help of Google Gemini&lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;The TemB+ % was predictive of multiple specific health outcome as shown below.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;In contrast, however, note the lack of any predictive correlation with neurodegenerative diseases and macular degeneration : Alzheimer&amp;#8217;s disease, Parkinson&amp;#8217;s disease, dementia, and age-related macular degeneration.  &lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1456&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/e3c44175-730c-46d8-9950-3fe02d6a2267?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/88edc1b8-51b0-428b-83f2-dea984b5c526_4382x2268.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:754,&amp;quot;width&amp;quot;:1456,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:5927918,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88edc1b8-51b0-428b-83f2-dea984b5c526_4382x2268.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;284.82142857142856&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!zwp_!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88edc1b8-51b0-428b-83f2-dea984b5c526_4382x2268.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;To emphasize the contribution of viral exposure and inflammation, the people who were seropositive for CMV  had higher GZMB+ and those with higher C-reactive protein had higher % TemB+&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1306&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/338a3180-c9d2-416e-9c32-aff891d04227?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/257aafff-634b-440b-bd81-6159bd2ffca5_1306x796.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:796,&amp;quot;width&amp;quot;:1306,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:441881,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F257aafff-634b-440b-bd81-6159bd2ffca5_1306x796.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;335.2220520673813&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!2V1-!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F257aafff-634b-440b-bd81-6159bd2ffca5_1306x796.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Here is a simplified dichotomy of clinical outcomes and inflammaging based on high Tem B+% (or GZMB+).&lt;/p&gt;&lt;div class=&#34;captioned-image-container-static&#34; style=&#34;font-size: 16px;line-height: 26px;margin: 32px auto;&#34;&gt;&lt;figure style=&#34;width: 100%;margin: 0 auto;&#34;&gt;&lt;table class=&#34;image-wrapper&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;Image2ToDOMStatic&#34; style=&#34;mso-padding-alt: 1em 0 1.6em;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;td class=&#34;content&#34; align=&#34;left&#34; width=&#34;1456&#34; style=&#34;text-align: center;&#34;&gt;&lt;a class=&#34;image-link&#34; target=&#34;_blank&#34; href=&#34;https://substack.com/redirect/9bb7917a-1e7c-41c2-84cd-06a427a30e1a?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;position: relative;text-decoration: underline;display: block;&#34;&gt;&lt;img class=&#34;wide-image&#34; data-attrs=&#34;{&amp;quot;src&amp;quot;:&amp;quot;https://substack-post-media.s3.amazonaws.com/public/images/e0ae159d-3e7c-4b46-a60e-4a7946bae624_1924x892.png&amp;quot;,&amp;quot;srcNoWatermark&amp;quot;:null,&amp;quot;fullscreen&amp;quot;:null,&amp;quot;imageSize&amp;quot;:null,&amp;quot;height&amp;quot;:675,&amp;quot;width&amp;quot;:1456,&amp;quot;resizeWidth&amp;quot;:null,&amp;quot;bytes&amp;quot;:2097827,&amp;quot;alt&amp;quot;:null,&amp;quot;title&amp;quot;:null,&amp;quot;type&amp;quot;:&amp;quot;image/png&amp;quot;,&amp;quot;href&amp;quot;:null,&amp;quot;belowTheFold&amp;quot;:true,&amp;quot;topImage&amp;quot;:false,&amp;quot;internalRedirect&amp;quot;:&amp;quot;https://erictopol.substack.com/i/219778796?img=https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0ae159d-3e7c-4b46-a60e-4a7946bae624_1924x892.png&amp;quot;,&amp;quot;isProcessing&amp;quot;:false,&amp;quot;align&amp;quot;:null,&amp;quot;offset&amp;quot;:false}&#34; alt=&#34;&#34; width=&#34;550&#34; height=&#34;254.9793956043956&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!EGvB!,w_1100,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0ae159d-3e7c-4b46-a60e-4a7946bae624_1924x892.png&#34; style=&#34;border: none !important;vertical-align: middle;display: block;-ms-interpolation-mode: bicubic;height: auto;margin-bottom: 0;width: auto !important;max-width: 100% !important;margin: 0 auto;&#34;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td style=&#34;text-align: center;&#34;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;figcaption class=&#34;image-caption&#34; style=&#34;box-sizing: content-box;color: rgb(119,119,119);font-size: 14px;line-height: 20px;font-weight: 400;letter-spacing: -.15px;margin-top: 8px;width: 70%;padding-left: 15%;padding-right: 15%;text-align: center;&#34;&gt;Figure made with help from Google Gemini &lt;/figcaption&gt;&lt;/figure&gt;&lt;/div&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;Of course there are plenty of limitations. The patients in the multiple cohorts were predominantly of European and Asian ancestry, leaving some uncertainty as to whether the findings will extrapolate to those of African ancestry. The window into immune cell aging was purely via blood cells, not tissue. &amp;#8220;TemB+ was measured at a single time point, so we don&amp;#8217;t know how it changes within a person, or whether lowering it changes the risk.  Importantly, the dichotomy of the &amp;#8220;good&amp;#8221; and &amp;#8220;bad&amp;#8221; TemK+ and TemB+ cells, respectively,  is an over-simplification, since we know K cell granules can also promote inflammation. CD*+ T cell counts weren&amp;#8217;t available in the UK Biobank so they had to be imputed with a model. None of this work is establishing causality. I have not gotten into the &amp;#8220;weeds&amp;#8221; of the report, which is a beast to read and unravel, and there is much more about different types of cells, other mouse experimental data, Type 2 immunity remodeling, and so on.&lt;/p&gt;&lt;p class=&#34;button-wrapper&#34; data-attrs=&#34;{&amp;quot;url&amp;quot;:&amp;quot;https://erictopol.substack.com/?utm_source=substack&amp;amp;utm_medium=email&amp;amp;utm_content=share&amp;amp;action=share&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Share Ground Truths&amp;quot;,&amp;quot;action&amp;quot;:null,&amp;quot;class&amp;quot;:null}&#34; data-component-name=&#34;ButtonCreateButton&#34; style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;text-align: center;cursor: pointer;border-radius: 4px;&#34;&gt;&lt;a class=&#34;button primary&#34; href=&#34;https://substack.com/redirect/580244aa-e4ee-426a-ac59-96b2aebab72f?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;box-sizing: border-box;cursor: pointer;border: none;border-radius: 8px;font-size: 14px;line-height: 20px;font-weight: 600;text-align: center;margin: 0;opacity: 1;outline: none;white-space: nowrap;color: #ffffff !important;text-decoration: none !important;background-color: #EF5A28;padding: 12px 20px;height: auto;&#34;&gt;&lt;span style=&#34;color: #ffffff;text-decoration: none;&#34;&gt;Share Ground Truths&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;h2 class=&#34;header-anchor-post&#34; style=&#34;position: relative;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;font-weight: bold;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: antialiased;-webkit-appearance: optimizelegibility;-moz-appearance: optimizelegibility;appearance: optimizelegibility;margin: 1em 0 0.625em 0;color: rgb(54,55,55);line-height: 1.16em;font-size: calc(1.625em * 1);overflow-wrap: anywhere;word-break: normal;unicode-bidi: plaintext;&#34;&gt;Implications &lt;/h2&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;This is a seminal paper, the most comprehensive assessment of white blood cells across the human lifespan that tracks immune cell aging and its relationship with survival and multiple adverse health outcomes. Let me break it down to the key points:&lt;/p&gt;&lt;ol style=&#34;margin-top: 0;padding: 0;&#34;&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin: 0;&#34;&gt;&lt;strong&gt;Primacy of the thymus gland&lt;/strong&gt;&lt;span&gt;. The study identified the decline in naive T cells and recent thymic emigrants as the basis of the aging clock, predicting chronological age. &lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin: 0;&#34;&gt;&lt;span&gt;It&amp;#8217;s not just that we lose naive T cells as the thymus involutes, but it&amp;#8217;s about the &lt;/span&gt;&lt;strong&gt;type of cells that come in to replace them&lt;/strong&gt;&lt;span&gt;. And it turns out there&amp;#8217;s a critical bifurcation between TemK+ and TemB+ cells. The difference in the granules of these cells can account for inciting or fostering inflammation.  Extensive characterization of the TemB+ cells from mice showed their propensity to be leaky, exhausted, and tissue disruptive.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin: 0;&#34;&gt;&lt;strong&gt;Viral exposure, most notably by CMV blood positivity&lt;/strong&gt;&lt;span&gt;, affects the bifurcation path to promote TemB+ cells.. The other main influence on promoting TemB+ instead of TemK+ were chronic diseases, notably cardiovascular and metabolic.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin: 0;&#34;&gt;&lt;span&gt;The discovery in the work using &lt;/span&gt;&lt;strong&gt;single-cell RNA sequencing&lt;/strong&gt;&lt;span&gt; in &amp;gt;12 million white blood cells of the bifurcation and link to outcomes might  not have been made with traditional methodologies of cell sorting, flow cytometry, or pooled sequencing. This is yet another reinforcement of getting &amp;#8220;granular&amp;#8221; (no pun intended with granules) with respect to learning from single-cell data.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin: 0;&#34;&gt;&lt;strong&gt;A new protein blood test emerges&lt;/strong&gt;&lt;span&gt; from this body of work, the percent of TemB+, or ratio of TemB+ to TemK+. It might be considered a master indicator of unfavorable immune system aging. This could lead to a simple and inexpensive window into a person&amp;#8217;s immune status and the researchers in the current study are indeed pursuing that goal. For people found to have an unfavorable immune status, we know of ways that can be improved with lifestyle factors and vaccines, and much more will be done in the years ahead to find other means.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&#34;margin: 8px 0 0 32px;unicode-bidi: plaintext;&#34;&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;strong&gt;Here in late 2026 we have no way of assessing a person&amp;#8217;s immune system in the clinic&lt;/strong&gt;&lt;span&gt;, as I&amp;#8217;ve previously written on &amp;#8220;&lt;/span&gt;&lt;a href=&#34;https://substack.com/redirect/89ceb25a-d6b4-4672-9ccf-50b359e78933?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(54,55,55);text-decoration: underline;&#34;&gt;Why We Need an Immunome.&amp;#8221;&lt;/a&gt;&lt;span&gt;  Ironically, we have so many ways to control the immune system, releasing its brakes (t&lt;/span&gt;&lt;a href=&#34;https://substack.com/redirect/b94c03d8-c156-426d-b18f-7154ff719f7e?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(54,55,55);text-decoration: underline;&#34;&gt;hink immune checkpoint inhibitors and ten other classes of interventions&lt;/a&gt;&lt;span&gt;) and B-cell depletion or &amp;#8220;inverse&amp;#8221; vaccines to induce tolerance in autoimmune conditions. We can dial it up or down but can&amp;#8217;t measure it!&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;span&gt; In recent months we have seen 2 new practical ways to get at this crucial assessment: (1) &lt;/span&gt;&lt;em&gt;AI analysis the thymus gland&lt;/em&gt;&lt;span&gt; from a low resolution chest CT (See &lt;/span&gt;&lt;a href=&#34;https://substack.com/redirect/f431505b-8408-4351-bbf0-67a84884d6cc?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(54,55,55);text-decoration: underline;&#34;&gt;&amp;#8220;Your Thymus and Your Healthspan&amp;#8221;&lt;/a&gt;&lt;span&gt;) and (2) &lt;/span&gt;&lt;em&gt;Proteomic clocks of the immune system and immune cells&lt;/em&gt;&lt;span&gt; (see &lt;/span&gt;&lt;a href=&#34;https://substack.com/redirect/fafc2a95-3651-49d7-ac8d-f36ab41a41e5?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(54,55,55);text-decoration: underline;&#34;&gt;&amp;#8220;Medicine is Moving from Calendars to Clocks&amp;#8221;&lt;/a&gt;&lt;span&gt;) from a blood test. Both  these immune system assessments are now moving towards commercial availability. The current study represents a 3rd path. In short, we&amp;#8217;re getting there!&lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;NB. I wrote this post.  I did use AI to generate four of the Figures as noted above to help the reader visualize what I was writing about. I have no conflicts of interest related to this topic or post.&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;table class=&#34;poll-embed poll-email&#34; cellspacing=&#34;16px&#34; width=&#34;100%&#34; style=&#34;margin: 32px auto;max-width: 600px;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;table class=&#34;poll-email-wrapper&#34; role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; data-component-name=&#34;StaticPoll&#34; style=&#34;border: 1px solid rgb(0,0,0,.1);border-radius: 12px;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;width: 100%;color: rgb(54,55,55);padding: 16px 16px 8px;&#34;&gt;&lt;tbody style=&#34;width: 100%;display: table;&#34;&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody style=&#34;width: 100%;display: table;&#34;&gt;&lt;tr&gt;&lt;td class=&#34;poll-header&#34; style=&#34;margin-bottom: 4px;font-size: 12px;line-height: 20px;font-weight: 500;color: rgb(119,119,119);padding: 0;&#34;&gt;POLL&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;poll-question&#34; width=&#34;100%&#34; style=&#34;vertical-align: top;font-weight: 800;color: rgb(54,55,55);font-size: 20px;line-height: 32px;margin-bottom: 8px;font-family: &#39;SF Pro Display&#39;,-apple-system-headline,system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;&#34;&gt;&lt;td&gt;Assuming low cost, would you want to know the status of your immune system?&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table class=&#34;poll-options&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; style=&#34;border-spacing: 0 12px;&#34;&gt;&lt;tbody style=&#34;width: 100%;display: table;&#34;&gt;&lt;tr&gt;&lt;td class=&#34;poll-option&#34; width=&#34;100%&#34;&gt;&lt;a class=&#34;poll-vote-link&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL2FwaS92MS9wb2xsL3ZvdGUvZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE1UWTVPVGMyTmpBc0luQnZjM1JmYVdRaU9qSXhPVGMzT0RjNU5pd2ljRzlzYkY5cFpDSTZNVFEzTURZMk9Td2ljRzlzYkY5dmNIUnBiMjVmYVdRaU9qSTBNall6T0RBc0ltbGhkQ0k2TVRjNU1UYzBOVEV3T1N3aVpYaHdJam94TnprME16TTNNVEE1TENKcGMzTWlPaUp3ZFdJdE5UZzNPRE0xSWl3aWMzVmlJam9pY0c5c2JDMTJiM1JsSW4wLjlLT1BsMklVY1JjdkNSOFJKaGdjMERNbDA0TWt6QWNnLU1LZlFvV2ZEUkUiLCJwIjoyMTk3Nzg3OTYsInMiOjU4NzgzNSwiZiI6dHJ1ZSwidSI6MTE2OTk3NjYwLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MjEwNzMyMTEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.MoEJ4f2cy-bLPs8b035sqX-x91YBiTBeH_Bh6RQmHcQ?&#34; width=&#34;100%&#34; style=&#34;text-decoration: none;color: rgb(119,119,119);width: 100%;height: 100%;display: block;border: 1px solid rgb(0,0,0,.1);border-radius: 8px;background-color: rgb(238,238,238);text-align: center;padding: 10px 0;&#34;&gt;&lt;div class=&#34;poll-vote-contents&#34; style=&#34;font-size: 14px;line-height: 20px;width: 100%;height: 100%;display: block;font-weight: 700;color: rgb(54,55,55);&#34;&gt;No&lt;/div&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&#34;poll-option&#34; width=&#34;100%&#34;&gt;&lt;a class=&#34;poll-vote-link&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL2FwaS92MS9wb2xsL3ZvdGUvZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE1UWTVPVGMyTmpBc0luQnZjM1JmYVdRaU9qSXhPVGMzT0RjNU5pd2ljRzlzYkY5cFpDSTZNVFEzTURZMk9Td2ljRzlzYkY5dmNIUnBiMjVmYVdRaU9qSTBNall6T0RFc0ltbGhkQ0k2TVRjNU1UYzBOVEV3T1N3aVpYaHdJam94TnprME16TTNNVEE1TENKcGMzTWlPaUp3ZFdJdE5UZzNPRE0xSWl3aWMzVmlJam9pY0c5c2JDMTJiM1JsSW4wLnZqdXQ0NGNaNndPSTc3aTVYMUVSM0dROTBQSThrWjJKQTIzU3BWallQemsiLCJwIjoyMTk3Nzg3OTYsInMiOjU4NzgzNSwiZiI6dHJ1ZSwidSI6MTE2OTk3NjYwLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MjEwNzMyMTEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.9hr-UEh-LModSXF0CwA26wEvo7A4haawvq0IJVL_a8I?&#34; width=&#34;100%&#34; style=&#34;text-decoration: none;color: rgb(119,119,119);width: 100%;height: 100%;display: block;border: 1px solid rgb(0,0,0,.1);border-radius: 8px;background-color: rgb(238,238,238);text-align: center;padding: 10px 0;&#34;&gt;&lt;div class=&#34;poll-vote-contents&#34; style=&#34;font-size: 14px;line-height: 20px;width: 100%;height: 100%;display: block;font-weight: 700;color: rgb(54,55,55);&#34;&gt;Yes&lt;/div&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&#34;poll-option&#34; width=&#34;100%&#34;&gt;&lt;a class=&#34;poll-vote-link&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL2FwaS92MS9wb2xsL3ZvdGUvZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE1UWTVPVGMyTmpBc0luQnZjM1JmYVdRaU9qSXhPVGMzT0RjNU5pd2ljRzlzYkY5cFpDSTZNVFEzTURZMk9Td2ljRzlzYkY5dmNIUnBiMjVmYVdRaU9qSTBNall6T0RJc0ltbGhkQ0k2TVRjNU1UYzBOVEV3T1N3aVpYaHdJam94TnprME16TTNNVEE1TENKcGMzTWlPaUp3ZFdJdE5UZzNPRE0xSWl3aWMzVmlJam9pY0c5c2JDMTJiM1JsSW4wLlVMYW15NDhjY2NUZzBCeElCTHpzWjZiamhrdlpBdkVKX0h3WE5BNXpXdW8iLCJwIjoyMTk3Nzg3OTYsInMiOjU4NzgzNSwiZiI6dHJ1ZSwidSI6MTE2OTk3NjYwLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MjEwNzMyMTEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.Jzl8RTPx1rOqpUqa9EIY6syMncLcl3CnEK64NATbOMQ?&#34; width=&#34;100%&#34; style=&#34;text-decoration: none;color: rgb(119,119,119);width: 100%;height: 100%;display: block;border: 1px solid rgb(0,0,0,.1);border-radius: 8px;background-color: rgb(238,238,238);text-align: center;padding: 10px 0;&#34;&gt;&lt;div class=&#34;poll-vote-contents&#34; style=&#34;font-size: 14px;line-height: 20px;width: 100%;height: 100%;display: block;font-weight: 700;color: rgb(54,55,55);&#34;&gt;Yes, when I get older&lt;/div&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class=&#34;poll-option&#34; width=&#34;100%&#34;&gt;&lt;a class=&#34;poll-vote-link&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL2FwaS92MS9wb2xsL3ZvdGUvZW1haWw_dG9rZW49ZXlKMWMyVnlYMmxrSWpveE1UWTVPVGMyTmpBc0luQnZjM1JmYVdRaU9qSXhPVGMzT0RjNU5pd2ljRzlzYkY5cFpDSTZNVFEzTURZMk9Td2ljRzlzYkY5dmNIUnBiMjVmYVdRaU9qSTBNall6T0RNc0ltbGhkQ0k2TVRjNU1UYzBOVEV3T1N3aVpYaHdJam94TnprME16TTNNVEE1TENKcGMzTWlPaUp3ZFdJdE5UZzNPRE0xSWl3aWMzVmlJam9pY0c5c2JDMTJiM1JsSW4wLjZUX1BqQzAwNlVZREloY1J3MnB1bGNVeG1URzFORVRFSlRsRnRDN0x3WXMiLCJwIjoyMTk3Nzg3OTYsInMiOjU4NzgzNSwiZiI6dHJ1ZSwidSI6MTE2OTk3NjYwLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MjEwNzMyMTEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.WEBUDm3axTqdBslv4t3v_KjY56xXdEcCRhoqK4BsSWE?&#34; width=&#34;100%&#34; style=&#34;text-decoration: none;color: rgb(119,119,119);width: 100%;height: 100%;display: block;border: 1px solid rgb(0,0,0,.1);border-radius: 8px;background-color: rgb(238,238,238);text-align: center;padding: 10px 0;&#34;&gt;&lt;div class=&#34;poll-vote-contents&#34; style=&#34;font-size: 14px;line-height: 20px;width: 100%;height: 100%;display: block;font-weight: 700;color: rgb(54,55,55);&#34;&gt;Maybe someday&lt;/div&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;em&gt;Ground Truths&lt;/em&gt;&lt;span&gt; has 217,000 subscribers from every US state and 214 countries. There are over 320,000 &lt;/span&gt;&lt;em&gt;followers &lt;/em&gt;&lt;span&gt;of Ground Truths so more than 100,000 folks who can &lt;/span&gt;&lt;em&gt;easily convert&lt;/em&gt;&lt;span&gt; to be free subscribers. If you&amp;#8217;re one of them,  please consider doing so. &lt;/span&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;span&gt;Your subscription to these &lt;/span&gt;&lt;strong&gt;free essays and podcasts&lt;/strong&gt;&lt;span&gt; makes my work in putting them together worthwhile. If you&amp;#8217;re not a subscriber, &lt;/span&gt;&lt;a href=&#34;https://substack.com/redirect/de288ecd-761a-4eb8-b96c-6ebb23004b8f?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(54,55,55);text-decoration: underline;&#34;&gt;please join!&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;em&gt;&lt;strong&gt;If you found this interesting PLEASE share it!&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p class=&#34;button-wrapper&#34; data-attrs=&#34;{&amp;quot;url&amp;quot;:&amp;quot;https://erictopol.substack.com/?utm_source=substack&amp;amp;utm_medium=email&amp;amp;utm_content=share&amp;amp;action=share&amp;quot;,&amp;quot;text&amp;quot;:&amp;quot;Share Ground Truths&amp;quot;,&amp;quot;action&amp;quot;:null,&amp;quot;class&amp;quot;:&amp;quot;button-wrapper&amp;quot;}&#34; data-component-name=&#34;ButtonCreateButton&#34; style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;margin-bottom: 16px;text-align: center;cursor: pointer;border-radius: 4px;&#34;&gt;&lt;a class=&#34;button primary button-wrapper&#34; href=&#34;https://substack.com/redirect/580244aa-e4ee-426a-ac59-96b2aebab72f?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;box-sizing: border-box;border: none;font-size: 14px;line-height: 20px;font-weight: 600;margin: 0;opacity: 1;outline: none;white-space: nowrap;color: #ffffff !important;text-decoration: none !important;text-align: center;cursor: pointer;border-radius: 4px;background-color: #EF5A28;padding: 12px 20px;height: auto;&#34;&gt;&lt;span style=&#34;color: #ffffff;text-decoration: none;&#34;&gt;Share Ground Truths&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt; &lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;The proceeds from all voluntary paid subscriptions go to support our summer internship program. It enabled us to accept and support a record number of 62 summer interns that joined us in 2026! These are high school, college and medical students selected from thousands of applicants. We couldn&amp;#8217;t do this expanded program without the funds coming in through Ground Truths. Thank you!&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;margin-bottom: 0;box-sizing: border-box;padding-left: 4px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt; &lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;&#34;&gt;&lt;/p&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;margin-bottom: 0;&#34;&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;container-border&#34; style=&#34;margin: 32px 0 0;width: 100%;box-sizing: border-box;border-top: 1px solid #dadada;font-size: 16px;line-height: 26px;&#34;&gt;&lt;/div&gt;&lt;div class=&#34;typography&#34; style=&#34;--image-offset-margin: -120px;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;postscript&#34; style=&#34;margin: 32px 0;font-size: 16px;line-height: 26px;&#34;&gt;&lt;div class=&#34;body markup&#34; dir=&#34;auto&#34; style=&#34;text-align: initial;font-size: 16px;line-height: 26px;width: 100%;margin-bottom: 16px;hanging-punctuation: allow-end;overflow-wrap: anywhere;word-break: break-word;&#34;&gt;&lt;p style=&#34;margin: 0 0 20px 0;color: rgb(54,55,55);line-height: 26px;font-size: 16px;unicode-bidi: plaintext;margin-top: 0;&#34;&gt;&lt;em&gt;Ground Truths is my project to review facts, data, and analyses on biomedical matters. Please subscribe&amp;#8212;it&amp;#8217;s free.&lt;/em&gt;&lt;/p&gt;&lt;div class=&#34;subscribe-widget is-signed-up&#34; data-component-name=&#34;SubscribeWidget&#34; style=&#34;margin: 0 0 1em;direction: ltr;font-size: 16px;line-height: 26px;margin-bottom: 0;&#34;&gt;&lt;div class=&#34;pencraft pc-reset button-wrapper&#34; style=&#34;text-decoration: unset;list-style: none;font-size: 16px;line-height: 26px;text-align: center;cursor: pointer;border-radius: 4px;&#34;&gt;&lt;a class=&#34;button subscribe-btn primary&#34; href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL3N1YnNjcmliZT91dG1fc291cmNlPXBvc3QmdXRtX2NhbXBhaWduPWVtYWlsLWNoZWNrb3V0Jm5leHQ9aHR0cHMlM0ElMkYlMkZlcmljdG9wb2wuc3Vic3RhY2suY29tJTJGcCUyRmEtdGFsZS1vZi10d28tdC1jZWxscyZyPTF4bm56MCZ0b2tlbj1leUoxYzJWeVgybGtJam94TVRZNU9UYzJOakFzSW1saGRDSTZNVGM1TVRjME5URXdPU3dpWlhod0lqb3hOemswTXpNM01UQTVMQ0pwYzNNaU9pSndkV0l0TlRnM09ETTFJaXdpYzNWaUlqb2lZMmhsWTJ0dmRYUWlmUS5nU3NCTmU5MVc3Z0VRaUNLUHlZZWtVcDZ2d0tfQ05Ld0RURkloYTlQemtzIiwicCI6MjE5Nzc4Nzk2LCJzIjo1ODc4MzUsImYiOnRydWUsInUiOjExNjk5NzY2MCwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjIxMDczMjExMDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.iBW2I35csDpjxTcwajUeUAxaupuxlfUFPzlAspxG3Ds?&amp;utm_medium=email&amp;utm_source=subscribe-widget&amp;utm_content=219778796&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;box-sizing: border-box;cursor: pointer;border: none;border-radius: 8px;font-size: 14px;line-height: 20px;font-weight: 600;text-align: center;opacity: 1;outline: none;white-space: nowrap;text-decoration: none !important;background-color: #EF5A28;color: #ffffff !important;margin: 0 auto;padding: 12px 20px;height: auto;&#34;&gt;&lt;span style=&#34;color: #ffffff;text-decoration: none;&#34;&gt;Upgrade to paid&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;table class=&#34;email-ufi-2-bottom&#34; role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; style=&#34;border-top: 1px solid rgb(0,0,0,.1);border-bottom: 1px solid rgb(0,0,0,.1);min-width: 100%;&#34;&gt;&lt;tbody&gt;&lt;tr height=&#34;16&#34;&gt;&lt;td height=&#34;16&#34; style=&#34;font-size:0px;line-height:0;&#34;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;100%&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34; style=&#34;margin:0 auto;&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-button-outline&#34; href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=substack&amp;isFreemail=true&amp;submitLike=true&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwicmVhY3Rpb24iOiLinaQiLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MTc5NDMzNzEwOSwiaXNzIjoicHViLTU4NzgzNSIsInN1YiI6InJlYWN0aW9uIn0.VWMHd7R5BkN3vUHxlubl-HQtu0Em6nGN3jwjewWIIAI&amp;utm_medium=email&amp;utm_campaign=email-reaction&amp;r=1xnnz0&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!PeVs!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideHeart%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;margin-right: 8px;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;span class=&#34;email-button-text&#34; style=&#34;vertical-align: middle;&#34;&gt;Like&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td width=&#34;8&#34; style=&#34;min-width:8px;&#34;&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-button-outline&#34; href=&#34;https://substack.com/app-link/post?publication_id=587835&amp;post_id=219778796&amp;utm_source=substack&amp;utm_medium=email&amp;isFreemail=true&amp;comments=true&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&amp;r=1xnnz0&amp;utm_campaign=email-half-magic-comments&amp;action=post-comment&amp;utm_source=substack&amp;utm_medium=email&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!x1tS!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2FLucideComments%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2&#34; width=&#34;18&#34; height=&#34;18&#34; style=&#34;margin-right: 8px;min-width: 18px;min-height: 18px;border: none;vertical-align: middle;max-width: 18px&#34; alt=&#34;&#34;&gt;&lt;span class=&#34;email-button-text&#34; style=&#34;vertical-align: middle;&#34;&gt;Comment&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td width=&#34;8&#34; style=&#34;min-width:8px;&#34;&gt;&lt;/td&gt;&lt;td style=&#34;vertical-align:middle;&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td align=&#34;center&#34;&gt;&lt;a class=&#34;email-button-outline&#34; href=&#34;https://open.substack.com/pub/erictopol/p/a-tale-of-two-t-cells?utm_source=substack&amp;utm_medium=email&amp;utm_campaign=email-restack-comment&amp;action=restack-comment&amp;r=1xnnz0&amp;token=eyJ1c2VyX2lkIjoxMTY5OTc2NjAsInBvc3RfaWQiOjIxOTc3ODc5NiwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjE3OTQzMzcxMDksImlzcyI6InB1Yi01ODc4MzUiLCJzdWIiOiJwb3N0LXJlYWN0aW9uIn0.0uRK80HLY9-XzWXZhlVygv5bEZYVz1Bbxm7IadXnZvY&amp;utm_source=substack&amp;utm_medium=email&#34; style=&#34;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;display: inline-block;font-weight: 500;border: 1px solid rgb(0,0,0,.1);border-radius: 9999px;text-transform: uppercase;font-size: 12px;line-height: 12px;padding: 9px 14px;text-decoration: none;color: rgb(119,119,119);&#34;&gt;&lt;img class=&#34;icon&#34; src=&#34;https://substackcdn.com/image/fetch/$s_!ubXF!,w_36,c_scale,f_png,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Ficon%2Fnotes__NoteRestackIcon%3Fv%3D4%26height%3D36%26fill%3Dnone%26stroke%3D%2523808080%26strokeWidth%3D2%26strokeLinecap%3Dround%26strokeLinejoin%3Dround&#34; width=&#34;18&#34; height=&#34;18&#34; alt=&#34;&#34; style=&#34;margin-right: 8px;min-width: 18px;min-height: 18px;max-width: 550px;border: none !important;vertical-align: middle;&#34;&gt;&lt;span class=&#34;email-button-text&#34; style=&#34;vertical-align: middle;&#34;&gt;Restack&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;td align=&#34;right&#34;&gt;&lt;table role=&#34;presentation&#34; width=&#34;auto&#34; border=&#34;0&#34; cellspacing=&#34;0&#34; cellpadding=&#34;0&#34;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&#34;16&#34;&gt;&lt;td height=&#34;16&#34; style=&#34;font-size:0px;line-height:0;&#34;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;div class=&#34;footer footer-ZM59BM&#34; style=&#34;color: rgb(119,119,119);text-align: center;font-size: 16px;line-height: 26px;padding: 24px 0;&#34;&gt;&lt;div style=&#34;font-size: 16px;line-height: 26px;padding-bottom: 24px&#34;&gt;&lt;p class=&#34;pencraft pc-reset color-secondary-B3TpYa size-12-qKBnAQ reset-PDs18X small meta-B2bqa5&#34; style=&#34;list-style: none;font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;padding-bottom: 0;font-size: 12px;line-height: 16px;margin: 0;color: rgb(119,119,119);text-decoration: unset;&#34;&gt;&amp;#169; 2026 &lt;span&gt;Eric Topol&lt;/span&gt;&lt;br&gt;548 Market Street PMB 72296, San Francisco, CA 94104 &lt;br&gt;&lt;a href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9lcmljdG9wb2wuc3Vic3RhY2suY29tL2FjdGlvbi9kaXNhYmxlX2VtYWlsP3Rva2VuPWV5SjFjMlZ5WDJsa0lqb3hNVFk1T1RjMk5qQXNJbkJ2YzNSZmFXUWlPakl4T1RjM09EYzVOaXdpYVdGMElqb3hOemt4TnpRMU1UQTVMQ0psZUhBaU9qRTRNak15T0RFeE1Ea3NJbWx6Y3lJNkluQjFZaTAxT0RjNE16VWlMQ0p6ZFdJaU9pSmthWE5oWW14bFgyVnRZV2xzSW4wLnNIdDFBYVljVGRpZ0FzdmdiWkJOUWpXYlQzU2t4dXFiQ1Zkdk93d3I4RDQiLCJwIjoyMTk3Nzg3OTYsInMiOjU4NzgzNSwiZiI6dHJ1ZSwidSI6MTE2OTk3NjYwLCJpYXQiOjE3OTE3NDUxMDksImV4cCI6MjEwNzMyMTEwOSwiaXNzIjoicHViLTAiLCJzdWIiOiJsaW5rLXJlZGlyZWN0In0.zCsgrkGVrWeXkBTs5W_pI7E3_qIULSpHjBXZ3d_sMYw?&#34; style=&#34;text-decoration: underline;color: rgb(119,119,119);&#34;&gt;&lt;span style=&#34;color: rgb(119,119,119);text-decoration: underline;&#34;&gt;Unsubscribe&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p class=&#34;footerSection-EHR0jG small powered-by-substack&#34; style=&#34;padding: 0 24px;font-size: 12px;line-height: 20px;margin: 0;color: rgb(119,119,119);font-family: system-ui,-apple-system,BlinkMacSystemFont,&#39;Segoe UI&#39;,Roboto,Helvetica,Arial,sans-serif,&#39;Apple Color Emoji&#39;,&#39;Segoe UI Emoji&#39;,&#39;Segoe UI Symbol&#39;;padding-bottom: 0;margin-top: 0;&#34;&gt;&lt;a href=&#34;https://substack.com/redirect/f37573d0-4f68-420c-bb98-4c8f0f8969f1?j=eyJ1IjoiMXhubnowIn0.VTUoUWMMhCVlXADEGXGETVo2ZnnakvKip4DgxVVKmF8&#34; style=&#34;color: rgb(119,119,119);text-decoration: none;display: inline-block;margin: 0 4px;&#34;&gt;&lt;img src=&#34;https://substackcdn.com/image/fetch/$s_!IzGP!,w_262,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png&#34; srcset=&#34;https://substackcdn.com/image/fetch/$s_!DIki!,w_131,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button.png, https://substackcdn.com/image/fetch/$s_!IzGP!,w_262,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%402x.png 2x, https://substackcdn.com/image/fetch/$s_!QWua!,w_393,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fgeneric-app-button%403x.png 3x&#34; width=&#34;131&#34; alt=&#34;Get the app&#34; height=&#34;40&#34; style=&#34;max-width: 550px;border: none !important;vertical-align: middle;&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://substack.com/redirect/2/eyJlIjoiaHR0cHM6Ly9zdWJzdGFjay5jb20vc2lnbnVwP3V0bV9zb3VyY2U9c3Vic3RhY2smdXRtX21lZGl1bT1lbWFpbCZ1dG1fY29udGVudD1mb290ZXImdXRtX2NhbXBhaWduPWF1dG9maWxsZWQtZm9vdGVyJmZyZWVTaWdudXBFbWFpbD1qYWRlQGtha2FvLnZjJnI9MXhubnowIiwicCI6MjE5Nzc4Nzk2LCJzIjo1ODc4MzUsImYiOnRydWUsInUiOjExNjk5NzY2MCwiaWF0IjoxNzkxNzQ1MTA5LCJleHAiOjIxMDczMjExMDksImlzcyI6InB1Yi0wIiwic3ViIjoibGluay1yZWRpcmVjdCJ9.lyEU8vvsAM93XZFTTUEAbmVRdBpZeby4rfXSg9LaDco?&#34; style=&#34;color: rgb(119,119,119);text-decoration: none;display: inline-block;margin: 0 4px;&#34;&gt;&lt;img src=&#34;https://substackcdn.com/image/fetch/$s_!LkrL!,w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png&#34; srcset=&#34;https://substackcdn.com/image/fetch/$s_!wgfj!,w_135,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button.png, https://substackcdn.com/image/fetch/$s_!LkrL!,w_270,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%402x.png 2x, https://substackcdn.com/image/fetch/$s_!KjtY!,w_405,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack.com%2Fimg%2Femail%2Fpublish-button%403x.png 3x&#34; width=&#34;135&#34; alt=&#34;Start writing&#34; height=&#34;40&#34; style=&#34;max-width: 550px;border: none !important;vertical-align: middle;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;img src=&#34;https://eotrx.substackcdn.com/o/0dabec5dd56efff5/p.gif?token=eyJtIjoiPDIwMjYxMDExMTg1MDM5LjMuMDE0OGUzZWVkOWEwMTQwNkBtZy1kMS5zdWJzdGFjay5jb20-IiwidSI6MTE2OTk3NjYwLCJyIjoiamFkZUBrYWthby52YyIsImQiOiJtZy1kMS5zdWJzdGFjay5jb20iLCJwIjoyMTk3Nzg3OTYsInQiOiJuZXdzbGV0dGVyIiwiYSI6ImV2ZXJ5b25lIiwicyI6NTg3ODM1LCJjIjoicG9zdCIsImYiOnRydWUsInoiOiIiLCJwb3NpdGlvbiI6ImJvdHRvbSIsImlhdCI6MTc5MTc0NTExMCwiZXhwIjoxNzk0MzM3MTEwLCJpc3MiOiJwdWItMCIsInN1YiI6ImVvIn0.YI35_QqkU7QqmbbbEOKg0s10EEeOJs338r57SNL88sY&#34; alt=&#34;&#34; width=&#34;1&#34; height=&#34;1&#34; border=&#34;0&#34; style=&#34;height:1px !important;width:1px !important;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;padding-left:0 !important;&#34;/&gt;&lt;img width=&#34;1&#34; height=&#34;1&#34; alt=&#34;&#34; src=&#34;https://email.mg-d1.substack.com/o/eJxEkEmuGyEQhk9jdmlRDc2w4CyogLJD3A2IwZFvHzlevO1Xqn-KOOlR-9u1OiZLTtjATVSMHGgLWh4AwOjCfPoHFeo4KXmcP1d-KMF-uyBM2DXnVhkpwUou7XGHdNyRAu6Cs-x2vivgAGAOLuwmNg7SkCBKFjlIrm6SX49fCbaxwpgYn1usF8vD3zv9j-BmX8Rqo-Jnx_jM5eHHaq3TGJQc-3TwuFKmEsnRi_q7FvrinNwOVmujrfqS-W7kCv0dJ81JnbUVfKzXtUqeb08Fw0npa9lWOHPEmWv5CB1GG3Gw7v5gopvkT3xi3V6RjRVSvTAXRz3HWVs92fxOuwb1zy-AslYrxdnL7f8CAAD__2jlfpo&#34;&gt;&lt;/body&gt;&lt;/html&gt;" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Becker's Hospital Review</span>
+            <span class="card-date">07:14</span>
+        </div>
+        <div class="card-subject"><a href="https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8j6nTA83r%7CcgcPRfV7fO%7COd" target="_blank">Pay for 41 hospital jobs | 10 most in-demand specialties | 10 health systems own 16% of hospitals: Lown | 13 Joint Commission moves | 20 systems investing in ASCs</a></div>
+        <div class="card-summary"><h2>Becker's Hospital Review 핵심 요약 (2026.10.11)</h2>
+<ul>
+<li>
+<p><strong>시장 집중도 심화</strong>: Lown Institute 분석에 따르면 상위 10개 대형 헬스시스템이 미국 전체 병원의 16%를 소유, 의료 시장의 과점화가 가속화되고 있어 헬스케어 스타트업의 파트너십 및 계약 협상 구조에 영향 예상.</p>
+</li>
+<li>
+<p><strong>ASC(외래수술센터) 투자 확대</strong>: 20개 헬스시스템이 ASC에 적극 투자 중으로, 병원 중심에서 외래·저비용 케어 사이트로의 전환 트렌드가 강화되고 있어 ASC 관련 디지털헬스·의료기기 스타트업에 우호적 환경 조성.</p>
+</li>
+<li>
+<p><strong>규제 동향 – Joint Commission</strong>: 2026년 Joint Commission이 13건의 정책 변경을 단행, 병원 인증 기준 강화가 진행 중으로 컴플라이언스 솔루션 및 품질관리 SaaS 수요 증가 예상.</p>
+</li>
+<li>
+<p><strong>CMS 헬스테크 동향</strong>: CMS 내부 1,700명 규모의 헬스테크 채팅룸 운영 실태가 공개(KFF 보도), 정부 주도 디지털 헬스 도입 의지를 시사하며 규제기관과의 접점이 있는 헬스IT 기업에 기회 요인.</p>
+</li>
+<li>
+<p><strong>병원 서비스 축소 및 AI 도입</strong>: 66개 병원이 부서 폐쇄 또는 서비스 종료를 진행 중인 반면, Children's Hospital Los Angeles는 AI 기반 실시간 의료문서 번역을 도입하는 등 비용 절감과 운영 효율화를 위한 AI 솔루션 채택이 가속화.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;style type=&#34;text/css&#34;&gt;.rightsection a {text-decoration: none; font-weight: bold; font-size: 16px;}
+.promotionheader{text-align: center; color: #003974; font-size: 12px; font-family: Helvetica, Arial, Geneva, sans-serif;}
+.promotionheader a{text-decoration: underline; font-weight: bold; font-size: 16px; color: #a80000;}
+
+@media only screen and (max-width: 600px) {
+  table[width=&#34;1&#34;],
+  table[style*=&#34;width:600px&#34;] { width: 100% !important; max-width: 100% !important; }
+  img { max-width: 100% !important; height: auto !important; }
+  .rightsection, .rightsection table { width: 100% !important; }
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 16px !important; line-height: 1.45 !important; }
+  p span[style*=&#34;font-size:18px&#34;] { font-size: 15px !important; }
+  p span[style*=&#34;font-size:14px&#34;] { font-size: 13px !important; }
+  p[style*=&#34;margin: 0 18em&#34;] { margin: 0 1em !important; }
+  p { line-height: 1.5 !important; }
+  td[style*=&#34;padding:14px 14px 14px 14px&#34;] { padding: 8px !important; }
+  div[style*=&#34;text-align: right&#34;][style*=&#34;margin-right: 20px&#34;] { text-align: center !important; margin-right: 0 !important; }
+  td[style*=&#34;background-color: #003974&#34;] p { line-height: 1.6 !important; }
+}
+@media only screen and (max-width: 380px) {
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 15px !important; }
+}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&#34;#fafafa;&#34; style=&#34;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;background-color:#fafafa;&#34;&gt;
+&lt;p&gt;&lt;span style=&#34;display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden&#34;&gt;Plus: 10 safest, least safe US states&lt;/span&gt;&lt;!--X-250ok-CID:bhrn46305--&gt;&lt;/p&gt;
+
+&lt;div align=&#34;center&#34;&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px&#34; width=&#34;100%&#34;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&#34;center&#34; style=&#34;padding:14px 14px 14px 14px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+			&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px;width:600px&#34; width=&#34;1&#34;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&#34;center&#34; style=&#34;border: 1px solid #e6e6e6;&#34; valign=&#34;top&#34;&gt;
+						&lt;table bgcolor=&#34;#ffffff&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;background-color: #ffffff&#34; width=&#34;100%&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding:0px 0px 0px 0px&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;display:table&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:0px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div align=&#34;right&#34; style=&#34;text-align: right;margin-right: 20px;&#34;&gt;&lt;span style=&#34;font-size:14px;font-weight:bold;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;line-height:28px;&#34;&gt;October 11, 2026&lt;/span&gt;&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:7px 8px 7px 8px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8janTA83r%7CcgcPRfV7fO%7COd&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/hospital-review-e-newsletter-logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 700px;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8jqnTA83rc&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Aetna_Cl_01_09.30.2026.jpg&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Aetna_Cl_01_09.30.2026.jpg&#34; lc=&#34;Advertising&#34; lcv=&#34;Aetna&#34; lkw=&#34;lb1&#34; --&gt;&lt;/div&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;1. 41 hospital jobs ranked by pay &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8j6nTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;2. 10 most in-demand physician specialties &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8jLnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;3. Every fee schedule update changes what your group collects. The pathology specifics in this webinar&lt;!--DPM: ln=&#34;Every fee schedule update changes what your group collects. The pathology specifics in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Medusind_Webinar_10.16.2026&#34; lkw=&#34;ta1&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8kanTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Every fee schedule update changes what your group collects. The pathology specifics in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Medusind_Webinar_10.16.2026&#34; lkw=&#34;ta1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;4. Judy Faulkner&amp;#39;s net worth, by year &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8kqnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;5. 10 largest health systems by hospital count: Lown &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8k6nTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8mqnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2026_CEO%2BCFO_2_(728x90).png&#34; lc=&#34;House Ad&#34; lcv=&#34;14th Annual  CEO + CFO Roundtable Leaderboard 2&#34; lkw=&#34;lb2&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;6. Where is supply chain friction quietly costing your clinicians time every shift? Find out &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8m6nTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;!--DPM: ln=&#34;Where is supply chain friction quietly costing your clinicians time every shift? Find out here&#34; lc=&#34;House Ad&#34; lcv=&#34;Medspeed_Webinar_10.19.2026&#34; lkw=&#34;ta2&#34; --&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;7. 13 Joint Commission moves in 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8mLnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;8. 66 hospitals closing departments or ending services &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8nanTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;9. &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;Inova&amp;#39;s infusion team maintained 152% patient-hour growth with fewer nurses through severe understaffing. See how in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8nqnTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34;&gt;webinar&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;10. 20 health systems investing in ASCs &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8n6nTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8nLnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/728x90_oncology.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/728x90_oncology.png&#34; lc=&#34;House Ad&#34; lcv=&#34;Fall Oncology Executive Summit Leaderboard 1&#34; lkw=&#34;lb3&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;11. Buying what you&amp;#39;ve always bought isn&amp;#39;t a capital strategy. Learn how to make smarter equipment decisions during this webinar&lt;!--DPM: ln=&#34;Buying what you&#39;ve always bought isn&#39;t a capital strategy. Learn how to make smarter equipment decisions during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;TRIMEDX_Webinar_10.20.2026&#34; lkw=&#34;ta3&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8oanTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Buying what you&#39;ve always bought isn&#39;t a capital strategy. Learn how to make smarter equipment decisions during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;TRIMEDX_Webinar_10.20.2026&#34; lkw=&#34;ta3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;12. 10 safest, least safe US states &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8oqnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;13. 31 healthcare organizations named among world&amp;#39;s top companies for women: Forbes &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8o6nTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;14. Inside CMS&amp;#39; 1,700-member health tech chat room: KFF &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8qqnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;15. 9 health systems raising minimum wage in 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8q6nTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;16. 337 quietest hospitals &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8qLnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:18px;font-family:Arial,Geneva,sans-serif;font-weight:bold;text-decoration: underline;&#34;&gt;Becker&amp;#39;s Learning Opportunities&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;17. Families shouldn&amp;#39;t have to wait at discharge for translated paperwork. See how Children&amp;#39;s Hospital Los Angeles is using AI to get it to them faster during this webinar&lt;!--DPM: ln=&#34;Families shouldn&#39;t have to wait at discharge for translated paperwork. See how Children&#39;s Hospital Los Angeles is using AI to get it to them faster during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;AMN_Healthcare_Webinar_10.20.2026&#34; lkw=&#34;lo1&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8ranTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Families shouldn&#39;t have to wait at discharge for translated paperwork. See how Children&#39;s Hospital Los Angeles is using AI to get it to them faster during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;AMN_Healthcare_Webinar_10.20.2026&#34; lkw=&#34;lo1&#34; --&gt;&lt;!--DPM: ln=&#34;Families shouldn&#39;t have to wait at discharge for translated paperwork. See how Children&#39;s Hospital Los Angeles is using AI to get it to them faster during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;AMN_Healthcare_Webinar_10.20.2026&#34; lkw=&#34;lo1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;18. No spin, just results. Horizon BCBS and a former Aetna Medicare CMO break down what value-based care got right and wrong during this webinar&lt;!--DPM: ln=&#34;No spin, just results. Horizon BCBS and a former Aetna Medicare CMO break down what value-based care got right and wrong during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Arbital_Health_Webinar_10.21.2026&#34; lkw=&#34;lo2&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8rqnTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;No spin, just results. Horizon BCBS and a former Aetna Medicare CMO break down what value-based care got right and wrong during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Arbital_Health_Webinar_10.21.2026&#34; lkw=&#34;lo2&#34; --&gt;&lt;!--DPM: ln=&#34;No spin, just results. Horizon BCBS and a former Aetna Medicare CMO break down what value-based care got right and wrong during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Arbital_Health_Webinar_10.21.2026&#34; lkw=&#34;lo2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;19. Health plans will soon be graded on a step in cancer screening that&amp;#39;s long been overlooked. Learn what&amp;#39;s changing during this webinar&lt;!--DPM: ln=&#34;Health plans will soon be graded on a step in cancer screening that&#39;s long been overlooked. Learn what&#39;s changing during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Exact_Sciences_Webinar_10.20.2026&#34; lkw=&#34;lo3&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5Ecnkmfm7%5EbbBm%5EaNF8r6nTA83r%7CmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;Health plans will soon be graded on a step in cancer screening that&#39;s long been overlooked. Learn what&#39;s changing during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Exact_Sciences_Webinar_10.20.2026&#34; lkw=&#34;lo3&#34; --&gt;&lt;!--DPM: ln=&#34;Health plans will soon be graded on a step in cancer screening that&#39;s long been overlooked. Learn what&#39;s changing during this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;&lt;link&gt;one click&lt;/link&gt;&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Exact_Sciences_Webinar_10.20.2026&#34; lkw=&#34;lo3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;20. Becker&amp;#39;s upcoming webinars: predicting drug shortages, AI in patient translation and capital planning. See the sessions &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8rLnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;Becker&#39;s upcoming webinars: predicting drug shortages, AI in patient translation and capital planning. See the sessions here.&#34; lc=&#34;House Ad&#34; lcv=&#34;&#34; lkw=&#34;lo4&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;table border=&#34;0&#34; bordercolor=&#34;#FFFFFF&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%;&#34; table=&#34;&#34; width=&#34;1&#34;&gt;
+													&lt;tbody&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; valign=&#34;top&#34; width=&#34;1%&#34;&gt;
+															&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;rightsection&#34; style=&#34;color:#292929;font-family:Helvetica,Arial,Geneva,sans-serif;font-size:12px;line-height:12px;width:300px;&#34; width=&#34;100%&#34;&gt;
+																&lt;tbody&gt;
+																&lt;/tbody&gt;
+																&lt;tbody&gt;
+																	&lt;tr&gt;
+																		&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0 0 0 0;&#34; valign=&#34;top&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8sanTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/nov-2026-ceocfo-promobox.png&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+															&lt;/td&gt;
+														&lt;/tr&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0px 8px 0px 8px;&#34; valign=&#34;top&#34;&gt;&amp;nbsp;&lt;/td&gt;
+														&lt;/tr&gt;
+													&lt;/tbody&gt;
+												&lt;/table&gt;
+
+												&lt;p style=&#34;text-align:center; font-size:12px; font-family:Arial,Geneva,sans-serif; margin: 0 18em;&#34;&gt;Apply to attend complimentary as a guest reviewer &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8sqnTA83r%7CcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;! Opportunity exclusive to those directly employed by a provider organization.&lt;/p&gt;
+												&amp;nbsp;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8s6nTA83r%7CcgcPRfV7fO%7COd&#34; rel=&#34;nofollow, noindex&#34; style=&#34;font-size: 12px;background-color: #003974;color: #ffffff;border: none;padding: 1em;border-radius: 1em;text-decoration: none;color: #ffffff;&#34; target=&#34;_blank&#34;&gt;Was this email forwarded to you? Click Here to Subscribe&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center&#34;&gt;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div style=&#34;text-align:center&#34;&gt;
+												&lt;p&gt;&lt;a alt=&#34;https://www.beckershospitalreview.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8%5EqnTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Hospital_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8%5E6nTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Quality_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 150px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersasc.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8%5ELnTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/ASC_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersspine.com/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8vanTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Spine_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+
+						&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%&#34; width=&#34;1&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding: 0px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td align=&#34;center&#34; style=&#34;padding:7px 8px 7px 8px;font-size:16px; color: #ffffff; background-color: #003974; font-family: Helvetica, Arial, Geneva, sans-serif;line-height:20px;&#34; valign=&#34;top&#34;&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;Contact Us, Feedback, or Questions - Email &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8vqnTA83rc&#34; style=&#34;color: #ffffff;&#34;&gt;ldyrda@beckershealthcare.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckers.dragonforms.com/loading.do?omedasite=BCKR_prefsmeter&amp;amp;r=1071J5069734C7F&amp;amp;link_id=2199145&#34; style=&#34;color: #ffffff;&#34;&gt;Manage Preferences&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/preferences/?loLYvC7ubucMXuMdsjJFEODxiUik1nN7A&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Unsubscribe&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/deployforward/Forward.jsp?loLYvC7ubucMXuMdsjJFEODxiUik1nN7A&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Forward to a friend&lt;/a&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8wanTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Contact Us&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+												&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5Ecnkmfm7%5EbbBm%5EaNF8wqnTA83r%7CcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Privacy Policy&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;
+
+												&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8w6nTA83rc&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;null&#34; alt=&#34;View our profile on LinkedIn&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/linkedin.png&#34; title=&#34;View our profile on LinkedIn&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://twitter.com/beckershr&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8yqnTA83rc&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Twitter&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/twitter.png&#34; title=&#34;Follow us on Twitter&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://www.facebook.com/BeckersHospitalReview/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8y6nTA83rc&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Facebook&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/facebook.png&#34; title=&#34;Follow us on Facebook&#34; width=&#34;32&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.youtube.com/@hospitalreview1&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5Ecnkmfm7%5EbbBm%5EaNF8yLnTA83rc&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Check out our YouTube Channel&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/youtube.png&#34; title=&#34;Check out our YouTube Channel&#34; width=&#34;32&#34; /&gt;&lt;/a&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:12px;&#34;&gt;17 N. State, Suite 1800 |&amp;nbsp;Chicago, IL 60602&lt;/span&gt;&lt;br /&gt;
+												&lt;em style=&#34;font-size: 12px;&#34;&gt;Becker&amp;#39;s Hospital Review&lt;/em&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;, A Becker&amp;#39;s Healthcare Publication&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;img height=&#34;1&#34; width=&#34;1&#34; border=&#34;0&#34; src=&#34;https://beckershealthcare-news.com/portal/wts/ue^cnkmfm7^baS8wjQec.gif&#34;/&gt;&lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+
+    <footer>
+        Generated by Newsletter Digest · Claude API (claude-sonnet-4-6)
+    </footer>
+
+    <script>
+        function toggleOriginal(btn) {
+            const frame = btn.nextElementSibling;
+            const isOpen = frame.classList.toggle('open');
+            btn.textContent = isOpen ? '원문 접기' : '원문 보기';
+        }
+    </script>
+</body>
+</html>
