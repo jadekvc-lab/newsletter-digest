@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스레터 다이제스트 — 2026-11-02 (Mon)</title>
+    <style>
+        :root {
+            --bg: #fafaf9;
+            --card: #ffffff;
+            --text: #1c1917;
+            --muted: #78716c;
+            --accent: #0c4a6e;
+            --border: #e7e5e4;
+            --trend-bg: #fef3c7;
+            --trend-border: #f59e0b;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        header .date {
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        header .count {
+            color: var(--muted);
+            font-size: 0.85rem;
+            margin-top: 0.25rem;
+        }
+
+        .trend-box {
+            background: var(--trend-bg);
+            border-left: 4px solid var(--trend-border);
+            border-radius: 0 8px 8px 0;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .trend-box h2 {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .trend-content {
+            font-size: 0.92rem;
+            line-height: 1.8;
+        }
+
+        .trend-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.88rem;
+        }
+
+        .trend-content th, .trend-content td {
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+
+        .trend-content th {
+            background: #f5f5f4;
+            font-weight: 600;
+        }
+
+        .newsletter-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s;
+        }
+
+        .newsletter-card:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .source-badge {
+            background: var(--accent);
+            color: white;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        .card-date {
+            color: var(--muted);
+            font-size: 0.8rem;
+        }
+
+        .card-subject {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-subject a {
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .card-subject a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .card-summary {
+            font-size: 0.9rem;
+            line-height: 1.8;
+        }
+
+        .toggle-original {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.82rem;
+            color: var(--accent);
+            background: none;
+            border: 1px solid var(--accent);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .toggle-original:hover {
+            background: var(--accent);
+            color: white;
+        }
+
+        .original-frame {
+            display: none;
+            margin-top: 1rem;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .original-frame.open {
+            display: block;
+        }
+
+        .original-frame iframe {
+            width: 100%;
+            border: none;
+            min-height: 600px;
+        }
+
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.8rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>바이오/헬스케어 뉴스레터 다이제스트</h1>
+        <div class="date">2026-11-02 (Mon)</div>
+        <div class="count">1개 뉴스레터 요약</div>
+    </header>
+
+    
+
+    
+    <article class="newsletter-card">
+        <div class="card-header">
+            <span class="source-badge">Becker's Hospital Review</span>
+            <span class="card-date">07:14</span>
+        </div>
+        <div class="card-subject"><a href="https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm04aobnyDC%5EcgcPRfV7fO%7COd" target="_blank">455 top hospitals by state | Epic AI costs can swing from $10 to $10K | Which systems drive the most revenue? | Bon Secours' $5.7B ASC bet: 10 notes | 5 healthcare predictions for 2027</a></div>
+        <div class="card-summary"><h2>Becker's Hospital Review 핵심 요약 (2026-11-01)</h2>
+<ul>
+<li>
+<p><strong>Epic AI 비용 불확실성 심화</strong>: Epic의 AI 기능 도입 비용이 병원에 따라 $10에서 $10,000까지 극단적 편차를 보이며, 헬스케어 AI 솔루션의 가격 투명성 및 ROI 예측 가능성이 주요 도입 장벽으로 부상.</p>
+</li>
+<li>
+<p><strong>Bon Secours Mercy Health의 $5.7B ASC 대규모 베팅</strong>: 외래수술센터(ASC) 시장에 57억 달러 규모의 투자를 단행, 입원 중심에서 외래 중심으로의 케어 전환 가속화 트렌드를 반영하며 관련 섹터 투자 기회 확대.</p>
+</li>
+<li>
+<p><strong>2027년 헬스케어 5대 예측 (Forrester)</strong>: 규제·기술 환경 변화에 대한 산업 전망 제시, 투자 포트폴리오 방향성 설정에 직접적 참고 가능.</p>
+</li>
+<li>
+<p><strong>AI 클레임 결정에 대한 소비자 거부감 46%</strong>: Pew 조사에서 미국인의 46%가 AI의 보험 청구 심사 관여를 원하지 않는 것으로 나타나, 보험·RCM 분야 AI 솔루션의 규제 리스크 및 소비자 수용성 과제 부각.</p>
+</li>
+<li>
+<p><strong>헬스 IT 규제 변화 (2027년 발효 8개 요건)</strong>: 2027년부터 적용되는 신규 헬스 IT 요건이 확정되며, 규정 준수 솔루션 및 EHR 연동 기술 기업에 단기 수혜 가능성.</p>
+</li>
+</ul></div>
+
+        
+        <button class="toggle-original" onclick="toggleOriginal(this)">원문 보기</button>
+        <div class="original-frame">
+            <iframe srcdoc="&lt;!doctype html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;&lt;meta charset=&#34;utf-8&#34;&gt;&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;
+	&lt;title&gt;&lt;/title&gt;
+	&lt;style type=&#34;text/css&#34;&gt;.rightsection a {text-decoration: none; font-weight: bold; font-size: 16px;}
+.promotionheader{text-align: center; color: #003974; font-size: 12px; font-family: Helvetica, Arial, Geneva, sans-serif;}
+.promotionheader a{text-decoration: underline; font-weight: bold; font-size: 16px; color: #a80000;}
+
+@media only screen and (max-width: 600px) {
+  table[width=&#34;1&#34;],
+  table[style*=&#34;width:600px&#34;] { width: 100% !important; max-width: 100% !important; }
+  img { max-width: 100% !important; height: auto !important; }
+  .rightsection, .rightsection table { width: 100% !important; }
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 16px !important; line-height: 1.45 !important; }
+  p span[style*=&#34;font-size:18px&#34;] { font-size: 15px !important; }
+  p span[style*=&#34;font-size:14px&#34;] { font-size: 13px !important; }
+  p[style*=&#34;margin: 0 18em&#34;] { margin: 0 1em !important; }
+  p { line-height: 1.5 !important; }
+  td[style*=&#34;padding:14px 14px 14px 14px&#34;] { padding: 8px !important; }
+  div[style*=&#34;text-align: right&#34;][style*=&#34;margin-right: 20px&#34;] { text-align: center !important; margin-right: 0 !important; }
+  td[style*=&#34;background-color: #003974&#34;] p { line-height: 1.6 !important; }
+}
+@media only screen and (max-width: 380px) {
+  p span[style*=&#34;font-size:20px&#34;] { font-size: 15px !important; }
+}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body bgcolor=&#34;#fafafa;&#34; style=&#34;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;background-color:#fafafa;&#34;&gt;
+&lt;p&gt;&lt;span style=&#34;display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden&#34;&gt;Plus: 10 states set to grow, shrink most by 2050&lt;/span&gt;&lt;!--X-250ok-CID:bhrn46326--&gt;&lt;/p&gt;
+
+&lt;div align=&#34;center&#34;&gt;
+&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px&#34; width=&#34;100%&#34;&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td align=&#34;center&#34; style=&#34;padding:14px 14px 14px 14px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+			&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;margin:0px 0px 0px 0px;width:600px&#34; width=&#34;1&#34;&gt;
+				&lt;tbody&gt;
+					&lt;tr&gt;
+						&lt;td align=&#34;center&#34; style=&#34;border: 1px solid #e6e6e6;&#34; valign=&#34;top&#34;&gt;
+						&lt;table bgcolor=&#34;#ffffff&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;background-color: #ffffff&#34; width=&#34;100%&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding:0px 0px 0px 0px&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;display:table&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:0px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div align=&#34;right&#34; style=&#34;text-align: right;margin-right: 20px;&#34;&gt;&lt;span style=&#34;font-size:14px;font-weight:bold;font-family: Helvetica, Arial, Geneva, sans-serif;color:#292929;line-height:28px;&#34;&gt;November 1, 2026&lt;/span&gt;&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+											&lt;tr&gt;
+												&lt;td style=&#34;padding:7px 8px 7px 8px;&#34; valign=&#34;top&#34;&gt;
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm036obnyDC%5EcgcPRfV7fO%7COd&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/hospital-review-e-newsletter-logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 700px;&#34; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm03LobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/17th_Annual_Meeting_728x90_10.22.26_B.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/17th_Annual_Meeting_728x90_10.22.26_B.png&#34; lc=&#34;House Ad&#34; lcv=&#34;Becker&#39;s 17th Annual Meeting LB 2&#34; lkw=&#34;lb1&#34; --&gt;&lt;/div&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;1. 455 top-ranked hospitals by state: Healthgrades &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm04aobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;2. 110 health systems ranked by annual revenue &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm04qobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;3. Healthcare organizations are saving up to $1M in their first year by reducing locum spend, improving fill rates, and simplifying vendor management. &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm046obnyDCf&#34; target=&#34;_blank&#34;&gt;See the ROI behind smarter staffing&lt;/a&gt;&lt;!--DPM: ln=&#34;Healthcare organizations are saving up to $1M in their first year by reducing locum spend, improving fill rates, and simplifying vendor management. &lt;link&gt;See the ROI behind smarter staffing&lt;/link&gt;
+&#34; lc=&#34;Advertising&#34; lcv=&#34;Hold for CHG&#34; lkw=&#34;ta1&#34; --&gt; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;4. 5 big healthcare predictions for 2027: Forrester &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm06qobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;5. &amp;#39;Closer than we have ever been&amp;#39;: 9 leaders on cancer vaccines &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm066obnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfnxDbbBz%5BaOm06LobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2A-cfo-report-728x90.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2A-cfo-report-728x90.png&#34; lc=&#34;House Ad&#34; lcv=&#34;CFO E-Newsletter Leaderboard 1&#34; lkw=&#34;lb2&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;6. CMS&amp;#39; new CJR-X model will only make hospitals&amp;#39; discharge processes more important, and now is the time to build improvements. Learn what makes earlier transition planning possible in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm07aobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34; target=&#34;_blank&#34;&gt;webinar&lt;/a&gt;&lt;!--DPM: ln=&#34;CMS&#39; new CJR-X model will only make hospitals&#39; discharge processes more important, and now is the time to build improvements. Learn what makes earlier transition planning possible in this &lt;link&gt;webinar&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;LeanTaaS_Webinar_11.9.2026&#34; lkw=&#34;ta2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;7. Bon Secours Mercy Health&amp;#39;s $5.7B ASC bet: 10 things to know &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm07qobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;8. 10 states set to grow, shrink the most by 2050 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm076obnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;9.&amp;nbsp;Most health plans can&amp;#39;t reliably answer one question: who is this member? Fix that in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm07LobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34;&gt;webinar&lt;/a&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;10.&amp;nbsp;&amp;#39;It could be $10. It could be $10K&amp;#39;: Why Epic&amp;#39;s AI bill is hard to predict &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm08aobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfnxDbbBz%5BaOm08qobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2B-clinical-leadership-728x90.png&#34; style=&#34;width: 728px; height: 90px;&#34; /&gt;&lt;/a&gt;&lt;!--DPM: ln=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/2B-clinical-leadership-728x90.png&#34; lc=&#34;House Ad&#34; lcv=&#34;Clinical E-Newsletter Leaderboard 2&#34; lkw=&#34;lb3&#34; --&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;11. Reconciling payments twice &amp;mdash; once for revenue cycle, once for accounting &amp;mdash; drains hours every month. PDS Health leaders share what fixed it in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm086obnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34; target=&#34;_blank&#34;&gt;webinar&lt;/a&gt;&lt;!--DPM: ln=&#34;Reconciling payments twice — once for revenue cycle, once for accounting — drains hours every month. PDS Health leaders share what fixed it in this &lt;link&gt;webinar&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Fifth_Third_Bank_Webinar_11.9.2026&#34; lkw=&#34;ta3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;12.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;8 health IT requirements taking effect in 2027 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0-qobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;13.&amp;nbsp;46% of Americans don&amp;#39;t want AI involved in claim decisions: Pew survey &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0-6obnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;14.&amp;nbsp;Maryland system&amp;#39;s operating margin slumps to -3.8%: 4 things to know &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0-LobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;15. 360 hospital and health system CNOs to know | 2026 &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0AaobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;16.&amp;nbsp;27 healthcare organizations named Fortune&amp;#39;s best workplaces for women &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0AqobnyDC%5EcgcPRfV7fO%7COd&#34;&gt;Full story&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:18px;font-family:Arial,Geneva,sans-serif;font-weight:bold;text-decoration: underline;&#34;&gt;Becker&amp;#39;s Learning Opportunities&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;17. How Mass General Brigham protects quality while costs keep rising &amp;mdash; see the strategy &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm0ALobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa76%7En74Dr2Nmp&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;How Mass General Brigham protects quality while costs keep rising — see the strategy here.&#34; lc=&#34;House Ad&#34; lcv=&#34;Staples_WP_April_2026_1&#34; lkw=&#34;lo1&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;18. Targeted chart reviews catch what you aim them at. UK HealthCare&amp;#39;s CRO on the revenue that slips past them in this &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfnxDbbBz%5BaOm0BaobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;webinar&lt;/a&gt;&lt;!--DPM: ln=&#34;Targeted chart reviews catch what you aim them at. UK HealthCare&#39;s CRO on the revenue that slips past them in this &lt;link&gt;webinar&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Accuity_Webinar_11.9.2026&#34; lkw=&#34;lo2&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;19. 3 in 4 health systems use AI, yet coding suggestions haven&amp;#39;t moved net collections. Learn what does in this webinar&lt;!--DPM: ln=&#34;3 in 4 health systems use AI, yet coding suggestions haven&#39;t moved net collections. Learn what does in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Ventra_Health_Webinar_11.10.2026&#34; lkw=&#34;lo3&#34; --&gt;. Register with &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ug%5EcnkmfnxDbbBz%5BaOm0BqobnyDC%5EmpeK1dGK1tgLGJPLXoPL2lB%7EGNLJlKGHGVXa&#34; target=&#34;_blank&#34;&gt;one click&lt;/a&gt;&lt;!--DPM: ln=&#34;3 in 4 health systems use AI, yet coding suggestions haven&#39;t moved net collections. Learn what does in this &lt;link&gt;webinar&lt;/link&gt;. Register with &lt;link&gt;one click&lt;/link&gt;.&#34; lc=&#34;House Ad&#34; lcv=&#34;Ventra_Health_Webinar_11.10.2026&#34; lkw=&#34;lo3&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&lt;span style=&#34;font-size:20px;&#34;&gt;&lt;span style=&#34;font-family:Arial,Geneva,sans-serif;&#34;&gt;20. Becker&amp;#39;s upcoming webinars: network fragmentation, cloud ERP readiness and physician compensation data. See the sessions &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0B6obnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;!--DPM: ln=&#34;Becker&#39;s upcoming webinars: network fragmentation, cloud ERP readiness and physician compensation data. See the sessions here.&#34; lc=&#34;House Ad&#34; lcv=&#34;&#34; lkw=&#34;lo4&#34; --&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p style=&#34;text-align: left;&#34;&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;table border=&#34;0&#34; bordercolor=&#34;#FFFFFF&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%;&#34; table=&#34;&#34; width=&#34;1&#34;&gt;
+													&lt;tbody&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; valign=&#34;top&#34; width=&#34;1%&#34;&gt;
+															&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; class=&#34;rightsection&#34; style=&#34;color:#292929;font-family:Helvetica,Arial,Geneva,sans-serif;font-size:12px;line-height:12px;width:300px;&#34; width=&#34;100%&#34;&gt;
+																&lt;tbody&gt;
+																&lt;/tbody&gt;
+																&lt;tbody&gt;
+																	&lt;tr&gt;
+																		&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0 0 0 0;&#34; valign=&#34;top&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0DqobnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/nov-2026-ceocfo-promobox.png&#34; /&gt;&lt;/a&gt;&lt;/td&gt;
+																	&lt;/tr&gt;
+																&lt;/tbody&gt;
+															&lt;/table&gt;
+															&lt;/td&gt;
+														&lt;/tr&gt;
+														&lt;tr&gt;
+															&lt;td align=&#34;center&#34; colspan=&#34;1&#34; rowspan=&#34;1&#34; style=&#34;padding:0px 8px 0px 8px;&#34; valign=&#34;top&#34;&gt;&amp;nbsp;&lt;/td&gt;
+														&lt;/tr&gt;
+													&lt;/tbody&gt;
+												&lt;/table&gt;
+
+												&lt;p style=&#34;text-align:center; font-size:12px; font-family:Arial,Geneva,sans-serif; margin: 0 18em;&#34;&gt;Apply to attend complimentary as a guest reviewer &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0D6obnyDC%5EcgcPRfV7fO%7COd&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;! Opportunity exclusive to those directly employed by a provider organization.&lt;/p&gt;
+												&amp;nbsp;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0DLobnyDC%5EcgcPRfV7fO%7COd&#34; rel=&#34;nofollow, noindex&#34; style=&#34;font-size: 12px;background-color: #003974;color: #ffffff;border: none;padding: 1em;border-radius: 1em;text-decoration: none;color: #ffffff;&#34; target=&#34;_blank&#34;&gt;Was this email forwarded to you? Click Here to Subscribe&lt;/a&gt;&lt;/div&gt;
+
+												&lt;div align=&#34;center&#34; style=&#34;text-align:center&#34;&gt;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div style=&#34;text-align:center&#34;&gt;
+												&lt;p&gt;&lt;a alt=&#34;https://www.beckershospitalreview.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0EaobnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Hospital_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0EqobnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Quality_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 150px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersasc.com&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0E6obnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34; https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/ASC_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.beckersspine.com/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm0ELobnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/Spine_Review_E-newsletter_logo.png&#34; style=&#34;border-width: 0px; border-style: solid; margin: 5px; width: 139px; height: 35px;&#34; /&gt;&lt;/a&gt;&amp;nbsp;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+
+						&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#34;width:100%&#34; width=&#34;1&#34;&gt;
+							&lt;tbody&gt;
+								&lt;tr&gt;
+									&lt;td align=&#34;center&#34; style=&#34;padding: 0px;&#34; valign=&#34;top&#34; width=&#34;100%&#34;&gt;
+									&lt;table border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; width=&#34;100%&#34;&gt;
+										&lt;tbody&gt;
+											&lt;tr&gt;
+												&lt;td align=&#34;center&#34; style=&#34;padding:7px 8px 7px 8px;font-size:16px; color: #ffffff; background-color: #003974; font-family: Helvetica, Arial, Geneva, sans-serif;line-height:20px;&#34; valign=&#34;top&#34;&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;Contact Us, Feedback, or Questions - Email &lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm0FaobnyDCf&#34; style=&#34;color: #ffffff;&#34;&gt;ldyrda@beckershealthcare.com&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+												&lt;p&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckers.dragonforms.com/loading.do?omedasite=BCKR_prefsmeter&amp;amp;r=1071J5069734C7F&amp;amp;link_id=2220998&#34; style=&#34;color: #ffffff;&#34;&gt;Manage Preferences&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/preferences/?loLYvC7ubucVd0XwduFqJHl8o5cJ%2FAhMA&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Unsubscribe&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/deployforward/Forward.jsp?loLYvC7ubucVd0XwduFqJHl8o5cJ%2FAhMA&#34; rel=&#34;nofollow, noindex&#34; style=&#34;color: #ffffff;&#34;&gt;Forward to a friend&lt;/a&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm7eqobnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Contact Us&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+												&lt;span style=&#34;font-size:14px;&#34;&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/ue%5EcnkmfnxDbbBz%5BaOm7e6obnyDC%5EcgcPRfV7fO%7COd&#34; style=&#34;color: #ffffff;&#34;&gt;Privacy Policy&lt;/a&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;
+
+												&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+												&lt;div&gt;&lt;a href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm7eLobnyDCf&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt;&lt;img align=&#34;null&#34; alt=&#34;View our profile on LinkedIn&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/linkedin.png&#34; title=&#34;View our profile on LinkedIn&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://twitter.com/beckershr&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm7faobnyDCf&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Twitter&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/twitter.png&#34; title=&#34;Follow us on Twitter&#34; width=&#34;32&#34; /&gt; &lt;/a&gt; &lt;a alt=&#34;https://www.facebook.com/BeckersHospitalReview/&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm7fqobnyDCf&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Follow us on Facebook&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/facebook.png&#34; title=&#34;Follow us on Facebook&#34; width=&#34;32&#34; /&gt;&lt;/a&gt; &lt;a alt=&#34;https://www.youtube.com/@hospitalreview1&#34; href=&#34;https://beckershealthcare-news.com/portal/wts/uc%5EcnkmfnxDbbBz%5BaOm7f6obnyDCf&#34; style=&#34;text-decoration: none;&#34; target=&#34;_blank&#34;&gt; &lt;img alt=&#34;Check out our YouTube Channel&#34; border=&#34;0&#34; height=&#34;32&#34; src=&#34;https://beckershealthcare-news.com/hosted/images/CLIENT_ASCC/ASCCD/youtube.png&#34; title=&#34;Check out our YouTube Channel&#34; width=&#34;32&#34; /&gt;&lt;/a&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;
+
+												&lt;div&gt;
+												&lt;p&gt;&lt;span style=&#34;font-size:12px;&#34;&gt;17 N. State, Suite 1800 |&amp;nbsp;Chicago, IL 60602&lt;/span&gt;&lt;br /&gt;
+												&lt;em style=&#34;font-size: 12px;&#34;&gt;Becker&amp;#39;s Hospital Review&lt;/em&gt;&lt;span style=&#34;font-size: 12px;&#34;&gt;, A Becker&amp;#39;s Healthcare Publication&lt;/span&gt;&lt;/p&gt;
+												&lt;/div&gt;
+												&lt;/td&gt;
+											&lt;/tr&gt;
+										&lt;/tbody&gt;
+									&lt;/table&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/tbody&gt;
+						&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/tbody&gt;
+			&lt;/table&gt;
+			&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/div&gt;
+&lt;img height=&#34;1&#34; width=&#34;1&#34; border=&#34;0&#34; src=&#34;https://beckershealthcare-news.com/portal/wts/ue^cnkmfnxDbaTeQ883b.gif&#34;/&gt;&lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-same-origin" onload="this.style.height = this.contentDocument.body.scrollHeight + 'px'"></iframe>
+        </div>
+        
+    </article>
+    
+
+    <footer>
+        Generated by Newsletter Digest · Claude API (claude-sonnet-4-6)
+    </footer>
+
+    <script>
+        function toggleOriginal(btn) {
+            const frame = btn.nextElementSibling;
+            const isOpen = frame.classList.toggle('open');
+            btn.textContent = isOpen ? '원문 접기' : '원문 보기';
+        }
+    </script>
+</body>
+</html>
